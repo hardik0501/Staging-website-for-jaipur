@@ -59,7 +59,7 @@ const ServicesPage = () => {
                       <h3 className="font-display font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
                         {spec.name}
                       </h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1 line-clamp-3">
+                      <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1 line-clamp-3 text-justify">
                         {spec.fullDesc}
                       </p>
                       <span className="inline-flex items-center gap-1.5 text-primary font-semibold text-sm group-hover:gap-2.5 transition-all">

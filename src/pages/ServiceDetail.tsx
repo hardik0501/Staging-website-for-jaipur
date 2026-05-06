@@ -73,7 +73,7 @@ const ServiceDetail = () => {
                 {/* About */}
                 <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
                   <h2 className="font-display font-bold text-2xl text-foreground mb-4">About {speciality.name}</h2>
-                  <p className="text-muted-foreground leading-relaxed text-base">{speciality.fullDesc}</p>
+                  <p className="text-muted-foreground leading-relaxed text-base text-justify">{speciality.fullDesc}</p>
                 </div>
 
                 {/* Treatments */}
