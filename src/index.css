@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Jaipur Hospital Design System */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 40% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 40% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 40% 12%;
+
+    /* Medical Blue - Primary brand */
+    --primary: 200 78% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 200 78% 95%;
+    --primary-glow: 200 78% 55%;
+
+    /* Teal - Secondary accent */
+    --secondary: 175 72% 35%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 175 72% 94%;
+
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 20% 50%;
+
+    --accent: 200 78% 95%;
+    --accent-foreground: 200 78% 35%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 25% 90%;
+    --input: 214 25% 90%;
+    --ring: 200 78% 42%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 200 78% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 78% 95%;
+    --sidebar-accent-foreground: 200 78% 35%;
+    --sidebar-border: 214 25% 90%;
+    --sidebar-ring: 200 78% 42%;
+
+    /* Custom hospital tokens */
+    --navy: 215 55% 15%;
+    --navy-foreground: 0 0% 100%;
+    --gold: 42 85% 52%;
+    --gold-foreground: 42 85% 15%;
+    --surface: 210 30% 98%;
+    --surface-foreground: 215 40% 12%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(200 78% 42% / 0.85) 0%, hsl(175 72% 35% / 0.75) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(200 78% 97%));
+    --gradient-surface: linear-gradient(180deg, hsl(210 30% 98%), hsl(200 78% 95%));
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(200 78% 42% / 0.08);
+    --shadow-md: 0 4px 20px hsl(200 78% 42% / 0.12);
+    --shadow-lg: 0 8px 40px hsl(200 78% 42% / 0.18);
+    --shadow-card: 0 4px 24px hsl(215 40% 12% / 0.08);
+  }
+
+  .dark {
+    --background: 215 50% 8%;
+    --foreground: 210 40% 96%;
+    --card: 215 45% 12%;
+    --card-foreground: 210 40% 96%;
+    --popover: 215 45% 12%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 200 78% 55%;
+    --primary-foreground: 215 50% 8%;
+    --secondary: 175 72% 45%;
+    --secondary-foreground: 215 50% 8%;
+    --muted: 215 40% 18%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 200 78% 15%;
+    --accent-foreground: 200 78% 75%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 35% 20%;
+    --input: 215 35% 20%;
+    --ring: 200 78% 55%;
+    --sidebar-background: 215 50% 6%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 200 78% 55%;
+    --sidebar-primary-foreground: 215 50% 8%;
+    --sidebar-accent: 200 78% 15%;
+    --sidebar-accent-foreground: 200 78% 75%;
+    --sidebar-border: 215 35% 20%;
+    --sidebar-ring: 200 78% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-left {
+    animation: slideLeft 0.6s ease-out forwards;
+  }
+
+  .animate-counter {
+    animation: counterUp 2s ease-out forwards;
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-width {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.animate-pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: currentColor;
+  animation: pulse-ring 1.5s ease-out infinite;
+}
