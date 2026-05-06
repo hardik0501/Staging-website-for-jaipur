@@ -48,14 +48,14 @@ const HeroSection = () => {
         >
           <a
             href="#appointment"
-            className="flex items-center gap-2 bg-primary-foreground text-primary font-bold rounded-full px-8 py-4 text-base shadow-lg-blue hover:scale-105 transition-transform"
+            className="flex items-center justify-center gap-2 bg-primary-foreground text-primary font-bold rounded-full px-8 py-4 text-base shadow-lg-blue hover:scale-105 transition-transform w-full sm:w-auto"
           >
             <Calendar size={18} />
             Book Appointment
           </a>
           <a
             href="tel:+919257029901"
-            className="flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-8 py-4 text-base hover:bg-primary-foreground/25 transition-colors"
+            className="flex items-center justify-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-8 py-4 text-base hover:bg-primary-foreground/25 transition-colors w-full sm:w-auto"
           >
             <Phone size={18} />
             Call Now
@@ -64,7 +64,7 @@ const HeroSection = () => {
             href="https://wa.me/919257029901"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-green-500 text-white font-semibold rounded-full px-8 py-4 text-base hover:bg-green-600 transition-colors"
+            className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-full px-8 py-4 text-base hover:bg-green-600 transition-colors w-full sm:w-auto"
           >
             <MessageCircle size={18} />
             WhatsApp
@@ -73,7 +73,7 @@ const HeroSection = () => {
 
         {/* Trust Badges */}
         <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 animate-fade-up w-full max-w-sm sm:max-w-none mx-auto"
           style={{ animationDelay: "0.4s" }}
         >
           {[
@@ -85,7 +85,7 @@ const HeroSection = () => {
               key={label}
               className="flex items-center gap-3 bg-primary-foreground/12 backdrop-blur-sm border border-primary-foreground/20 rounded-2xl px-5 py-3"
             >
-              <div className="w-10 h-10 rounded-xl bg-primary/80 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-primary/80 flex items-center justify-center flex-shrink-0">
                 <Icon size={20} className="text-primary-foreground" />
               </div>
               <div className="text-left">

@@ -41,7 +41,7 @@ const QuickActionBar = () => {
   return (
     <section className="bg-card shadow-md-blue border-b border-border -mt-1 relative z-20">
       <div className="container-width">
-        <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {actions.map((action, idx) => {
             const content = (
               <>
@@ -60,8 +60,8 @@ const QuickActionBar = () => {
                 </div>
               </>
             );
-            const className = `flex items-center gap-4 px-6 py-5 ${action.bg} hover:brightness-95 transition-all group ${
-              idx < actions.length - 1 ? "border-r border-border" : ""
+            const className = `flex items-center gap-4 px-4 sm:px-6 py-4 sm:py-5 ${action.bg} hover:brightness-95 transition-all group border-b sm:border-b-0 ${
+              idx < actions.length - 1 ? "sm:border-r border-border" : "border-border"
             }`;
 
             return 'isInternal' in action && action.isInternal ? (

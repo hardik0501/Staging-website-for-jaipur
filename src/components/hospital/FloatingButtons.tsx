@@ -11,8 +11,8 @@ const FloatingButtons = () => {
         className="group flex items-center gap-2 bg-green-500 text-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
         aria-label="WhatsApp"
       >
-        <div className="w-14 h-14 flex items-center justify-center flex-shrink-0">
-          <MessageCircle size={24} />
+        <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center flex-shrink-0">
+          <MessageCircle size={24} className="w-5 h-5 md:w-6 md:h-6" />
         </div>
         <span className="text-sm font-semibold pr-4 hidden group-hover:inline-block whitespace-nowrap">
           Chat on WhatsApp
@@ -25,8 +25,8 @@ const FloatingButtons = () => {
         className="group flex items-center gap-2 bg-primary text-primary-foreground rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
         aria-label="Call Now"
       >
-        <div className="w-14 h-14 flex items-center justify-center flex-shrink-0">
-          <Phone size={22} />
+        <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center flex-shrink-0">
+          <Phone size={22} className="w-5 h-5 md:w-6 md:h-6" />
         </div>
         <span className="text-sm font-semibold pr-4 hidden group-hover:inline-block whitespace-nowrap">
           Call Emergency

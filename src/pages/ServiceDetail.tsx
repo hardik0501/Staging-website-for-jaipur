@@ -38,12 +38,12 @@ const ServiceDetail = () => {
       <main>
         {/* Breadcrumb */}
         <section className="pt-28 pb-4 bg-surface border-b border-border">
-          <div className="container-width flex items-center gap-2 text-sm text-muted-foreground">
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
-            <span>/</span>
-            <Link to="/services" className="hover:text-primary transition-colors">Services</Link>
-            <span>/</span>
-            <span className="text-foreground font-medium">{speciality.name}</span>
+          <div className="container-width flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+            <Link to="/" className="hover:text-primary transition-colors flex-shrink-0">Home</Link>
+            <span className="flex-shrink-0">/</span>
+            <Link to="/services" className="hover:text-primary transition-colors flex-shrink-0">Services</Link>
+            <span className="flex-shrink-0">/</span>
+            <span className="text-foreground font-medium truncate max-w-full">{speciality.name}</span>
           </div>
         </section>
 
@@ -100,14 +100,14 @@ const ServiceDetail = () => {
                         <Link
                           to={`/doctors/${doc.id}`}
                           key={doc.id}
-                          className="group flex items-center gap-4 bg-surface rounded-2xl p-4 border border-border hover:border-primary hover:shadow-md transition-all"
+                          className="group flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-surface rounded-2xl p-4 border border-border hover:border-primary hover:shadow-md transition-all text-center sm:text-left"
                         >
-                          <img src={doc.img} alt={doc.name} className="w-18 h-18 rounded-xl object-cover object-top" />
+                          <img src={doc.img} alt={doc.name} className="w-20 h-20 sm:w-16 sm:h-16 rounded-xl object-cover object-top flex-shrink-0" />
                           <div>
                             <div className="font-display font-bold text-foreground">{doc.name}</div>
                             <div className="text-muted-foreground text-xs mb-1">{doc.qual}</div>
                             <div className="text-muted-foreground text-xs mb-2">{doc.exp} Experience</div>
-                            <span className="inline-flex items-center gap-1 text-primary text-xs font-semibold group-hover:gap-1.5 transition-all">
+                            <span className="inline-flex items-center justify-center sm:justify-start gap-1 text-primary text-xs font-semibold group-hover:gap-1.5 transition-all w-full sm:w-auto">
                               View Profile <ArrowRight size={10} />
                             </span>
                           </div>

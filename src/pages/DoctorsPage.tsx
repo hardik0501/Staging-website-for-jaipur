@@ -37,16 +37,16 @@ const DoctorsPage = () => {
           <div className="container-width">
             {/* Filter */}
             <div className="flex justify-end mb-8">
-              <div className="relative">
+              <div className="relative w-full sm:w-auto">
                 <button
-                  className="flex items-center gap-2 bg-card border border-border rounded-xl px-4 py-2.5 text-sm font-medium text-foreground shadow-sm hover:border-primary transition-colors"
+                  className="w-full sm:w-auto flex justify-between sm:justify-start items-center gap-2 bg-card border border-border rounded-xl px-4 py-2.5 text-sm font-medium text-foreground shadow-sm hover:border-primary transition-colors"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                 >
                   {selected}
                   <ChevronDown size={16} className={`transition-transform ${dropdownOpen ? "rotate-180" : ""}`} />
                 </button>
                 {dropdownOpen && (
-                  <div className="absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-xl shadow-lg z-30 overflow-hidden">
+                  <div className="absolute right-0 top-full mt-2 w-full sm:w-52 bg-card border border-border rounded-xl shadow-lg z-30 overflow-hidden">
                     {DOCTOR_DEPARTMENTS.map((dept) => (
                       <button
                         key={dept}
@@ -68,9 +68,9 @@ const DoctorsPage = () => {
                 <Link
                   to={`/doctors/${doc.id}`}
                   key={doc.id}
-                  className="group bg-card rounded-2xl border border-border shadow-card overflow-hidden card-hover flex"
+                  className="group bg-card rounded-2xl border border-border shadow-card overflow-hidden card-hover flex flex-col sm:flex-row"
                 >
-                  <div className="w-32 sm:w-40 flex-shrink-0 overflow-hidden bg-gradient-surface">
+                  <div className="w-full sm:w-40 h-56 sm:h-auto flex-shrink-0 overflow-hidden bg-gradient-surface">
                     <img
                       src={doc.img}
                       alt={doc.name}

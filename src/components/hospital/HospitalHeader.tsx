@@ -80,11 +80,11 @@ const HospitalHeader = () => {
       {/* Main nav */}
       <div className="container-width flex items-center justify-between py-3">
         {/* Logo */}
-        <Link to="/" className="flex items-center group -ml-2 md:-ml-4">
+        <Link to="/" className="flex items-center group -ml-2 md:-ml-4 shrink-0">
           <img
             src={logoJH}
             alt="Jaipur Hospital - we care for life"
-            className="h-16 md:h-20 w-auto -my-2"
+            className="h-12 sm:h-16 md:h-20 w-auto object-contain -my-2"
           />
         </Link>
 
