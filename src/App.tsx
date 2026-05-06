@@ -38,6 +38,7 @@ import NoticeOfBookClosurePage from "./pages/NoticeOfBookClosurePage";
 import NoticeOfPostalBallotPage from "./pages/NoticeOfPostalBallotPage";
 
 import { HelmetProvider } from 'react-helmet-async';
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const App = () => (
         <Sonner />
         <Analytics />
         <BrowserRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/doctors" element={<DoctorsPage />} />
