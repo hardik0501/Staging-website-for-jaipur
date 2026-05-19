@@ -11,6 +11,16 @@
 
     gtag('config', 'G-SPZ3353QGF');
   </script>
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "wszpeghp76");
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -47,15 +57,83 @@
     content="Book appointments with specialist doctors, get emergency care, ICU support, and cashless treatment in Jaipur." />
   <meta name="twitter:image" content="/Gallery/4.jpg" />
 
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Jaipur Hospital",
+    "alternateName": "Jaipur Hospital Lal Kothi",
+    "url": "https://www.jaipurhospital.co.in/",
+    "logo": "https://www.jaipurhospital.co.in/assets/logo-jh-Bh9HEnaS.png",
+    "sameAs": [
+      "https://www.instagram.com/jaipur_hospital_lalkothi/",
+      "https://www.jaipurhospital.co.in/"
+    ]
+  }
+  </script>
+
+  <!-- Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hospital",
+    "name": "Jaipur Hospital",
+    "image": "https://www.jaipurhospital.co.in/Gallery/4.jpg",
+    "@id": "https://www.jaipurhospital.co.in/",
+    "url": "https://www.jaipurhospital.co.in/",
+    "telephone": "+91-141-2741465",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Tonk Rd, near SMS Stadium, Jaipur Nagar Nigam, Lalkothi",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "302015",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.8943494,
+      "longitude": 75.8032757
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://www.instagram.com/jaipur_hospital_lalkothi/",
+      "https://www.jaipurhospital.co.in/"
+    ]
+  }
+  </script>
+
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+      f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-MMVG7CQD');
   </script>
   <!-- End Google Tag Manager -->
@@ -66,12 +144,17 @@
 
   <!-- Google Tag Manager (noscript) -->
   <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVG7CQD" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-MMVG7CQD"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <div id="root"></div>
+
   <script type="module" src="/src/main.tsx"></script>
 
 </body>

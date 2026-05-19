@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, ArrowRight, Calendar, Check, Heart, Bone, Brain, Stethoscope, Scissors, Baby, Activity, Microscope, Dumbbell, User, Eye, Ear, Sparkles, Phone, type LucideIcon } from "lucide-react";
 import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
@@ -34,6 +35,10 @@ const ServiceDetail = () => {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <Helmet>
+        <title>{speciality.metaTitle || `${speciality.name} Services | Jaipur Hospital`}</title>
+        <meta name="description" content={speciality.metaDescription || speciality.shortDesc} />
+      </Helmet>
       <HospitalHeader />
       <main>
         {/* Breadcrumb */}
@@ -71,10 +76,16 @@ const ServiceDetail = () => {
               {/* Main Content */}
               <div className="lg:col-span-2 space-y-8">
                 {/* About */}
-                <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
-                  <h2 className="font-display font-bold text-2xl text-foreground mb-4">About {speciality.name}</h2>
-                  <p className="text-muted-foreground leading-relaxed text-base text-justify">{speciality.fullDesc}</p>
-                </div>
+                {speciality.htmlContent ? (
+                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8 prose prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
+                    <div dangerouslySetInnerHTML={{ __html: speciality.htmlContent }} />
+                  </div>
+                ) : (
+                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
+                    <h2 className="font-display font-bold text-2xl text-foreground mb-4">About {speciality.name}</h2>
+                    <p className="text-muted-foreground leading-relaxed text-base text-justify">{speciality.fullDesc}</p>
+                  </div>
+                )}
 
                 {/* Treatments */}
                 <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
