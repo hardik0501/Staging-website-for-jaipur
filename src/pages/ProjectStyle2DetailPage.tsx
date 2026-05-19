@@ -5,7 +5,29 @@ import FloatingButtons from "@/components/hospital/FloatingButtons";
 import { ChevronRight, ArrowLeft } from "lucide-react";
 import NotFound from "./NotFound";
 
-const projectDetails: Record<string, any> = {
+interface Metric {
+  label: string;
+  value: string;
+}
+
+interface ProjectDetail {
+  title: string;
+  category: string;
+  date: string;
+  client: string;
+  address: string;
+  techDesc: string;
+  techFeaturesLabel: string;
+  techFeatures: string[];
+  challenges: string;
+  solution: string;
+  metricsLabel: string;
+  metrics: Metric[];
+  benefitsLabel: string;
+  benefits: string[];
+}
+
+const projectDetails: Record<string, ProjectDetail> = {
   "1": {
     title: "Heart Failure Management",
     category: "Doctors",
@@ -405,7 +427,7 @@ const ProjectStyle2DetailPage = () => {
                     {data.metricsLabel}
                   </h3>
                   <div className="space-y-6">
-                    {data.metrics.map((metric: any, idx: number) => (
+                    {data.metrics.map((metric: Metric, idx: number) => (
                       <div key={idx} className="space-y-2">
                         <div className="flex justify-between font-medium">
                           <span>{metric.label}</span>

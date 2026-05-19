@@ -4,7 +4,7 @@ interface SEOProps {
   title?: string;
   description?: string;
   canonical?: string;
-  schema?: Record<string, any>;
+  schema?: Record<string, unknown>;
 }
 
 export const SEO = ({ title, description, canonical, schema }: SEOProps) => {
