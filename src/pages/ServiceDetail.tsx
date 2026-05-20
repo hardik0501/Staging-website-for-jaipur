@@ -10,6 +10,40 @@ const iconMap: Record<string, LucideIcon> = {
   Heart, Bone, Brain, Stethoscope, Scissors, User, Baby, Activity, Microscope, Dumbbell, Eye, Ear, Sparkles,
 };
 
+const extractConsultationBlock = (html?: string) => {
+  if (!html) return { mainHtml: "", consultationHtml: "" };
+  
+  const markers = [
+    "<h2>Book ",
+    "<h2>Health Checkup ",
+    "<h2>Contact ",
+    "<p><strong>Location:</strong>",
+    "<p>For accurate, fast, and reliable",
+    "<p>Don't let pain or stiffness"
+  ];
+  
+  let splitIndex = -1;
+  
+  for (const marker of markers) {
+    const idx = html.indexOf(marker);
+    if (idx !== -1 && (splitIndex === -1 || idx < splitIndex)) {
+      splitIndex = idx;
+    }
+  }
+  
+  if (splitIndex !== -1) {
+    return {
+      mainHtml: html.substring(0, splitIndex).trim(),
+      consultationHtml: html.substring(splitIndex).trim()
+    };
+  }
+  
+  return {
+    mainHtml: html,
+    consultationHtml: ""
+  };
+};
+
 const ServiceDetail = () => {
   const { id } = useParams<{ id: string }>();
   const speciality = getSpecialityById(id || "");
@@ -28,6 +62,22 @@ const ServiceDetail = () => {
         <ContactFooter />
       </div>
     );
+  }
+
+  const { mainHtml, consultationHtml } = extractConsultationBlock(speciality.htmlContent);
+
+  // Determine if a custom heading should be prepended
+  let customHeading = "";
+  if (consultationHtml && !consultationHtml.includes("<h2>")) {
+    if (speciality.id === "pediatrics") {
+      customHeading = "<h2>Book a Pediatrics Consultation</h2>";
+    } else if (speciality.id === "diagnostics") {
+      customHeading = "<h2>Book a Diagnostics & Imaging Consultation</h2>";
+    } else if (speciality.id === "physiotherapy") {
+      customHeading = "<h2>Book a Physiotherapy & Rehabilitation Consultation</h2>";
+    } else {
+      customHeading = "<h2>Book a Consultation</h2>";
+    }
   }
 
   const Icon = iconMap[speciality.icon] || Heart;
@@ -78,7 +128,7 @@ const ServiceDetail = () => {
                 {/* About */}
                 {speciality.htmlContent ? (
                   <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
-                    <div dangerouslySetInnerHTML={{ __html: speciality.htmlContent }} />
+                    <div dangerouslySetInnerHTML={{ __html: mainHtml }} />
                   </div>
                 ) : (
                   <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
@@ -125,6 +175,13 @@ const ServiceDetail = () => {
                         </Link>
                       ))}
                     </div>
+                  </div>
+                )}
+
+                {/* Consultation Info Block */}
+                {consultationHtml && (
+                  <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
+                    <div dangerouslySetInnerHTML={{ __html: customHeading + consultationHtml }} />
                   </div>
                 )}
               </div>
