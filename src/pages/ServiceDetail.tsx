@@ -77,7 +77,7 @@ const ServiceDetail = () => {
               <div className="lg:col-span-2 space-y-8">
                 {/* About */}
                 {speciality.htmlContent ? (
-                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8 prose prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
+                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
                     <div dangerouslySetInnerHTML={{ __html: speciality.htmlContent }} />
                   </div>
                 ) : (
