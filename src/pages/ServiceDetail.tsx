@@ -42,8 +42,8 @@ const ServiceDetail = () => {
       <HospitalHeader />
       <main>
         {/* Breadcrumb */}
-        <section className="pt-28 pb-4 bg-surface border-b border-border">
-          <div className="container-width flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+        <section className="pt-24 md:pt-28 pb-3 md:pb-4 bg-surface border-b border-border">
+          <div className="container-width flex flex-wrap items-center gap-2 text-xs md:text-sm text-muted-foreground">
             <Link to="/" className="hover:text-primary transition-colors flex-shrink-0">Home</Link>
             <span className="flex-shrink-0">/</span>
             <Link to="/services" className="hover:text-primary transition-colors flex-shrink-0">Services</Link>
@@ -53,17 +53,17 @@ const ServiceDetail = () => {
         </section>
 
         {/* Hero */}
-        <section className="relative h-72 md:h-96 overflow-hidden">
+        <section className="relative h-64 sm:h-72 md:h-96 overflow-hidden">
           <img src={speciality.img} alt={speciality.name} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/50 to-transparent" />
           <div className="absolute inset-0 flex items-center">
             <div className="container-width">
               <div className="max-w-2xl">
-                <div className={`w-16 h-16 rounded-2xl ${speciality.bg} flex items-center justify-center mb-5 shadow-lg`}>
-                  <Icon size={32} className={speciality.color} />
+                <div className={`w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl ${speciality.bg} flex items-center justify-center mb-4 md:mb-5 shadow-lg`}>
+                  <Icon className={`w-6 h-6 md:w-8 md:h-8 ${speciality.color}`} />
                 </div>
-                <h1 className="text-3xl md:text-5xl font-display font-bold text-white mb-3">{speciality.name}</h1>
-                <p className="text-white/80 text-lg md:text-xl">{speciality.shortDesc}</p>
+                <h1 className="text-2xl sm:text-3xl md:text-5xl font-display font-bold text-white mb-2 md:mb-3">{speciality.name}</h1>
+                <p className="text-white/80 text-base md:text-xl">{speciality.shortDesc}</p>
               </div>
             </div>
           </div>
@@ -72,29 +72,29 @@ const ServiceDetail = () => {
         {/* Content */}
         <section className="section-padding bg-surface">
           <div className="container-width">
-            <div className="grid lg:grid-cols-3 gap-8">
+            <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
               {/* Main Content */}
-              <div className="lg:col-span-2 space-y-8">
+              <div className="lg:col-span-2 space-y-6 md:space-y-8">
                 {/* About */}
                 {speciality.htmlContent ? (
-                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
+                  <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground">
                     <div dangerouslySetInnerHTML={{ __html: speciality.htmlContent }} />
                   </div>
                 ) : (
-                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
-                    <h2 className="font-display font-bold text-2xl text-foreground mb-4">About {speciality.name}</h2>
-                    <p className="text-muted-foreground leading-relaxed text-base text-justify">{speciality.fullDesc}</p>
+                  <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
+                    <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-3 md:mb-4">About {speciality.name}</h2>
+                    <p className="text-muted-foreground leading-relaxed text-sm md:text-base text-justify">{speciality.fullDesc}</p>
                   </div>
                 )}
 
                 {/* Treatments */}
-                <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
-                  <h2 className="font-display font-bold text-2xl text-foreground mb-6">Treatments & Procedures</h2>
-                  <div className="grid sm:grid-cols-2 gap-3">
+                <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
+                  <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Treatments & Procedures</h2>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 md:gap-3">
                     {speciality.treatments.map((treatment) => (
-                      <div key={treatment} className="flex items-center gap-3 bg-surface rounded-xl px-4 py-3.5 border border-border/50">
-                        <div className={`w-7 h-7 rounded-full ${speciality.bg} flex items-center justify-center flex-shrink-0`}>
-                          <Check size={14} className={speciality.color} />
+                      <div key={treatment} className="flex items-center gap-3 bg-surface rounded-xl px-4 py-3 md:py-3.5 border border-border/50">
+                        <div className={`w-6 h-6 md:w-7 md:h-7 rounded-full ${speciality.bg} flex items-center justify-center flex-shrink-0`}>
+                          <Check className={`w-3 h-3 md:w-3.5 md:h-3.5 ${speciality.color}`} />
                         </div>
                         <span className="text-foreground text-sm font-medium">{treatment}</span>
                       </div>
@@ -104,21 +104,21 @@ const ServiceDetail = () => {
 
                 {/* Associated Doctors */}
                 {associatedDoctors.length > 0 && (
-                  <div className="bg-card rounded-2xl border border-border shadow-card p-6 md:p-8">
-                    <h2 className="font-display font-bold text-2xl text-foreground mb-6">Our Specialists</h2>
-                    <div className="grid sm:grid-cols-2 gap-4">
+                  <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
+                    <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Our Specialists</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                       {associatedDoctors.map((doc) => (
                         <Link
                           to={`/doctors/${doc.id}`}
                           key={doc.id}
-                          className="group flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-surface rounded-2xl p-4 border border-border hover:border-primary hover:shadow-md transition-all text-center sm:text-left"
+                          className="group flex flex-row items-center gap-3 md:gap-4 bg-surface rounded-xl md:rounded-2xl p-3 md:p-4 border border-border hover:border-primary hover:shadow-md transition-all text-left"
                         >
-                          <img src={doc.img} alt={doc.name} className="w-20 h-20 sm:w-16 sm:h-16 rounded-xl object-cover object-top flex-shrink-0" />
-                          <div>
-                            <div className="font-display font-bold text-foreground">{doc.name}</div>
-                            <div className="text-muted-foreground text-xs mb-1">{doc.qual}</div>
-                            <div className="text-muted-foreground text-xs mb-2">{doc.exp} Experience</div>
-                            <span className="inline-flex items-center justify-center sm:justify-start gap-1 text-primary text-xs font-semibold group-hover:gap-1.5 transition-all w-full sm:w-auto">
+                          <img src={doc.img} alt={doc.name} className="w-16 h-16 md:w-20 md:h-20 rounded-xl object-cover object-top flex-shrink-0" />
+                          <div className="flex-1 min-w-0">
+                            <div className="font-display font-bold text-sm md:text-base text-foreground truncate">{doc.name}</div>
+                            <div className="text-muted-foreground text-[11px] md:text-xs mb-0.5 md:mb-1 truncate">{doc.qual}</div>
+                            <div className="text-muted-foreground text-[11px] md:text-xs mb-1.5 md:mb-2 truncate">{doc.exp} Experience</div>
+                            <span className="inline-flex items-center justify-start gap-1 text-primary text-xs font-semibold group-hover:gap-1.5 transition-all">
                               View Profile <ArrowRight size={10} />
                             </span>
                           </div>
@@ -132,36 +132,36 @@ const ServiceDetail = () => {
               {/* Sidebar */}
               <div className="space-y-6">
                 {/* Book Appointment CTA */}
-                <div className="bg-card rounded-2xl border border-border shadow-card p-6 sticky top-28">
-                  <h3 className="font-display font-bold text-lg text-foreground mb-3">Need an Appointment?</h3>
-                  <p className="text-muted-foreground text-sm mb-5">
+                <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-6 sticky top-24 md:top-28">
+                  <h3 className="font-display font-bold text-base md:text-lg text-foreground mb-2 md:mb-3">Need an Appointment?</h3>
+                  <p className="text-muted-foreground text-xs md:text-sm mb-4 md:mb-5">
                     Book a consultation with our {speciality.name} specialist today.
                   </p>
                   <a
                     href="/#appointment"
-                    className="flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-semibold rounded-xl py-3 hover:opacity-90 transition-opacity mb-3 w-full"
+                    className="flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground font-semibold rounded-xl py-2.5 md:py-3 text-sm md:text-base hover:opacity-90 transition-opacity mb-3 w-full"
                   >
-                    <Calendar size={16} /> Book Appointment
+                    <Calendar className="w-4 h-4 md:w-5 md:h-5" /> Book Appointment
                   </a>
                   <a
                     href={`tel:${HOSPITAL_CONTACT.primaryPhone}`}
-                    className="flex items-center justify-center gap-2 border-2 border-primary text-primary font-semibold rounded-xl py-3 hover:bg-primary-light transition-colors mb-3 w-full"
+                    className="flex items-center justify-center gap-2 border-2 border-primary text-primary font-semibold rounded-xl py-2.5 md:py-3 text-sm md:text-base hover:bg-primary-light transition-colors mb-3 w-full"
                   >
-                    <Phone size={16} /> Call Now
+                    <Phone className="w-4 h-4 md:w-5 md:h-5" /> Call Now
                   </a>
                   <a
                     href={`https://wa.me/${HOSPITAL_CONTACT.whatsapp}?text=Hello! I'd like to consult a ${speciality.name} specialist.`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-xl py-3 hover:bg-green-600 transition-colors w-full"
+                    className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-xl py-2.5 md:py-3 text-sm md:text-base hover:bg-green-600 transition-colors w-full"
                   >
                     WhatsApp Us
                   </a>
                 </div>
 
                 {/* Other Specialities */}
-                <div className="bg-card rounded-2xl border border-border shadow-card p-6">
-                  <h3 className="font-display font-bold text-lg text-foreground mb-4">Other Services</h3>
+                <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-6">
+                  <h3 className="font-display font-bold text-base md:text-lg text-foreground mb-3 md:mb-4">Other Services</h3>
                   <div className="space-y-2">
                     {otherServices.map((s) => {
                       const SIcon = iconMap[s.icon] || Heart;
@@ -169,14 +169,14 @@ const ServiceDetail = () => {
                         <Link
                           to={`/services/${s.id}`}
                           key={s.id}
-                          className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface transition-colors group"
+                          className="flex items-center gap-3 px-3 py-2 md:py-2.5 rounded-xl hover:bg-surface transition-colors group"
                         >
-                          <div className={`w-9 h-9 rounded-lg ${s.bg} flex items-center justify-center flex-shrink-0`}>
-                            <SIcon size={16} className={s.color} />
+                          <div className={`w-8 h-8 md:w-9 md:h-9 rounded-lg ${s.bg} flex items-center justify-center flex-shrink-0`}>
+                            <SIcon className={`w-3.5 h-3.5 md:w-4 md:h-4 ${s.color}`} />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <span className="text-foreground text-sm font-medium block truncate">{s.name}</span>
-                            <span className="text-muted-foreground text-xs">{s.shortDesc}</span>
+                            <span className="text-foreground text-[13px] md:text-sm font-medium block truncate">{s.name}</span>
+                            <span className="text-muted-foreground text-[11px] md:text-xs truncate block">{s.shortDesc}</span>
                           </div>
                           <ArrowRight size={14} className="text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0" />
                         </Link>
