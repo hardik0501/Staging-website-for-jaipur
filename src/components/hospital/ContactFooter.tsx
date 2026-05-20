@@ -78,10 +78,17 @@ const ContactFooter = () => {
 
             {/* Social */}
             <div className="flex gap-3">
-              {[Facebook, Instagram, Youtube, Twitter].map((Icon, idx) => (
+              {[
+                { Icon: Facebook, href: "https://www.facebook.com/jh.jaipurhospital/" },
+                { Icon: Instagram, href: "https://www.instagram.com/jaipur_hospital_lalkothi" },
+                { Icon: Youtube, href: "#" },
+                { Icon: Twitter, href: "#" },
+              ].map(({ Icon, href }, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={href}
+                  target={href !== "#" ? "_blank" : undefined}
+                  rel={href !== "#" ? "noopener noreferrer" : undefined}
                   className="w-9 h-9 rounded-lg bg-navy-foreground/10 flex items-center justify-center hover:bg-primary transition-colors"
                 >
                   <Icon size={16} className="text-navy-foreground/70" />
