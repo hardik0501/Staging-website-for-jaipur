@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import { SEO } from "@/components/SEO";
 import { ArrowLeft, ArrowRight, Calendar, Check, Heart, Bone, Brain, Stethoscope, Scissors, Baby, Activity, Microscope, Dumbbell, User, Eye, Ear, Sparkles, Phone, type LucideIcon } from "lucide-react";
 import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
@@ -85,10 +85,11 @@ const ServiceDetail = () => {
 
   return (
     <div className="min-h-screen bg-background font-sans">
-      <Helmet>
-        <title>{speciality.metaTitle || `${speciality.name} Services | Jaipur Hospital`}</title>
-        <meta name="description" content={speciality.metaDescription || speciality.shortDesc} />
-      </Helmet>
+      <SEO 
+        title={speciality.metaTitle || `${speciality.name} Services`}
+        description={speciality.metaDescription || speciality.shortDesc}
+        canonical={`/services/${speciality.id}`}
+      />
       <HospitalHeader />
       <main>
         {/* Breadcrumb */}

@@ -4,6 +4,7 @@ import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
 import FloatingButtons from "@/components/hospital/FloatingButtons";
 import { specialities } from "@/data/hospitalData";
+import { SEO } from "@/components/SEO";
 
 const iconMap: Record<string, LucideIcon> = {
   Heart, Bone, Brain, Stethoscope, Scissors, User, Baby, Activity, Microscope, Dumbbell, Eye, Ear, Sparkles,
@@ -12,6 +13,11 @@ const iconMap: Record<string, LucideIcon> = {
 const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Our Medical Services" 
+        description="Explore our specialized healthcare services at Jaipur Hospital, including Orthopedics, Cardiology, Gynecology, General Medicine, Neurology, ICU & Emergency care."
+        canonical="/services"
+      />
       <HospitalHeader />
       <main>
         {/* Page Hero */}

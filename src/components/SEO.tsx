@@ -35,19 +35,23 @@ export const SEO = ({ title, description, canonical, schema }: SEOProps) => {
     }
   };
 
+  const finalTitle = title
+    ? (title.includes("Jaipur Hospital") ? title : `${title} | Jaipur Hospital`)
+    : defaultTitle;
+
   return (
     <Helmet>
-      <title>{title ? `${title} | Jaipur Hospital` : defaultTitle}</title>
+      <title>{finalTitle}</title>
       <meta name="description" content={description || defaultDescription} />
       <link rel="canonical" href={currentUrl} />
       
       {/* Open Graph */}
-      <meta property="og:title" content={title ? `${title} | Jaipur Hospital` : defaultTitle} />
+      <meta property="og:title" content={finalTitle} />
       <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:url" content={currentUrl} />
       
       {/* Twitter */}
-      <meta name="twitter:title" content={title ? `${title} | Jaipur Hospital` : defaultTitle} />
+      <meta name="twitter:title" content={finalTitle} />
       <meta name="twitter:description" content={description || defaultDescription} />
       
       {/* Schema Markup */}
