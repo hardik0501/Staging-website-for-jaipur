@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, User, ArrowLeft } from "lucide-react";
+import { SEO } from "@/components/SEO";
 import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
 import FloatingButtons from "@/components/hospital/FloatingButtons";
@@ -13,6 +14,7 @@ const BlogDetailPage = () => {
   if (!post) {
     return (
       <div className="min-h-screen bg-background font-sans">
+        <SEO title="Blog Not Found | Jaipur Hospital" description="The requested blog could not be found. Return to the Jaipur Hospital blog listing." canonical="/blogs" robots="noindex, nofollow" />
         <HospitalHeader />
         <main className="pt-32 pb-20">
           <div className="container-width text-center">
@@ -27,6 +29,11 @@ const BlogDetailPage = () => {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO
+        title={`${post.title} | Jaipur Hospital Blog`}
+        description={post.excerpt}
+        canonical={`/blogs/${post.slug}`}
+      />
       <HospitalHeader />
       <main>
         <section className="pt-28 pb-4 bg-surface border-b border-border">
@@ -62,6 +69,8 @@ const BlogDetailPage = () => {
               <img
                 src={post.img}
                 alt=""
+                loading="lazy"
+                decoding="async"
                 className="w-full aspect-video object-cover"
                 onError={(e) => { (e.target as HTMLImageElement).src = "/placeholder.svg"; }}
               />

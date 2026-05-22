@@ -42,6 +42,8 @@ const FacilitiesGallery = () => {
           <img
             src={facilities[active].img}
             alt={facilities[active].label}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover transition-all duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent" />
@@ -76,7 +78,7 @@ const FacilitiesGallery = () => {
                 idx === active ? "border-primary scale-105 shadow-md-blue" : "border-transparent opacity-60 hover:opacity-90"
               }`}
             >
-              <img src={f.img} alt={f.label} className="w-full h-16 object-cover" />
+              <img src={f.img} alt={f.label} loading="lazy" decoding="async" className="w-full h-16 object-cover" />
             </button>
           ))}
         </div>

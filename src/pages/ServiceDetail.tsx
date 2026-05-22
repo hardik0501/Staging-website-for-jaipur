@@ -173,7 +173,13 @@ const ServiceDetail = () => {
                           key={doc.id}
                           className="group flex flex-row items-center gap-3 md:gap-4 bg-surface rounded-xl md:rounded-2xl p-3 md:p-4 border border-border hover:border-primary hover:shadow-md transition-all text-left"
                         >
-                          <img src={doc.img} alt={doc.name} className="w-16 h-16 md:w-20 md:h-20 rounded-xl object-cover object-top flex-shrink-0" />
+                          <img
+                        src={doc.img}
+                        alt={doc.name}
+                        loading="lazy"
+                        decoding="async"
+                        className="w-16 h-16 md:w-20 md:h-20 rounded-xl object-cover object-top flex-shrink-0"
+                      />
                           <div className="flex-1 min-w-0">
                             <div className="font-display font-bold text-sm md:text-base text-foreground truncate">{doc.name}</div>
                             <div className="text-muted-foreground text-[11px] md:text-xs mb-0.5 md:mb-1 truncate">{doc.qual}</div>
@@ -190,7 +196,7 @@ const ServiceDetail = () => {
 
                 {/* Consultation Info Block */}
                 {consultationHtml && (
-                  <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
+                  <div className="rounded-xl md:rounded-2xl border-2 border-primary/20 shadow-card p-5 md:p-8 prose prose-sm sm:prose-base prose-gray max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:text-justify prose-li:text-muted-foreground prose-strong:text-foreground bg-gradient-to-br from-primary/5 to-transparent">
                     <div dangerouslySetInnerHTML={{ __html: customHeading + consultationHtml }} />
                   </div>
                 )}

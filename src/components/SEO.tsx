@@ -5,9 +5,10 @@ interface SEOProps {
   description?: string;
   canonical?: string;
   schema?: Record<string, unknown>;
+  robots?: string;
 }
 
-export const SEO = ({ title, description, canonical, schema }: SEOProps) => {
+export const SEO = ({ title, description, canonical, schema, robots }: SEOProps) => {
   const defaultTitle = "Jaipur Hospital – Trusted Multispeciality Hospital in Jaipur";
   const defaultDescription = "Jaipur Hospital is a premium multispeciality hospital in Jaipur with 50+ specialist doctors, advanced ICU, 24/7 emergency care, and cashless treatment.";
   const baseUrl = "https://jaipurhospital.co.in";
@@ -44,7 +45,7 @@ export const SEO = ({ title, description, canonical, schema }: SEOProps) => {
       <title>{finalTitle}</title>
       <meta name="description" content={description || defaultDescription} />
       <link rel="canonical" href={currentUrl} />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content={robots || "index, follow"} />
       
       {/* Open Graph */}
       <meta property="og:type" content="website" />

@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, Clock, Globe, GraduationCap, Award, ArrowLeft, Phone, MessageCircle } from "lucide-react";
+import { SEO } from "@/components/SEO";
 import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
 import FloatingButtons from "@/components/hospital/FloatingButtons";
@@ -12,6 +13,7 @@ const DoctorDetail = () => {
   if (!doctor) {
     return (
       <div className="min-h-screen bg-background font-sans">
+        <SEO title="Doctor Not Found | Jaipur Hospital" description="The doctor profile could not be found. Return to the doctor listing for Jaipur Hospital." canonical="/doctors" robots="noindex, nofollow" />
         <HospitalHeader />
         <main className="pt-32 pb-20">
           <div className="container-width text-center">
@@ -26,6 +28,11 @@ const DoctorDetail = () => {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO
+        title={`${doctor.name} | Jaipur Hospital`}
+        description={`Book an appointment with ${doctor.name}, a specialist in ${doctor.dept} at Jaipur Hospital.`}
+        canonical={`/doctors/${doctor.id}`}
+      />
       <HospitalHeader />
       <main>
         {/* Breadcrumb */}
@@ -48,6 +55,8 @@ const DoctorDetail = () => {
                     <img
                       src={doctor.img}
                       alt={doctor.name}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-top"
                       onError={(e) => { (e.target as HTMLImageElement).src = "/placeholder.svg"; }}
                     />

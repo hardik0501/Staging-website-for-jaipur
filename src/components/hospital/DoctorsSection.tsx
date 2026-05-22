@@ -95,6 +95,8 @@ const DoctorsSection = () => {
                 <img
                   src={doc.img}
                   alt={doc.name}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = "/placeholder.svg";

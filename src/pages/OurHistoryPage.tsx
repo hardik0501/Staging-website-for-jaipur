@@ -107,6 +107,8 @@ const OurHistoryPage = () => {
                 <img 
                   src="/placeholder.svg" 
                   alt="Jaipur Hospital Building" 
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
