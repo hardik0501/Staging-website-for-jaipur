@@ -31,16 +31,25 @@ const extractConsultationBlock = (html?: string) => {
     }
   }
   
+  let mainHtml = html;
+  let consultationHtml = "";
+  
   if (splitIndex !== -1) {
-    return {
-      mainHtml: html.substring(0, splitIndex).trim(),
-      consultationHtml: html.substring(splitIndex).trim()
-    };
+    mainHtml = html.substring(0, splitIndex).trim();
+    consultationHtml = html.substring(splitIndex).trim();
   }
   
+  const convertToH1 = (str: string) => {
+    return str
+      .replace(/<h2/gi, "<h1")
+      .replace(/<\/h2>/gi, "</h1>")
+      .replace(/<h3/gi, "<h1")
+      .replace(/<\/h3>/gi, "</h1>");
+  };
+  
   return {
-    mainHtml: html,
-    consultationHtml: ""
+    mainHtml: convertToH1(mainHtml),
+    consultationHtml: convertToH1(consultationHtml)
   };
 };
 
@@ -68,15 +77,15 @@ const ServiceDetail = () => {
 
   // Determine if a custom heading should be prepended
   let customHeading = "";
-  if (consultationHtml && !consultationHtml.includes("<h2>")) {
+  if (consultationHtml && !consultationHtml.includes("<h1>")) {
     if (speciality.id === "pediatrics") {
-      customHeading = "<h2>Book a Pediatrics Consultation</h2>";
+      customHeading = "<h1>Book a Pediatrics Consultation</h1>";
     } else if (speciality.id === "diagnostics") {
-      customHeading = "<h2>Book a Diagnostics & Imaging Consultation</h2>";
+      customHeading = "<h1>Book a Diagnostics & Imaging Consultation</h1>";
     } else if (speciality.id === "physiotherapy") {
-      customHeading = "<h2>Book a Physiotherapy & Rehabilitation Consultation</h2>";
+      customHeading = "<h1>Book a Physiotherapy & Rehabilitation Consultation</h1>";
     } else {
-      customHeading = "<h2>Book a Consultation</h2>";
+      customHeading = "<h1>Book a Consultation</h1>";
     }
   }
 
@@ -133,14 +142,14 @@ const ServiceDetail = () => {
                   </div>
                 ) : (
                   <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
-                    <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-3 md:mb-4">About {speciality.name}</h2>
+                    <h1 className="font-display font-bold text-xl md:text-2xl text-foreground mb-3 md:mb-4">About {speciality.name}</h1>
                     <p className="text-muted-foreground leading-relaxed text-sm md:text-base text-justify">{speciality.fullDesc}</p>
                   </div>
                 )}
 
                 {/* Treatments */}
                 <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
-                  <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Treatments & Procedures</h2>
+                  <h1 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Treatments & Procedures</h1>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 md:gap-3">
                     {speciality.treatments.map((treatment) => (
                       <div key={treatment} className="flex items-center gap-3 bg-surface rounded-xl px-4 py-3 md:py-3.5 border border-border/50">
@@ -156,7 +165,7 @@ const ServiceDetail = () => {
                 {/* Associated Doctors */}
                 {associatedDoctors.length > 0 && (
                   <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-8">
-                    <h2 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Our Specialists</h2>
+                    <h1 className="font-display font-bold text-xl md:text-2xl text-foreground mb-4 md:mb-6">Our Specialists</h1>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                       {associatedDoctors.map((doc) => (
                         <Link
@@ -191,7 +200,7 @@ const ServiceDetail = () => {
               <div className="space-y-6">
                 {/* Book Appointment CTA */}
                 <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-6 sticky top-24 md:top-28">
-                  <h3 className="font-display font-bold text-base md:text-lg text-foreground mb-2 md:mb-3">Need an Appointment?</h3>
+                  <h1 className="font-display font-bold text-base md:text-lg text-foreground mb-2 md:mb-3">Need an Appointment?</h1>
                   <p className="text-muted-foreground text-xs md:text-sm mb-4 md:mb-5">
                     Book a consultation with our {speciality.name} specialist today.
                   </p>
@@ -219,7 +228,7 @@ const ServiceDetail = () => {
 
                 {/* Other Specialities */}
                 <div className="bg-card rounded-xl md:rounded-2xl border border-border shadow-card p-5 md:p-6">
-                  <h3 className="font-display font-bold text-base md:text-lg text-foreground mb-3 md:mb-4">Other Services</h3>
+                  <h1 className="font-display font-bold text-base md:text-lg text-foreground mb-3 md:mb-4">Other Services</h1>
                   <div className="space-y-2">
                     {otherServices.map((s) => {
                       const SIcon = iconMap[s.icon] || Heart;

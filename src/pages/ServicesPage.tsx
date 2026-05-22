@@ -45,6 +45,7 @@ const ServicesPage = () => {
                   <Link
                     to={`/services/${spec.id}`}
                     key={spec.id}
+                    aria-label={`View details for ${spec.name}`}
                     className="group bg-card rounded-xl md:rounded-2xl border border-border shadow-card overflow-hidden card-hover flex flex-col"
                   >
                     {/* Image */}
@@ -52,6 +53,9 @@ const ServicesPage = () => {
                       <img
                         src={spec.img}
                         alt={spec.name}
+                        loading="lazy"
+                        decoding="async"
+                        fetchPriority="low"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -62,9 +66,9 @@ const ServicesPage = () => {
 
                     {/* Content */}
                     <div className="p-5 sm:p-6 flex flex-col flex-1">
-                      <h3 className="font-display font-bold text-base sm:text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                      <h1 className="font-display font-bold text-base sm:text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
                         {spec.name}
-                      </h3>
+                      </h1>
                       <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1 line-clamp-3 text-left sm:text-justify">
                         {spec.fullDesc}
                       </p>

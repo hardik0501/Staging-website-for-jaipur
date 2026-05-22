@@ -44,15 +44,22 @@ export const SEO = ({ title, description, canonical, schema }: SEOProps) => {
       <title>{finalTitle}</title>
       <meta name="description" content={description || defaultDescription} />
       <link rel="canonical" href={currentUrl} />
+      <meta name="robots" content="index, follow" />
       
       {/* Open Graph */}
+      <meta property="og:type" content="website" />
       <meta property="og:title" content={finalTitle} />
       <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:url" content={currentUrl} />
+      <meta property="og:image" content={`${baseUrl}/Gallery/4.jpg`} />
+      <meta property="og:image:alt" content="Jaipur Hospital building and expert medical care" />
       
       {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={finalTitle} />
       <meta name="twitter:description" content={description || defaultDescription} />
+      <meta name="twitter:image" content={`${baseUrl}/Gallery/4.jpg`} />
+      <meta name="twitter:image:alt" content="Jaipur Hospital building and expert medical care" />
       
       {/* Schema Markup */}
       <script type="application/ld+json">
