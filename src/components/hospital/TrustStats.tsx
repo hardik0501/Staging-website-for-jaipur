@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 35, suffix: "+", label: "Years of Excellence", desc: "Established 2004" },
-  { value: 150, suffix: "", label: "Hospital Beds", desc: "Including ICU & NICU" },
-  { value: 50, suffix: "+", label: "Specialist Doctors", desc: "Across all departments" },
-  { value: 10000, suffix: "+", label: "Patients Treated", desc: "Happy & recovered" },
+  { value: 35, suffix: "+", label: "Years of Excellence", desc: "Serving Jaipur Since 2004" },
+  { value: 150, suffix: "", label: "Hospital Beds", desc: "General, ICU, CCU and NICU" },
+  { value: 50, suffix: "+", label: "Specialist Doctors", desc: "Across 10+ Departments" },
+  { value: 10000, suffix: "+", label: "Patients Treated", desc: "Happy and Recovered" },
 ];
 
 const CountUp = ({ target, suffix }: { target: number; suffix: string }) => {
@@ -50,6 +50,11 @@ const TrustStats = () => {
   return (
     <section className="section-padding bg-gradient-primary">
       <div className="container-width">
+        <div className="text-center mb-10">
+          <span className="inline-block text-primary-foreground/90 font-semibold text-sm uppercase tracking-widest bg-primary-foreground/15 px-4 py-1.5 rounded-full">
+            Trusted by Families Across Rajasthan
+          </span>
+        </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, idx) => (
             <div

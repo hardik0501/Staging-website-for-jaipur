@@ -44,8 +44,11 @@ const DoctorsSection = () => {
               Our Doctors
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
-              Meet Our Expert Team
+              Meet the Best Doctors in Jaipur
             </h2>
+            <p className="text-muted-foreground mt-2 max-w-xl text-sm md:text-base">
+              Our 50+ specialist doctors are among the most experienced in Rajasthan, trained at top institutions and committed to delivering honest, patient-first care across every department.
+            </p>
           </div>
 
           {/* Department filter */}
@@ -120,6 +123,16 @@ const DoctorsSection = () => {
             </Link>
           ))}
         </div>
+      </div>
+
+      {/* View All CTA */}
+      <div className="container-width text-center mt-12">
+        <Link
+          to="/doctors"
+          className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground font-bold rounded-full px-8 py-4 text-base shadow-lg-blue hover:scale-105 transition-transform"
+        >
+          View All Specialist Doctors
+        </Link>
       </div>
     </section>
   );

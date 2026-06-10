@@ -3,43 +3,43 @@ import { Scissors, Activity, Truck, Microscope, Pill, Heart } from "lucide-react
 const usps = [
   {
     icon: Scissors,
-    title: "Advanced OT",
-    desc: "State-of-the-art modular operation theatres with HEPA filtration and robotic assistance.",
+    title: "Advanced Modular Operation Theatres",
+    desc: "Our HEPA-filtered modular OTs meet international infection control standards, making every surgery at our private hospital in Jaipur significantly safer with a lower risk of post-operative complications.",
     color: "text-primary",
     bg: "bg-primary-light",
   },
   {
     icon: Activity,
-    title: "ICU / CCU / NICU",
-    desc: "Advanced critical care units with 24/7 intensivist coverage and monitoring.",
+    title: "ICU / CCU / NICU — Round the Clock",
+    desc: "Our critical care units are managed by dedicated intensivists 24/7, with continuous bedside monitoring, ventilator support, and immediate access to specialists across departments.",
     color: "text-red-500",
     bg: "bg-red-50",
   },
   {
     icon: Truck,
-    title: "24/7 Ambulance",
-    desc: "GPS-enabled advanced life support ambulances with trained paramedics.",
+    title: "24/7 Ambulance Service in Jaipur",
+    desc: "Our GPS-enabled Advanced Life Support ambulances with trained paramedics bring care to you before you even reach the hospital. Available round the clock, every day of the year.",
     color: "text-orange-500",
     bg: "bg-orange-50",
   },
   {
     icon: Microscope,
-    title: "Digital Diagnostics",
-    desc: "In-house MRI, CT scan, digital X-ray and NABL-accredited lab with rapid results.",
+    title: "NABL-Accredited Diagnostics",
+    desc: "In-House MRI, CT scan, digital X-ray, colour Doppler, and a NABL-accredited pathology lab — all under one roof at our diagnostic centre in Jaipur. Fast results mean faster treatment decisions.",
     color: "text-secondary",
     bg: "bg-secondary-light",
   },
   {
     icon: Pill,
-    title: "Pharmacy Support",
-    desc: "24/7 in-house pharmacy with all essential medicines and medical supplies.",
+    title: "24/7 In-House Pharmacy",
+    desc: "No running to outside pharmacies after late-night consultations. Our round-the-clock pharmacy stocks all essential medicines and medical supplies for both inpatients and emergency visitors.",
     color: "text-purple-500",
     bg: "bg-purple-50",
   },
   {
     icon: Heart,
-    title: "Patient-First Care",
-    desc: "Dedicated patient coordinators, multilingual staff and compassionate care.",
+    title: "Cashless Treatment for All",
+    desc: "As a CGHS, ECHS, and Ayushman Bharat hospital in Jaipur, we ensure that government employees, defence personnel, and insured patients receive seamless cashless treatment without paperwork delays.",
     color: "text-pink-500",
     bg: "bg-pink-50",
   },
@@ -53,11 +53,11 @@ const WhyChooseUs = () => {
           <span className="inline-block text-primary font-semibold text-sm uppercase tracking-widest mb-3 bg-primary-light px-4 py-1.5 rounded-full">
             Why Choose Us
           </span>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-            The Jaipur Hospital Difference
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4 leading-tight">
+            Why Patients Choose Jaipur Hospital Over Other Hospitals
           </h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
-            We combine world-class technology with compassionate care to deliver exceptional health outcomes.
+          <p className="text-muted-foreground max-w-2xl mx-auto text-sm md:text-base">
+            Being the best hospital in Jaipur is not just about equipment. It is about consistently earning the trust of patients and families across Rajasthan, one recovery at a time.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const WhyChooseUs = () => {
               >
                 <usp.icon size={26} className={usp.color} />
               </div>
-              <h3 className="font-display font-bold text-lg text-foreground mb-2">{usp.title}</h3>
+              <h3 className="font-display font-bold text-lg text-foreground mb-2 leading-snug">{usp.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{usp.desc}</p>
             </div>
           ))}

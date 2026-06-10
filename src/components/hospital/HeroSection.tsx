@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-6 animate-fade-up">
           <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
           <span className="text-primary-foreground text-sm font-medium">
-            Trusted Healthcare Since 2004 · Jaipur, Rajasthan
+            Trusted Healthcare Since 2004 · Lal Kothi, Jaipur, Rajasthan
           </span>
         </div>
 
@@ -28,17 +28,16 @@ const HeroSection = () => {
           className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground mb-6 leading-tight animate-fade-up"
           style={{ animationDelay: "0.1s" }}
         >
-          Trusted Multispeciality
+          Best Multispeciality
           <br />
           <span className="text-yellow-300">Hospital in Jaipur</span>
         </h1>
 
         <p
-          className="text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
+          className="text-lg md:text-xl text-primary-foreground/85 max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Advanced care, expert doctors, 24/7 emergency & critical support.
-          Your health is our highest priority.
+          Expert doctors. Advanced care. 24/7 emergency and critical care support. Jaipur Hospital has been Rajasthan's trusted name in healthcare for over two decades. Your health is our highest priority.
         </p>
 
         {/* CTA Buttons */}
@@ -58,7 +57,7 @@ const HeroSection = () => {
             className="flex items-center justify-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-8 py-4 text-base hover:bg-primary-foreground/25 transition-colors w-full sm:w-auto"
           >
             <Phone size={18} />
-            Call Now
+            Call Now: +91 92570 29901
           </a>
           <a
             href="https://wa.me/919257029901"
@@ -67,7 +66,7 @@ const HeroSection = () => {
             className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-full px-8 py-4 text-base hover:bg-green-600 transition-colors w-full sm:w-auto"
           >
             <MessageCircle size={18} />
-            WhatsApp
+            WhatsApp Us
           </a>
         </div>
 
@@ -77,9 +76,9 @@ const HeroSection = () => {
           style={{ animationDelay: "0.4s" }}
         >
           {[
-            { icon: Clock, label: "24/7 Emergency", desc: "Always Available" },
-            { icon: Stethoscope, label: "50+ Specialists", desc: "Expert Doctors" },
-            { icon: ShieldCheck, label: "Advanced ICU", desc: "Critical Care" },
+            { icon: Clock, label: "24/7 Emergency Care", desc: "Always Available, Always Ready" },
+            { icon: Stethoscope, label: "50+ Specialist Doctors", desc: "Best Doctors in Jaipur" },
+            { icon: ShieldCheck, label: "Advanced ICU and NICU", desc: "Critical Care Round the Clock" },
           ].map(({ icon: Icon, label, desc }) => (
             <div
               key={label}

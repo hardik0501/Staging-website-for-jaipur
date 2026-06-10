@@ -1,18 +1,10 @@
 import { CheckCircle, ArrowRight } from "lucide-react";
 
 const insurers = [
-  "CGHS", "ECHS", "Ayushman Bharat", "Star Health", "HDFC ERGO",
-  "ICICI Lombard", "New India", "United India", "Bajaj Allianz",
-  "SBI Health", "Niva Bupa", "Aditya Birla Health",
-  "CGHS", "ECHS", "Ayushman Bharat", "Star Health", "HDFC ERGO",
-  "ICICI Lombard", "New India", "United India", "Bajaj Allianz",
-];
-
-const benefits = [
-  "Cashless treatment facility",
-  "Government CGHS & ECHS empanelled",
-  "Ayushman Bharat (PM-JAY) registered",
-  "20+ insurance TPA tie-ups",
+  "Ayushman Bharat PM-JAY", "CGHS", "ECHS", "New India Assurance", "United India Insurance",
+  "Bajaj Allianz Health", "Niva Bupa", "SBI Health Insurance", "Star Health", "HDFC ERGO",
+  "ICICI Lombard", "Aditya Birla Health", "Care Health", "TATA AIG", "Reliance General",
+  "Ayushman Bharat PM-JAY", "CGHS", "ECHS", "New India Assurance", "United India Insurance",
 ];
 
 const EmpanelmentSection = () => {
@@ -24,25 +16,25 @@ const EmpanelmentSection = () => {
             <div className="grid lg:grid-cols-2 gap-10 items-center">
               {/* Left */}
               <div>
-                <span className="inline-block text-primary-foreground/70 font-semibold text-sm uppercase tracking-widest mb-4 bg-primary-foreground/15 px-4 py-1.5 rounded-full">
-                  Cashless & Empanelment
+                <span className="inline-block text-primary-foreground/80 font-semibold text-sm uppercase tracking-widest mb-4 bg-primary-foreground/15 px-4 py-1.5 rounded-full">
+                  Accreditations and Empanelment
                 </span>
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-primary-foreground mb-6 leading-snug">
-                  Cashless & Government Empanelment Available
+                  Cashless Treatment and Trusted Empanelments
                 </h2>
-                <div className="space-y-3 mb-8">
-                  {benefits.map((b) => (
-                    <div key={b} className="flex items-center gap-3 text-primary-foreground/90">
-                      <CheckCircle size={18} className="text-yellow-300 flex-shrink-0" />
-                      <span className="text-sm font-medium">{b}</span>
-                    </div>
-                  ))}
+                <div className="space-y-4 mb-8 text-primary-foreground/90 text-sm md:text-base leading-relaxed">
+                  <p>
+                    At Jaipur Hospital, we have worked to make quality healthcare financially accessible to as many people as possible. As a CGHS empanelled hospital in Jaipur, we serve government employees and central government pensioners with cashless treatment across all departments. Our ECHS empanelment extends the same benefit to defence personnel and their dependents.
+                  </p>
+                  <p>
+                    We are also registered under the Ayushman Bharat PM-JAY scheme, which allows eligible beneficiaries from across Rajasthan to receive cashless inpatient treatment at our hospital. Additionally, our 20+ TPA tie-ups cover most major private health insurance policies.
+                  </p>
                 </div>
                 <a
                   href="#appointment"
                   className="inline-flex items-center gap-2 bg-primary-foreground text-primary font-bold rounded-full px-7 py-3.5 hover:scale-105 transition-transform shadow-lg"
                 >
-                  Check Eligibility <ArrowRight size={16} />
+                  Check Your Eligibility Now <ArrowRight size={16} />
                 </a>
               </div>
 
@@ -74,6 +66,9 @@ const EmpanelmentSection = () => {
                       </div>
                     ))}
                   </div>
+                </div>
+                <div className="text-primary-foreground/60 text-xs mt-4 text-center lg:text-left italic">
+                  +15 additional TPA partners empanelled
                 </div>
               </div>
             </div>

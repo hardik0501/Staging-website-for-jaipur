@@ -36,10 +36,10 @@ const AppointmentForm = () => {
               Book Appointment
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-              Schedule Your Visit
+              Book an Appointment at the Best Hospital in Jaipur
             </h2>
-            <p className="text-muted-foreground">
-              Fill the form below or reach us directly via WhatsApp.
+            <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
+              Fill the form below or reach us directly on WhatsApp. We will confirm your appointment within 30 minutes.
             </p>
           </div>
 

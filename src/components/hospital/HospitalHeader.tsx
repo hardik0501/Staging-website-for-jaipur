@@ -6,6 +6,10 @@ import logoJH from "@/assets/logo-jh.png";
 // Mega menu items from reference list; skip what's already in main nav (About, Services, Doctors, Facilities, Contact)
 const moreMenuItems = [
   { label: "Home", href: "/" },
+  { label: "Book Appointment", href: "/book-appointment" },
+  { label: "Health Packages", href: "/health-packages" },
+  { label: "Testimonials", href: "/testimonials" },
+  { label: "Empanelments", href: "/empanelments" },
   { label: "Annual Report", href: "/annual-report" },
   { label: "Blogs", href: "/blogs" },
   { label: "Board of Directors", href: "/board-of-directors" },
@@ -13,7 +17,6 @@ const moreMenuItems = [
   { label: "Corporate Governance", href: "/corporate-governance" },
   { label: "Education", href: "/education" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Empanelments", href: "/empanelments" },
   { label: "Financial Results", href: "/financial-results" },
   { label: "Listing Information", href: "/listing-information" },
   { label: "Managing Director's Message", href: "/managing-directors-message" },
@@ -27,6 +30,8 @@ const moreMenuItems = [
   { label: "Our History", href: "/our-history" },
   { label: "Our Team Member", href: "/our-team-member" },
   { label: "Project Style 2", href: "/project-style-2" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms of Use", href: "/terms-of-use" },
 ];
 
 const HospitalHeader = () => {
@@ -162,15 +167,13 @@ const HospitalHeader = () => {
             <Phone size={14} />
             Call Now
           </a>
-          <a
-            href="https://wa.me/919257029901?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book-appointment"
             className="flex items-center gap-2 text-sm bg-gradient-primary text-primary-foreground font-semibold rounded-full px-5 py-2 shadow-md-blue hover:opacity-90 transition-opacity"
           >
             <Calendar size={14} />
             Book Appointment
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -232,15 +235,13 @@ const HospitalHeader = () => {
               )}
             </div>
           </div>
-          <a
-            href="https://wa.me/919257029901?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book-appointment"
             className="mt-2 text-center text-sm bg-gradient-primary text-primary-foreground font-semibold rounded-full px-5 py-3"
             onClick={() => setMobileOpen(false)}
           >
             Book Appointment
-          </a>
+          </Link>
         </div>
       )}
     </header>

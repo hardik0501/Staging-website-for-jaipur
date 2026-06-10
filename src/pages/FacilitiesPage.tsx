@@ -9,54 +9,121 @@ import roomImg from "@/assets/facility-room.jpg";
 import waitingImg from "@/assets/facility-waiting.jpg";
 import labImg from "@/assets/facility-lab.jpg";
 import emergencyImg from "@/assets/service-emergency.jpg";
+import heartImg from "@/assets/service-heart.jpg";
+import pathImg from "@/assets/service-pathology.jpg";
+import cathLabImg from "@/assets/facility-cath-lab.png";
+import dialysisImg from "@/assets/facility-dialysis.png";
+import canteenImg from "@/assets/facility-canteen.png";
 
 const facilities = [
   {
+    category: "critical-care",
     img: icuImg,
-    title: "Intensive Care Unit (ICU/CCU/NICU)",
-    desc: "Fully equipped ICU, CCU, and NICU with advanced ventilators, multi-parameter monitors, and 24/7 critical care specialists ensuring round-the-clock intensive patient monitoring.",
+    title: "MICU (Medical Intensive Care Unit)",
+    desc: "A fully integrated Medical Intensive Care Unit (MICU) dedicated to managing acute critical illnesses, severe respiratory disorders, multi-organ dysfunction, and metabolic emergencies under continuous intensivist supervision.",
     icon: Heart,
-    features: ["24/7 Monitoring", "Advanced Ventilators", "Cardiac Monitors", "Isolation Beds"],
+    features: ["Advanced Ventilator Therapy", "Continuous Multichannel Monitoring", "Dedicated ICU Specialists 24/7", "Bedside Hemodialysis Access"],
   },
   {
+    category: "critical-care",
+    img: heartImg,
+    title: "CCU (Cardiac Care Unit)",
+    desc: "Specialized Coronary Care Unit configured for real-time telemetry, acute cardiac emergency responses, heart failures, acute coronary syndromes, and critical cardiac event recoveries.",
+    icon: Heart,
+    features: ["Continuous Telemetry Monitoring", "Emergency Defibrillators & Pacers", "Thrombolytic Therapy Services", "Cardiac ICU Trained Nursing staff"],
+  },
+  {
+    category: "critical-care",
+    img: icuImg,
+    title: "CRR (Cardiac Thoracic Recovery Room)",
+    desc: "High-dependency recovery suite specializing in the safe transition and intensive therapeutic management of post-operative cardiac and thoracic surgical patients.",
+    icon: Shield,
+    features: ["Post-Surgical Triage Support", "Hemodynamic Invasive Care", "Vasoactive Drug Infusion Management", "Immediate Specialist Cover"],
+  },
+  {
+    category: "surgical",
+    img: cathLabImg,
+    title: "Cath Lab (Cardiac Catheterization)",
+    desc: "Advanced intervention suite equipped with high-definition digital angiography systems, enabling precise coronary angioplasty, diagnostic catheterizations, stenting, and pacemaker implants.",
+    icon: Shield,
+    features: ["Coronary Angiography", "Primary & Complex Angioplasty", "Pacemaker System Implants", "Digital Flat Panel Angiography"],
+  },
+  {
+    category: "surgical",
     img: otImg,
     title: "Modular Operation Theatres",
-    desc: "State-of-the-art modular OTs with HEPA filtration, laminar airflow, and advanced surgical instruments for orthopaedic, cardiac, general, laparoscopic, and gynaecological surgeries.",
+    desc: "State-of-the-art modular OTs designed with clinical-grade HEPA filters, laminar airflows, and high-tech surgical pendants to maximize sterility and support advanced orthopaedic, neuro, and general procedures.",
     icon: Syringe,
-    features: ["HEPA Filtration", "Laminar Airflow", "C-Arm Imaging", "Laparoscopic Setup"],
+    features: ["HEPA Filtration & Sterility Control", "Laminar Airflow Control System", "High-Resolution C-Arm Imaging", "Specialized Laparoscopic Towers"],
   },
   {
-    img: roomImg,
-    title: "Patient Rooms & Suites",
-    desc: "Comfortable private and semi-private rooms with attached bathrooms, nurse call systems, AC, and attendant facilities — designed for a restful recovery experience.",
-    icon: Bed,
-    features: ["AC Rooms", "Nurse Call System", "Attached Bathroom", "Attendant Area"],
+    category: "critical-care",
+    img: dialysisImg,
+    title: "Dialysis Unit",
+    desc: "A dedicated dialysis center offering advanced hemodialysis therapies under direct nephrologist supervision, utilizing modern sterilization and treatment equipment.",
+    icon: Thermometer,
+    features: ["High-Efficiency Hemodialysis", "Nephrologist-Led Cover", "Patient Comfort Recliners", "Sterilization & Cross-Infection Controls"],
   },
   {
+    category: "diagnostics",
+    img: pathImg,
+    title: "Pathology Laboratory",
+    desc: "NABL-calibrated fully automated laboratory providing round-the-clock testing across clinical biochemistry, hematology, serology, and microbiology disciplines.",
+    icon: Microscope,
+    features: ["NABL Quality Protocols", "Automated Clinical Analyzers", "Rapid Report Turnarounds", "24/7 Specimen Counter"],
+  },
+  {
+    category: "diagnostics",
+    img: labImg,
+    title: "Radiology & Imaging Services",
+    desc: "Comprehensive diagnostic imaging division offering high-resolution CT scans, digital X-rays, multi-dimensional ultrasound, and color Doppler scanning services.",
+    icon: Microscope,
+    features: ["Multi-slice CT Scan Integration", "Low-Radiation Digital X-Rays", "Ultrasound & Color Doppler", "Certified Radiologist Reporting"],
+  },
+  {
+    category: "amenities",
     img: waitingImg,
     title: "Reception & Waiting Area",
-    desc: "Spacious, well-lit reception and waiting areas with comfortable seating, digital displays, and dedicated help desks for smooth patient navigation.",
+    desc: "Spacious, comfortable, and well-organized reception lobby with welcoming lounges, registration desks, digital token displays, and help desk assistants.",
     icon: Building2,
-    features: ["Wheelchair Access", "Digital Displays", "Help Desk", "Cafeteria Access"],
+    features: ["Help Desk Guidance", "Digital Token Navigation System", "Spacious Lounge Seating", "Wheelchair-Accessible Layout"],
   },
   {
-    img: labImg,
-    title: "Diagnostics & Pathology Lab",
-    desc: "NABL-accredited diagnostics laboratory equipped with MRI, CT Scan, Digital X-Ray, Ultrasound, and comprehensive pathology services for accurate and rapid diagnosis.",
-    icon: Microscope,
-    features: ["MRI & CT Scan", "Digital X-Ray", "Ultrasound", "Pathology Lab"],
+    category: "amenities",
+    img: canteenImg,
+    title: "In-house Canteen",
+    desc: "Hygienic and strictly audited food cafeteria delivering balanced, doctor-approved therapeutic meal plans for patients and clean, nutritious options for family attendants.",
+    icon: Building2,
+    features: ["Therapeutic Patient Meal Plans", "Nutritional Audit & Cleanness", "Patient Meal Tray Distribution", "Attendant & Visitor Cafeteria"],
   },
   {
+    category: "amenities",
+    img: roomImg,
+    title: "Patient Rooms & Suites",
+    desc: "Comfortable recovery settings including premium private suites, semi-private rooms, and general wards, all fitted with patient-nurse call networks and climate control.",
+    icon: Bed,
+    features: ["Deluxe Private AC Suites", "Nurse Call Response Network", "Attendant Bedding Accommodations", "Clean En-Suite Washrooms"],
+  },
+  {
+    category: "amenities",
     img: emergencyImg,
-    title: "24/7 Emergency & Ambulance",
-    desc: "Round-the-clock emergency department with rapid triage, trauma care, advanced life support ambulances, and dedicated emergency physicians for immediate critical care.",
+    title: "24/7 Emergency & Trauma Care",
+    desc: "Fully equipped emergency department prepared for rapid triage, cardiac resuscitations, trauma care, and backed by a 24/7 fleet of Advanced Life Support (ALS) ambulances.",
     icon: Ambulance,
-    features: ["24/7 Availability", "Trauma Care", "ALS Ambulance", "Rapid Triage"],
+    features: ["Trauma Resuscitation Bays", "Advanced Life Support Fleet", "Board-Certified Trauma Physicians", "24/7 Dispatch Coordination"],
   },
 ];
 
+const categories = [
+  { id: "all", label: "All Facilities" },
+  { id: "critical-care", label: "Critical Care & ICU" },
+  { id: "surgical", label: "Surgical & Intervention" },
+  { id: "diagnostics", label: "Diagnostics & Labs" },
+  { id: "amenities", label: "Patient Care & Amenities" },
+];
+
 const highlights = [
-  { icon: Bed, label: "100+ Beds", desc: "Multi-speciality capacity" },
+  { icon: Bed, label: "150+ Beds", desc: "Multi-speciality capacity" },
   { icon: Shield, label: "NABH Standards", desc: "Quality accredited care" },
   { icon: Clock, label: "24/7 Emergency", desc: "Round the clock services" },
   { icon: Wifi, label: "Digital Records", desc: "EMR & paperless workflow" },
@@ -66,8 +133,13 @@ const highlights = [
   { icon: Microscope, label: "In-House Lab", desc: "Advanced diagnostics" },
 ];
 
+
 const FacilitiesPage = () => {
-  const [activeFacility, setActiveFacility] = useState(0);
+  const [selectedCategory, setSelectedCategory] = useState("all");
+
+  const filteredFacilities = selectedCategory === "all"
+    ? facilities
+    : facilities.filter((f) => f.category === selectedCategory);
 
   return (
     <div className="min-h-screen bg-background font-sans">
@@ -110,17 +182,34 @@ const FacilitiesPage = () => {
         {/* Facilities Detail */}
         <section className="section-padding bg-surface">
           <div className="container-width">
-            <div className="text-center mb-12">
+            <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
                 Explore Our Infrastructure
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
+              <p className="text-muted-foreground max-w-xl mx-auto mb-8">
                 Every facility is built with the latest medical technology, designed for patient safety and comfort.
               </p>
             </div>
 
+            {/* Category Tabs */}
+            <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-12">
+              {categories.map((cat) => (
+                <button
+                  key={cat.id}
+                  onClick={() => setSelectedCategory(cat.id)}
+                  className={`px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 ${
+                    selectedCategory === cat.id
+                      ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20 scale-105"
+                      : "bg-card text-muted-foreground border border-border hover:border-primary hover:text-primary"
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
+
             <div className="space-y-8">
-              {facilities.map((facility, idx) => {
+              {filteredFacilities.map((facility, idx) => {
                 const FIcon = facility.icon;
                 const isEven = idx % 2 === 0;
                 return (
@@ -151,7 +240,7 @@ const FacilitiesPage = () => {
                         <h3 className="font-display font-bold text-xl text-foreground">{facility.title}</h3>
                       </div>
                       <p className="text-muted-foreground leading-relaxed mb-6">{facility.desc}</p>
-                      <div className="grid grid-cols-2 gap-2">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {facility.features.map((f) => (
                           <div key={f} className="flex items-center gap-2 text-sm text-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
@@ -178,9 +267,7 @@ const FacilitiesPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/919257029901?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/book-appointment"
                 className="bg-gradient-primary text-primary-foreground font-semibold rounded-full px-8 py-3 hover:opacity-90 transition-opacity"
               >
                 Book Appointment

@@ -364,7 +364,7 @@ const Regulation46and62Page = () => {
                   </p>
                   <p className="flex items-center gap-2">
                     <Mail className="w-4 h-4 text-primary" />
-                    <span>sharmaeastindia@gmail.com</span>
+                    <span>Jaipurhospitallalkothi@gmail.com</span>
                   </p>
                   <p className="flex items-center gap-2">
                     <Globe className="w-4 h-4 text-primary" />

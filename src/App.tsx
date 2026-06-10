@@ -37,6 +37,11 @@ const EmpanelmentsPage = lazy(() => import("./pages/EmpanelmentsPage"));
 const NoticeOfAGMPage = lazy(() => import("./pages/NoticeOfAGMPage"));
 const NoticeOfBookClosurePage = lazy(() => import("./pages/NoticeOfBookClosurePage"));
 const NoticeOfPostalBallotPage = lazy(() => import("./pages/NoticeOfPostalBallotPage"));
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
+const TermsOfUsePage = lazy(() => import("./pages/TermsOfUsePage"));
+const BookAppointmentPage = lazy(() => import("./pages/BookAppointmentPage"));
+const HealthPackagesPage = lazy(() => import("./pages/HealthPackagesPage"));
+const TestimonialsPage = lazy(() => import("./pages/TestimonialsPage"));
 
 import { HelmetProvider } from 'react-helmet-async';
 import ScrollToTop from "./components/ScrollToTop";
@@ -101,6 +106,11 @@ const App = () => (
                 <Route key={path} path={path} element={wrapWithSEO(element, seo)} />
               ))}
               <Route path="/about" element={<AboutPage />} />
+              <Route path="/privacy-policy" element={wrapWithSEO(<PrivacyPolicyPage />, { title: "Privacy Policy", description: "Learn about privacy policy and data security standards at Jaipur Hospital.", canonical: "/privacy-policy" })} />
+              <Route path="/terms-of-use" element={wrapWithSEO(<TermsOfUsePage />, { title: "Terms of Use", description: "Read the website and service terms of use for Jaipur Hospital.", canonical: "/terms-of-use" })} />
+              <Route path="/book-appointment" element={wrapWithSEO(<BookAppointmentPage />, { title: "Book Appointment | Jaipur Hospital", description: "Book an appointment online or contact our patient coordinator desk directly.", canonical: "/book-appointment" })} />
+              <Route path="/health-packages" element={wrapWithSEO(<HealthPackagesPage />, { title: "Health Checkup Packages | Jaipur Hospital", description: "Select from our range of affordable preventive checkup packages in Jaipur.", canonical: "/health-packages" })} />
+              <Route path="/testimonials" element={wrapWithSEO(<TestimonialsPage />, { title: "Patient Testimonials | Jaipur Hospital", description: "Explore reviews and stories of recovery shared by our patients.", canonical: "/testimonials" })} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

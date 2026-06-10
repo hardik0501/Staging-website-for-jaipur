@@ -47,7 +47,7 @@ export const HOSPITAL_CONTACT = {
   phones: ["0141-2741465", "0141-2742619", "0141-2742577", "0141-2742266", "+91 92570 29901"],
   primaryPhone: "0141-2741465",
   whatsapp: "919257029901",
-  email: "sharmaeastindia@gmail.com",
+  email: "Jaipurhospitallalkothi@gmail.com",
   opdTimings: "9:00 AM – 8:00 PM",
   emergencyTimings: "24/7",
   mapQuery: "Jaipur+Hospital+Lal+Kothi+Tonk+Road+Jaipur",

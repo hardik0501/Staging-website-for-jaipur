@@ -11,17 +11,17 @@ const footerLinks: Record<string, { label: string; href: string }[]> = {
     { label: "Facilities", href: "/facilities" },
   ],
   "Patient Care": [
-    { label: "Book Appointment", href: "/#appointment" },
-    { label: "Empanelment", href: "/#empanelment" },
-    { label: "Health Packages", href: "/#packages" },
-    { label: "Testimonials", href: "/#testimonials" },
+    { label: "Book Appointment", href: "/book-appointment" },
+    { label: "Empanelment", href: "/empanelments" },
+    { label: "Health Packages", href: "/health-packages" },
+    { label: "Testimonials", href: "/testimonials" },
     { label: "Contact", href: "/contact" },
   ],
   "Hospital": [
     { label: "Career", href: "/contact" },
     { label: "Contact Us", href: "/contact" },
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Use", href: "#" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Use", href: "/terms-of-use" },
   ],
 };
 
@@ -34,7 +34,7 @@ const ContactFooter = () => {
           {/* Contact Info */}
           <div>
             {/* Logo */}
-            <div className="flex items-center mb-8">
+            <div className="flex items-center mb-6">
               <img
                 src={logoJH}
                 alt="Jaipur Hospital - we care for life"
@@ -42,45 +42,48 @@ const ContactFooter = () => {
               />
             </div>
 
-            <p className="text-navy-foreground/60 text-sm mb-8 leading-relaxed max-w-md">
-              Jaipur Hospital is a trusted multispeciality hospital providing advanced healthcare with compassion, 
-              expertise and cutting-edge technology to the people of Rajasthan since 2004.
+            <h3 className="font-display font-bold text-white text-base md:text-lg mb-3">
+              Jaipur Hospital — Trusted Multispeciality Care in Jaipur Since 2004
+            </h3>
+            <p className="text-navy-foreground/60 text-sm mb-8 leading-relaxed">
+              Jaipur Hospital is one of the best multispeciality hospitals in Jaipur, providing advanced healthcare with compassion, expertise, and cutting-edge technology to the people of Rajasthan. We are committed to making quality care accessible, affordable, and available to everyone who walks through our doors.
             </p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary-glow flex-shrink-0 mt-0.5" />
                 <span className="text-navy-foreground/80 text-sm">
-                  {HOSPITAL_CONTACT.address}
+                  Address: Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015, Rajasthan
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <Phone size={18} className="text-primary-glow flex-shrink-0 mt-0.5" />
                 <div className="text-navy-foreground/80 text-sm space-y-0.5">
-                  {HOSPITAL_CONTACT.phones.map((ph) => (
-                    <a key={ph} href={`tel:${ph.replace(/[^+\d]/g, "")}`} className="hover:text-primary-glow transition-colors block">
-                      {ph}
-                    </a>
-                  ))}
+                  <a href="tel:01412741465" className="hover:text-primary-glow transition-colors block">
+                    Phone: 0141-2741465
+                  </a>
+                  <a href="tel:+919257029901" className="hover:text-primary-glow transition-colors block">
+                    Mobile: +91 92570 29901
+                  </a>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-primary-glow flex-shrink-0" />
-                <a href={`mailto:${HOSPITAL_CONTACT.email}`} className="text-navy-foreground/80 text-sm hover:text-primary-glow transition-colors">
-                  {HOSPITAL_CONTACT.email}
+                <a href={`mailto:Jaipurhospitallalkothi@gmail.com`} className="text-navy-foreground/80 text-sm hover:text-primary-glow transition-colors">
+                  Email: Jaipurhospitallalkothi@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Clock size={18} className="text-primary-glow flex-shrink-0" />
-                <span className="text-navy-foreground/80 text-sm">OPD: {HOSPITAL_CONTACT.opdTimings} · Emergency: {HOSPITAL_CONTACT.emergencyTimings}</span>
+                <span className="text-navy-foreground/80 text-sm">OPD: 9:00 AM to 8:00 PM | Emergency: 24/7</span>
               </div>
             </div>
 
             {/* Social */}
             <div className="flex gap-3">
               {[
-                { Icon: Facebook, href: "https://www.facebook.com/jh.jaipurhospital/" },
-                { Icon: Instagram, href: "https://www.instagram.com/jaipur_hospital_lalkothi" },
+                { Icon: Facebook, href: "https://www.facebook.com/jaipurhospital" },
+                { Icon: Instagram, href: "https://www.instagram.com/jaipurhospital" },
                 { Icon: Youtube, href: "#" },
                 { Icon: Twitter, href: "#" },
               ].map(({ Icon, href }, idx) => (
@@ -97,18 +100,30 @@ const ContactFooter = () => {
             </div>
           </div>
 
-          {/* Map */}
-          <div className="rounded-2xl overflow-hidden border border-navy-foreground/10 h-72 lg:h-auto min-h-64">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.347356439285!2d75.80222627502319!3d26.892469076659104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db420e65e5acb%3A0x2b5b8e5dec74b037!2sJaipur%20Hospital-%20Best%20hospital%20in%20Lal%20kothi%20Jaipur%20%7C%20Multispeciality%20hospital%20in%20Jaipur!5e0!3m2!1sen!2sin!4v1773386283154!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Jaipur Hospital Location"
-            />
+          {/* Emergency & Operations Card */}
+          <div className="bg-navy-foreground/5 border border-navy-foreground/10 rounded-2xl p-6 md:p-8 flex flex-col justify-between shadow-inner">
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-display font-bold text-white text-base mb-2">24/7 Critical & Emergency Care</h4>
+                <p className="text-navy-foreground/60 text-sm leading-relaxed">
+                  Our emergency room, ICU, NICU, and ambulance services remain fully operational 24 hours a day, 365 days a year, with on-duty specialists ready to deliver emergency care.
+                </p>
+              </div>
+              <div className="space-y-3 pt-4 border-t border-navy-foreground/10">
+                <div className="flex justify-between items-center text-sm">
+                  <span className="text-navy-foreground/50">Emergency Helpline:</span>
+                  <a href="tel:+919257029901" className="text-primary-glow font-bold hover:underline">+91 92570 29901</a>
+                </div>
+                <div className="flex justify-between items-center text-sm">
+                  <span className="text-navy-foreground/50">Landline:</span>
+                  <a href="tel:01412741465" className="text-navy-foreground/80 font-medium hover:text-primary-glow">0141-2741465</a>
+                </div>
+                <div className="flex justify-between items-center text-sm">
+                  <span className="text-navy-foreground/50">OPD Timings:</span>
+                  <span className="text-navy-foreground/80 font-medium">9:00 AM – 8:00 PM</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
