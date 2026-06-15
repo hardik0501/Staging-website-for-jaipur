@@ -68,7 +68,7 @@ const FacilitiesGallery = () => {
         </div>
 
         {/* Main Image */}
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-6" style={{ height: "420px" }}>
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-6 h-64 sm:h-[420px]">
           <img
             src={facilities[active].img}
             alt={facilities[active].alt}

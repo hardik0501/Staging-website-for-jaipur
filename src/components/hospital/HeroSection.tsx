@@ -1,4 +1,4 @@
-import { Calendar, Phone, MessageCircle, ShieldCheck, Clock, Stethoscope } from "lucide-react";
+import { Phone, MessageCircle, ShieldCheck, Clock, Stethoscope } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -17,15 +17,15 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container-width text-center pt-32 pb-20">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-6 animate-fade-up">
-          <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-          <span className="text-primary-foreground text-sm font-medium">
+        <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-6 animate-fade-up max-w-[90vw] sm:max-w-none">
+          <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse flex-shrink-0" />
+          <span className="text-primary-foreground text-xs sm:text-sm font-medium truncate sm:whitespace-normal">
             Trusted Healthcare Since 2004 · Lal Kothi, Jaipur, Rajasthan
           </span>
         </div>
 
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground mb-6 leading-tight animate-fade-up"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground mb-6 leading-tight animate-fade-up"
           style={{ animationDelay: "0.1s" }}
         >
           Best Multispeciality
@@ -45,13 +45,6 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14 animate-fade-up"
           style={{ animationDelay: "0.3s" }}
         >
-          <a
-            href="#appointment"
-            className="flex items-center justify-center gap-2 bg-primary-foreground text-primary font-bold rounded-full px-8 py-4 text-base shadow-lg-blue hover:scale-105 transition-transform w-full sm:w-auto"
-          >
-            <Calendar size={18} />
-            Book Appointment
-          </a>
           <a
             href="tel:+919257029901"
             className="flex items-center justify-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-8 py-4 text-base hover:bg-primary-foreground/25 transition-colors w-full sm:w-auto"

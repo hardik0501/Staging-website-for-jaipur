@@ -6,7 +6,19 @@ import { doctors, DOCTOR_DEPARTMENTS } from "@/data/hospitalData";
 const DoctorsSection = () => {
   const [selected, setSelected] = useState("All Departments");
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const filtered =
     selected === "All Departments"
@@ -16,7 +28,7 @@ const DoctorsSection = () => {
   // Simple auto-scrolling marquee-style slider for doctor cards
   useEffect(() => {
     const container = scrollRef.current;
-    if (!container || filtered.length === 0) return;
+    if (!container || filtered.length === 0 || isPaused) return;
 
     let frameId: number;
     const speed = 0.5; // pixels per frame
@@ -32,7 +44,7 @@ const DoctorsSection = () => {
 
     frameId = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(frameId);
-  }, [filtered.length]);
+  }, [filtered.length, isPaused]);
 
   return (
     <section id="doctors" className="section-padding bg-surface">
@@ -52,7 +64,7 @@ const DoctorsSection = () => {
           </div>
 
           {/* Department filter */}
-          <div className="relative">
+          <div className="relative" ref={dropdownRef}>
             <button
               className="flex items-center gap-2 bg-card border border-border rounded-xl px-4 py-2.5 text-sm font-medium text-foreground shadow-sm hover:border-primary transition-colors"
               onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -85,9 +97,13 @@ const DoctorsSection = () => {
       {/* Doctor Cards - auto sliding horizontally, full width */}
       <div
         ref={scrollRef}
-        className="relative overflow-hidden mt-4"
+        className="relative overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden mt-4 cursor-grab active:cursor-grabbing"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+        onTouchStart={() => setIsPaused(true)}
+        onTouchEnd={() => setIsPaused(false)}
       >
-        <div className="flex gap-5 py-2 px-4 md:px-8 lg:px-16">
+        <div className="flex gap-5 py-2 px-4 md:px-8 lg:px-16 w-max">
           {filtered.concat(filtered).map((doc, index) => (
             <Link
               to={`/doctors/${doc.id}`}

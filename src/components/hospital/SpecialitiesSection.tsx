@@ -34,21 +34,21 @@ const SpecialitiesSection = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
           {specialities.map((spec, idx) => (
             <Link
               key={spec.name}
               to={`/services/${spec.id}`}
-              className="group flex flex-col items-center text-center p-5 bg-card rounded-2xl border border-border shadow-card card-hover cursor-pointer"
+              className="group flex flex-col items-center text-center p-3.5 sm:p-5 bg-card rounded-2xl border border-border shadow-card card-hover cursor-pointer"
               style={{ animationDelay: `${idx * 0.05}s` }}
             >
               <div
-                className={`w-14 h-14 rounded-2xl ${spec.bg} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
+                className={`w-11 h-11 sm:w-14 sm:h-14 rounded-2xl ${spec.bg} flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform`}
               >
-                <spec.icon size={26} className={spec.color} />
+                <spec.icon className={`w-5 h-5 sm:w-6 sm:h-6 ${spec.color}`} />
               </div>
-              <div className="font-semibold text-foreground text-sm mb-1 leading-snug">{spec.name}</div>
-              <div className="text-muted-foreground text-xs leading-relaxed">{spec.desc}</div>
+              <div className="font-semibold text-foreground text-xs sm:text-sm mb-1 leading-snug">{spec.name}</div>
+              <div className="text-muted-foreground text-[10px] sm:text-xs leading-relaxed line-clamp-2">{spec.desc}</div>
             </Link>
           ))}
         </div>

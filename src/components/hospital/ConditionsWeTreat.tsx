@@ -33,7 +33,7 @@ const ConditionsWeTreat = () => {
         </div>
 
         {/* Condition Grid */}
-        <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
           {conditions.map((item, idx) => (
             <div
               key={idx}
