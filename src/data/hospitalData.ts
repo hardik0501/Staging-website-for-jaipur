@@ -410,9 +410,85 @@ export const specialities: Speciality[] = [
     treatments: ["Total Knee Replacement", "Total Hip Replacement", "Arthroscopic Surgery", "Spine Surgery", "Fracture Management", "Sports Injury Treatment"],
     doctorIds: ["dr-shailendra-sharma", "dr-pramod-kumar-jain", "dr-karan-sharma", "dr-rajiv-sharma", "dr-rohit-kumar-goyal"],
     img: icuImg,
-    metaTitle: "Best Orthopedic Hospital in Jaipur | Jaipur Hospital",
-    metaDescription: "Trusted orthopedic hospital in Jaipur offering joint replacement, fracture care & sports injury treatment. 20+ years of expert bone care. Book now: 0141-2741465",
-    htmlContent: "<p>When joint pain is not going away on its own, it’s time to visit the <strong>best orthopedic hospital in Jaipur</strong>. You might have a sports injury, or be facing the pain because of ageing, whatever the reason is, a good <strong>orthopedic specialist in Jaipur</strong> helps you with your condition on an immediate basis. Jaipur Hospital is known for having the top orthopedic teams in Rajasthan, and this team focuses on getting the patients back on their feet as soon as possible.</p><h2>Why People Come to Us for Orthopedic Care</h2><p>Families living in Jaipur or nearby areas come to Jaipur Hospital because they know about the service we have been providing for the last 20 years. If you or someone from your family needs a <strong>bone specialist in Jaipur</strong>, just come to us.</p><p>We offer our service to everyone regardles off their age. It could be anyone, such as:</p><ul><li>A young athlete who is dealing with ligament damage</li><li>An older adult who needs <strong>joint replacement surgery</strong>.</li></ul><p>We always start with non-surgical options and suggest an operation when it is clearly needed and when it will bring a real improvement to the patient's daily life.</p><h2>Conditions We Treat</h2><p>Our orthopedic department at Jaipur Hospital manages many different bone, joint, and muscle conditions, including:</p><ul><li>Knee and hip arthritis</li><li>Ligament tears and sports injuries</li><li>Fractures and trauma-related injuries</li><li>Spinal disorders, including slip disc and spondylitis</li><li>Shoulder injuries and rotator cuff problems</li><li>Foot and ankle conditions</li><li>Bone infections and tumours</li><li>Osteoporosis-related complications</li></ul><p>Jaipur Hospital is undoubtedly the best choice if you are looking to get in touch with an <strong>orthopedic doctor in Jaipur</strong> who is well-experienced to handle cases from basic to complex.</p><h2>Joint Replacement Surgery in Jaipur</h2><p>Joint replacement counts as one of the biggest advances in orthopedic treatment. Once a joint gets so worn out that simple moves like walking, going up stairs, or rising from a seat cause real pain, this surgery can bring back normal movement and greatly improve quality of life.</p><p>At Jaipur Hospital, we carry out:</p><h3>Knee Replacement Surgery</h3><p>Knee replacement stands as the most frequent joint replacement we do. Whether the patient needs a partial knee replacement or a total knee replacement, our surgeons work with modern implants built to hold up well and feel comfortable. People who visit us as a <strong>knee replacement hospital in Jaipur</strong> often say they notice much better movement just a few months after the procedure.</p><h3>Hip Replacement Surgery</h3><p>Arthritis or broken bones in the hip area can cut down your ability to get around. Our hip replacement methods rely on minimally invasive approaches when suitable so patients recover faster and feel less pain afterward.</p><h3>Shoulder Replacement</h3><p>Patients facing serious shoulder arthritis or tough fractures can benefit from shoulder joint replacement, another field where our team has solid experience.</p><p>Our <strong>joint replacement surgery in Jaipur</strong> programme covers pre-surgery guidance, thorough scans and assessment, the operation with imported implants, plus a clear physiotherapy-based recovery schedule.</p><h2>Our Orthopedic Team and Infrastructure</h2><p>Jaipur Hospital earns its name as an <strong>orthopedic hospital in Jaipur</strong> thanks to strong doctors and solid facilities. Our orthopedic unit comes prepared with:</p><ul><li>Modular operation theatres with HEPA filtration for infection control</li><li>Digital X-ray and MRI for precise diagnosis</li><li>In-house physiotherapy and post-surgery rehabilitation</li><li>ICU support for complex surgical cases</li></ul><p>Our team consists of specialists who have trained at well-known centers around India. They have handled standard orthopedic work along with follow-up surgeries for patients whose first procedures did not work out as hoped.</p><h2>Cashless Treatment and Insurance</h2><p>Being listed under Ayushman Bharat, CGHS, and ECHS means we provide cashless orthopedic care, including joint replacement surgeries, for those who qualify. This helps many households that feel stressed about surgery expenses.</p><p>If your coverage falls under these programs or comes through a TPA-linked insurance plan, our patient coordinator team will explain the steps and handle the forms so you can put all your energy into recovery.</p><h2>When Should You See an Orthopedic Doctor?</h2><p>A lot of people wait too long before going to an <strong>orthopedic hospital in Jaipur</strong>, hoping the discomfort will fade by itself. Getting checked early usually means easier options that do not need major procedures. You should talk to an orthopedic specialist when you notice:</p><ul><li>Joint or bone pain that has lasted more than a few weeks</li><li>Swelling, stiffness, or reduced range of motion in any joint</li><li>Difficulty walking, standing, or doing routine tasks</li><li>A history of fractures or injuries that did not heal properly</li><li>Signs of bone deformity or limb length difference</li></ul><h2>Book an Orthopedic Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency orthopedic support is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Bone and joint health is a specialist concern. Come and visit your trusted <strong>orthopedic hospital in Jaipur</strong> at Jaipur Hospital.</p>",
+    metaTitle: "Orthopedic & Joint Replacement Surgery in Jaipur | Jaipur Hospital",
+    metaDescription: "Expert orthopedic doctors in Jaipur for knee, hip & shoulder replacement, fracture care & sports injuries. Cashless treatment available. Book now!",
+    htmlContent: `<h1>Orthopedic Surgery and Joint Replacement in Jaipur | Jaipur Hospital</h1>
+
+<h2>Why People Come to Us for Orthopedic Care</h2>
+<p>Families living in Jaipur or nearby areas come to Jaipur Hospital because they know about the service we have been providing for the last 20 years. If you or someone from your family needs a bone specialist in Jaipur, just come to us.</p>
+
+<p>We offer our service to everyone regardles off their age. It could be anyone, such as:</p>
+<ul>
+  <li>A young athlete who is dealing with ligament damage</li>
+  <li>An older adult who needs joint replacement surgery.</li>
+</ul>
+
+<p>We always start with non-surgical options and suggest an operation when it is clearly needed and when it will bring a real improvement to the patient's daily life.</p>
+
+<h2>Conditions We Treat</h2>
+<p>Our orthopedic department at Jaipur Hospital manages many different bone, joint, and muscle conditions, including:</p>
+<ul>
+  <li>Knee and hip arthritis</li>
+  <li>Ligament tears and sports injuries</li>
+  <li>Fractures and trauma-related injuries</li>
+  <li>Spinal disorders, including slip disc and spondylitis</li>
+  <li>Shoulder injuries and rotator cuff problems</li>
+  <li>Foot and ankle conditions</li>
+  <li>Bone infections and tumours</li>
+  <li>Osteoporosis-related complications</li>
+</ul>
+
+<p>Jaipur Hospital is undoubtedly the best choice if you are looking to get in touch with an orthopedic doctor in Jaipur who is well-experienced to handle cases from basic to complex.</p>
+
+<h2>Joint Replacement Surgery in Jaipur</h2>
+<p>Joint replacement counts as one of the biggest advances in orthopedic treatment. Once a joint gets so worn out that simple moves like walking, going up stairs, or rising from a seat cause real pain, this surgery can bring back normal movement and greatly improve quality of life.</p>
+
+<p>At Jaipur Hospital, we carry out:</p>
+
+<h3>Knee Replacement Surgery</h3>
+<p>Knee replacement stands as the most frequent joint replacement we do. Whether the patient needs a partial knee replacement or a total knee replacement, our surgeons work with modern implants built to hold up well and feel comfortable. People who visit us as a knee replacement hospital in Jaipur often say they notice much better movement just a few months after the procedure.</p>
+
+<h3>Hip Replacement Surgery</h3>
+<p>Arthritis or broken bones in the hip area can cut down your ability to get around. Our hip replacement methods rely on minimally invasive approaches when suitable so patients recover faster and feel less pain afterward.</p>
+
+<h3>Shoulder Replacement</h3>
+<p>Patients facing serious shoulder arthritis or tough fractures can benefit from shoulder joint replacement, another field where our team has solid experience.</p>
+
+<p>Our joint replacement surgery in Jaipur programme covers pre-surgery guidance, thorough scans and assessment, the operation with imported implants, plus a clear physiotherapy-based recovery schedule.</p>
+
+<h2>Our Orthopedic Team and Infrastructure</h2>
+<p>Jaipur Hospital earns its name as an orthopedic hospital in Jaipur thanks to strong doctors and solid facilities. Our orthopedic unit comes prepared with:</p>
+<ul>
+  <li>Modular operation theatres with HEPA filtration for infection control</li>
+  <li>Digital X-ray and MRI for precise diagnosis</li>
+  <li>In-house physiotherapy and post-surgery rehabilitation</li>
+  <li>ICU support for complex surgical cases</li>
+</ul>
+
+<p>Our team consists of specialists who have trained at well-known centers around India. They have handled standard orthopedic work along with follow-up surgeries for patients whose first procedures did not work out as hoped.</p>
+
+<h2>Cashless Treatment and Insurance</h2>
+<p>Being listed under Ayushman Bharat, CGHS, and ECHS means we provide cashless orthopedic care, including joint replacement surgeries, for those who qualify. This helps many households that feel stressed about surgery expenses.</p>
+
+<p>If your coverage falls under these programs or comes through a TPA-linked insurance plan, our patient coordinator team will explain the steps and handle the forms so you can put all your energy into recovery.</p>
+
+<h2>When Should You See an Orthopedic Doctor?</h2>
+<p>A lot of people wait too long before going to an orthopedic hospital in Jaipur, hoping the discomfort will fade by itself. Getting checked early usually means easier options that do not need major procedures. You should talk to an orthopedic specialist when you notice:</p>
+<ul>
+  <li>Joint or bone pain that has lasted more than a few weeks</li>
+  <li>Swelling, stiffness, or reduced range of motion in any joint</li>
+  <li>Difficulty walking, standing, or doing routine tasks</li>
+  <li>A history of fractures or injuries that did not heal properly</li>
+  <li>Signs of bone deformity or limb length difference</li>
+</ul>
+
+<h2>Book Your Appointment</h2>
+<p>Jaipur Hospital OPD is open from 9 AM to 8 PM, Monday to Saturday. For emergencies, our ortho team is available around the clock.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/>
+<strong>Call Us:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Do not let joint pain limit your life. Reach out to our bone specialist in Jaipur today and take the first step toward a more active, pain-free life.</p>`,
   },
   {
     id: "cardiology",
@@ -425,9 +501,94 @@ export const specialities: Speciality[] = [
     treatments: ["Coronary Angiography & Angioplasty", "Pacemaker Implantation", "2D Echo & Stress Test", "Cardiac Rehabilitation", "Heart Failure Management", "Holter Monitoring"],
     doctorIds: ["dr-deepak-kumar", "dr-bhavesh-meel", "dr-ram-singh-yadav"],
     img: heartImg,
-    metaTitle: "Best Cardiology Hospital in Jaipur | Jaipur Hospital",
-    metaDescription: "Top cardiology hospital in Jaipur with expert cardiologists, CTVS surgery & 24/7 heart care. Cashless under Ayushman Bharat. Call: 0141-2741465",
-    htmlContent: "<p>Your heart keeps working nonstop, so when anything feels wrong, you need care that is quick and reliable. Jaipur Hospital has served as a leading <strong>heart specialist hospital in Jaipur</strong> since 2004. We bring together full cardiology and cardiothoracic vascular surgery services in one place. Our team stands ready to support you from simple checkups all the way through major heart operations.</p><h2>Cardiology Care You Can Trust</h2><p>Heart disease ranks among the top causes of death in India, and Rajasthan is no different. The positive side is that most heart problems can be handled well when caught early and treated properly. Our cardiology department at Jaipur Hospital has some of the <strong>best cardiologists in Jaipur</strong>. They have years of experience handling all kinds of heart issues.</p><p>Many people search for the <strong>best cardiology doctor in Jaipur</strong> and land here because they want experts who are skilled and also truly care about patients. Our cardiologists explain your condition in plain language, discuss the choices clearly, and let you take part in decisions about your treatment.</p><h2>Heart Conditions We Treat</h2><p>Our <strong>cardiology hospital in Jaipur</strong> has the right tools and know-how to manage conditions such as:</p><ul><li>Coronary artery disease (blocked arteries)</li><li>Heart failure</li><li>Hypertension and related complications</li><li>Arrhythmias (irregular heartbeat)</li><li>Valvular heart disease</li><li>Congenital heart defects</li><li>Peripheral vascular disease</li><li>Post-heart attack care and cardiac rehabilitation</li></ul><p>If you or someone in your family feels chest pain, shortness of breath, fluttering in the chest, or unusual tiredness, do not delay. A prompt check with the <strong>best cardiologist in Jaipur</strong> can stop a small problem from turning serious.</p><h2>Diagnostic Facilities for Heart Care</h2><p>Getting the diagnosis right forms the base for good <strong>heart treatment in Jaipur</strong>. Our own cardiac testing unit offers:</p><ul><li>ECG and Holter Monitoring</li><li>2D Echocardiography</li><li>Stress Test (TMT)</li><li>Digital X-ray and CT Angiography</li><li>Cardiac MRI</li><li>NABL-accredited lab for lipid profiles, cardiac enzyme tests, and more</li></ul><p>All tests happen inside the hospital, so you get results fast, and treatment can start sooner. There is no need to visit different labs outside.</p><h2>CTVS: Cardiothoracic and Vascular Surgery</h2><p>When surgery becomes necessary, our Cardiothoracic and Vascular Surgery team handles tough procedures with skill and attention. CTVS at Jaipur Hospital covers:</p><h3>Bypass Surgery (CABG)</h3><p>Coronary artery bypass grafting is one of the heart surgeries we perform most often. Our surgical team has carried it out successfully for patients of different ages with strong results.</p><h3>Heart Valve Repair and Replacement</h3><p>Valves that are damaged or diseased can usually be fixed or replaced to allow normal blood flow again. Our <strong>best doctor for cardiology in Jaipur</strong> coordinates closely with surgeons to choose the best option for every patient.</p><h3>Aortic Surgeries</h3><p>Problems with the aorta, such as aneurysms or dissections, need expert attention. Our CTVS unit is set up to manage these difficult cases.</p><h3>Peripheral Vascular Surgeries</h3><p>Blockages in vessels away from the heart, especially in the legs, can lead to big troubles. Our vascular surgery team treats them using both open surgery and less invasive methods.</p><h2>Cardiac Care Under Chiranjeevi Yojana and Ayushman Bharat</h2><p>Jaipur Hospital is empanelled under the <strong>Heart Hospital in Jaipur</strong> Chiranjeevi Yojana scheme, Ayushman Bharat, CGHS, and ECHS. Eligible patients can get cashless heart treatment and avoid paying large amounts upfront.</p><p>If you want a <strong>cardiac care hospital in Jaipur</strong> that works with your government scheme or insurance, our team will walk you through the paperwork and approval steps.</p><h2>Why Jaipur Hospital is Trusted for Heart Care</h2><p>A few key points make us stand out as a <strong>heart specialist hospital in Jaipur</strong>:</p><ul><li><strong>Experienced Specialists:</strong> Our cardiologists and cardiac surgeons have many years of practice between them and have been trained at leading medical centers across India.</li><li><strong>Advanced Infrastructure:</strong> We have a well-equipped Cath Lab for procedures, modern operation theatres, and a dedicated Cardiac ICU with round-the-clock monitoring. This setup meets the demands of serious heart cases.</li><li><strong>Round-the-Clock Emergency Care:</strong> Heart problems do not wait for office hours. Our emergency cardiology team stays available 24/7. GPS-equipped ambulances with trained staff can reach patients quickly and bring them safely.</li><li><strong>Patient-First Approach:</strong> We give every cardiac patient a coordinator to keep things smooth from tests and treatment through surgery and recovery. Our staff speaks multiple languages, so people from all over Rajasthan feel at ease and well-informed.</li></ul><h2>Signs You Should Not Ignore</h2><p>Many people brush off early heart warnings, thinking it is just stress or acidity. These symptoms mean you should visit a <strong>heart specialist hospital in Jaipur</strong> straight away:</p><ul><li>Chest pain or tightness, especially during activity</li><li>Shortness of breath with minimal exertion</li><li>Persistent fatigue or weakness</li><li>Palpitations or a racing heart</li><li>Swelling in the ankles or legs</li><li>Dizziness or fainting spells</li></ul><h2>Book a Cardiology Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency cardiology support is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Heart health is a specialist concern. Come and visit your trusted <strong>cardiology hospital in Jaipur</strong> at Jaipur Hospital.</p>",
+    metaTitle: "Best Cardiologist in Jaipur | Heart & CTVS Care | Jaipur Hospital",
+    metaDescription: "Top cardiology hospital in Jaipur offering bypass surgery, angioplasty, valve repair & 24/7 cardiac emergency care. Cashless Ayushman Bharat. Call now!",
+    htmlContent: `<h1>Cardiology and CTVS | Heart Specialist Hospital in Jaipur | Jaipur Hospital</h1>
+
+<h2>Cardiology Care You Can Trust</h2>
+<p>Heart disease ranks among the top causes of death in India, and Rajasthan is no different. The positive side is that most heart problems can be handled well when caught early and treated properly. Our cardiology department at Jaipur Hospital has some of the best cardiologists in Jaipur. They have years of experience handling all kinds of heart issues.</p>
+
+<p>Many people search for the best cardiology doctor in Jaipur and land here because they want experts who are skilled and also truly care about patients. Our cardiologists explain your condition in plain language, discuss the choices clearly, and let you take part in decisions about your treatment.</p>
+
+<h2>Heart Conditions We Treat</h2>
+<p>Our cardiology hospital in Jaipur has the right tools and know-how to manage conditions such as:</p>
+<ul>
+  <li>Coronary artery disease (blocked arteries)</li>
+  <li>Heart failure</li>
+  <li>Hypertension and related complications</li>
+  <li>Arrhythmias (irregular heartbeat)</li>
+  <li>Valvular heart disease</li>
+  <li>Congenital heart defects</li>
+  <li>Peripheral vascular disease</li>
+  <li>Post-heart attack care and cardiac rehabilitation</li>
+</ul>
+
+<p>If you or someone in your family feels chest pain, shortness of breath, fluttering in the chest, or unusual tiredness, do not delay. A prompt check with the best cardiologist in Jaipur can stop a small problem from turning serious.</p>
+
+<h2>Diagnostic Facilities for Heart Care</h2>
+<p>Getting the diagnosis right forms the base for good heart treatment in Jaipur. Our own cardiac testing unit offers:</p>
+<ul>
+  <li>ECG and Holter Monitoring</li>
+  <li>2D Echocardiography</li>
+  <li>Stress Test (TMT)</li>
+  <li>Digital X-ray and CT Angiography</li>
+  <li>Cardiac MRI</li>
+  <li>NABL-accredited lab for lipid profiles, cardiac enzyme tests, and more</li>
+</ul>
+
+<p>All tests happen inside the hospital, so you get results fast, and treatment can start sooner. There is no need to visit different labs outside.</p>
+
+<h2>CTVS: Cardiothoracic and Vascular Surgery</h2>
+
+<h3>Bypass Surgery (CABG)</h3>
+<p>Coronary artery bypass grafting is one of the heart surgeries we perform most often. Our surgical team has carried it out successfully for patients of different ages with strong results.</p>
+
+<h3>Heart Valve Repair and Replacement</h3>
+<p>Valves that are damaged or diseased can usually be fixed or replaced to allow normal blood flow again. Our best doctor for cardiology in Jaipur coordinates closely with surgeons to choose the best option for every patient.</p>
+
+<h3>Aortic Surgeries</h3>
+<p>Problems with the aorta, such as aneurysms or dissections, need expert attention. Our CTVS unit is set up to manage these difficult cases.</p>
+
+<h3>Peripheral Vascular Surgeries</h3>
+<p>Blockages in vessels away from the heart, especially in the legs, can lead to big troubles. Our vascular surgery team treats them using both open surgery and less invasive methods.</p>
+
+<h2>Cardiac Care Under Chiranjeevi Yojana and Ayushman Bharat</h2>
+<p>Jaipur Hospital is empanelled under the Heart Hospital in Jaipur Chiranjeevi Yojana scheme, Ayushman Bharat, CGHS, and ECHS. Eligible patients can get cashless heart treatment and avoid paying large amounts upfront.</p>
+
+<p>If you want a cardiac care hospital in Jaipur that works with your government scheme or insurance, our team will walk you through the paperwork and approval steps.</p>
+
+<h2>Why Jaipur Hospital is Trusted for Heart Care</h2>
+
+<h3>Experienced Specialists</h3>
+<p>Our cardiologists and cardiac surgeons have many years of practice between them and have been trained at leading medical centers across India.</p>
+
+<h3>Advanced Infrastructure</h3>
+<p>We have a well-equipped Cath Lab for procedures, modern operation theatres, and a dedicated Cardiac ICU with round-the-clock monitoring. This setup meets the demands of serious heart cases.</p>
+
+<h3>Round-the-Clock Emergency Care</h3>
+<p>Heart problems do not wait for office hours. Our emergency cardiology team stays available 24/7. GPS-equipped ambulances with trained staff can reach patients quickly and bring them safely.</p>
+
+<h3>Patient-First Approach</h3>
+<p>We give every cardiac patient a coordinator to keep things smooth from tests and treatment through surgery and recovery. Our staff speaks multiple languages, so people from all over Rajasthan feel at ease and well-informed.</p>
+
+<h2>Signs You Should Not Ignore</h2>
+<p>Many people brush off early heart warnings, thinking it is just stress or acidity. These symptoms mean you should visit a heart specialist hospital in Jaipur straight away:</p>
+<ul>
+  <li>Chest pain or tightness, especially during activity</li>
+  <li>Shortness of breath with minimal exertion</li>
+  <li>Persistent fatigue or weakness</li>
+  <li>Palpitations or a racing heart</li>
+  <li>Swelling in the ankles or legs</li>
+  <li>Dizziness or fainting spells</li>
+</ul>
+
+<h2>Book a Cardiac Consultation Today</h2>
+<p>Our OPD runs from 9 AM to 8 PM, and the emergency department works 24/7.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/>
+<strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Do not take chances with heart care. Come to Jaipur Hospital, one of the most trusted names for heart treatment in Jaipur, and get a proper hold on your cardiac health today.</p>`,
   },
   {
     id: "general-surgery",
@@ -440,9 +601,102 @@ export const specialities: Speciality[] = [
     treatments: ["Laparoscopic Cholecystectomy", "Hernia Repair", "Appendectomy", "GI Surgery", "Thyroid Surgery", "Breast Surgery"],
     doctorIds: ["dr-srikant-bulakh", "dr-mansimrat-paul-singh"],
     img: emergencyImg,
-    metaTitle: "Best General Surgery Hospital in Jaipur | Laparoscopic Surgery",
-    metaDescription: "Jaipur Hospital offers advanced general and laparoscopic surgery in Jaipur. Expert surgeons for hernia, appendix & gall bladder. Cashless facility available.",
-    htmlContent: "<p>When you need surgery, you want the most skilled hands and the safest environment. The General and Laparoscopic Surgery department at Jaipur Hospital has been delivering precisely that for almost two decades. Recognized as a top <strong>general surgery hospital in Jaipur</strong>, we combine highly trained surgeons with state-of-the-art operation theatres to perform both routine and complex procedures safely.</p><h2>Advanced Laparoscopic Surgery in Jaipur</h2><p>Laparoscopic, or minimally invasive keyhole surgery, has completely changed how patients recover from operations. Instead of large cuts, our surgeons use tiny incisions and high-definition cameras to work inside the body. For patients seeking <strong>laparoscopic surgery in Jaipur</strong>, this approach means less pain, minimal scarring, shorter hospital stays, and a much faster return to normal daily life.</p><h3>Gallbladder Surgery (Cholecystectomy)</h3><p>Gallstones can cause severe abdominal pain and digestion issues. We regularly perform laparoscopic gallbladder removals, allowing patients to typically go home within 24 to 48 hours.</p><h3>Hernia Repair Surgery</h3><p>Whether it is an inguinal, umbilical, or incisional hernia, surgical repair is the only lasting solution. Our team excels in laparoscopic hernia repair using modern meshes for strong, tension-free results.</p><h3>Appendix Removal (Appendectomy)</h3><p>An inflamed appendix is a medical emergency. Our 24/7 surgical team is always ready to perform emergency appendectomies, most often using the quick and safe laparoscopic method.</p><h2>Comprehensive General Surgery Care</h2><p>Beyond keyhole procedures, our department handles a wide spectrum of surgical needs. If you are looking for the <strong>best general surgeon in Jaipur</strong>, our experts have extensive experience in treating various conditions.</p><ul><li><strong>Gastrointestinal Surgeries:</strong> Expert surgical management for conditions affecting the stomach, intestines, colon, and rectum.</li><li><strong>Thyroid and Neck Surgeries:</strong> Safe removal of thyroid nodules, cysts, and tumors with careful preservation of vocal cord nerves.</li><li><strong>Breast Surgery:</strong> Compassionate surgical care for benign breast lumps and early-stage breast cancer.</li><li><strong>Anorectal Conditions:</strong> Advanced and laser treatments for piles (hemorrhoids), fissures, and fistulas, offering quicker recovery and less discomfort.</li><li><strong>Trauma and Emergency Surgery:</strong> Immediate life-saving surgical interventions for accident and trauma victims.</li></ul><h2>Why Choose Us for Your Surgery?</h2><p>Choosing where to have your operation is a big decision. Here is why patients trust us as their <strong>laparoscopic surgery hospital in Jaipur</strong>:</p><ul><li><strong>Experienced Surgical Team:</strong> Our general surgeons bring decades of combined experience, handling thousands of successful surgeries.</li><li><strong>Modular Operation Theatres:</strong> We operate in ultra-clean, HEPA-filtered surgical suites designed to prevent infections.</li><li><strong>ICU Backup:</strong> For high-risk patients or complex procedures, our fully equipped ICU and critical care team provide immediate, round-the-clock support.</li><li><strong>Cashless Surgery Options:</strong> We are empanelled with Ayushman Bharat, CGHS, ECHS, and major TPAs, ensuring a smooth, cashless experience for eligible patients.</li></ul><h2>Book a Surgical Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency surgical care is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Don't let surgical fears delay your treatment. Get expert advice and care at your trusted <strong>general surgery hospital in Jaipur</strong>.</p>",
+    metaTitle: "Laparoscopic & General Surgeon in Jaipur | Jaipur Hospital",
+    metaDescription: "Advanced laparoscopic surgery in Jaipur for gallbladder, hernia, appendix & more with faster recovery & minimal scars. 24/7 emergency surgery available.",
+    htmlContent: `<h1>General and Laparoscopic Surgery in Jaipur | Jaipur Hospital</h1>
+
+<h2>General Surgery at Jaipur Hospital</h2>
+<p>General surgery covers a broad range of procedures involving the abdomen, digestive tract, skin, soft tissues, and related structures. Our general surgeon in Jaipur team handles both emergency surgeries, such as appendicitis or bowel obstruction, and elective procedures planned in advance after thorough evaluation.</p>
+
+<p>Our surgical team works closely with the anaesthesiology department to ensure safe, well-monitored procedures, and with the ICU team for patients who need post-operative critical care. Patients recovering from surgery are supported by our nursing team, physiotherapists for early mobilisation, and dietitians for nutritional recovery where needed.</p>
+
+<h2>Laparoscopic Surgery: Smaller Cuts, Faster Recovery</h2>
+<p>Laparoscopic surgery, also known as minimally invasive or keyhole surgery, has transformed the way many common surgical procedures are performed. Instead of a large open incision, the surgeon makes a few tiny cuts and uses a camera along with specialised instruments to perform the procedure while viewing a magnified image on a screen.</p>
+
+<p>The benefits for patients are significant:</p>
+<ul>
+  <li>Much smaller scars</li>
+  <li>Less post-operative pain</li>
+  <li>Shorter hospital stay</li>
+  <li>Faster return to normal activity</li>
+  <li>Lower risk of wound infections and hernia at the incision site</li>
+</ul>
+
+<p>At Jaipur Hospital, our laparoscopic surgeon in Jaipur team performs a wide range of procedures using this technique. For most of the common surgeries we do, laparoscopy is now the standard approach unless there is a specific clinical reason to go open.</p>
+
+<h2>Surgeries We Perform</h2>
+
+<h3>Laparoscopic Cholecystectomy (Gallbladder Removal)</h3>
+<p>Gallstones are one of the most common surgical conditions we see. When stones cause recurrent pain, infection, or block the bile duct, the gallbladder needs to come out. Laparoscopic cholecystectomy is a well-established, safe procedure that most patients recover from within a few days. It is one of the most commonly performed surgeries at our laparoscopy hospital in Jaipur.</p>
+
+<h3>Appendicectomy</h3>
+<p>Serious appendicitis needs prompt surgical treatment. Our emergency surgical team is available 24*7 to perform appendicectomy, using laparoscopy wherever possible to minimise recovery time.</p>
+
+<h3>Hernia Repair</h3>
+<p>Hernias occur when tissue pushes through a weak spot in the abdominal wall. Inguinal hernia, umbilical hernia, incisional hernia, and hiatal hernia are conditions we regularly treat. Laparoscopic hernia repair using mesh provides a strong, durable result with significantly less post-operative discomfort than open repair.</p>
+
+<h3>Haemorrhoid Surgery</h3>
+<p>Piles or haemorrhoids that do not respond to conservative management can be treated surgically. We offer both conventional and minimally invasive options depending on the grade and severity.</p>
+
+<h3>Thyroid and Parathyroid Surgery</h3>
+<p>Thyroid nodules, goitres, and thyroid cancers often require surgical removal. Our team performs both total and partial thyroidectomies with careful attention to preserving the recurrent laryngeal nerve and parathyroid glands.</p>
+
+<h3>Breast Surgery</h3>
+<p>We perform diagnostic biopsies, lumpectomies, and mastectomies for patients with breast conditions, benign and malignant. Our team works in coordination with oncology specialists for cancer-related cases.</p>
+
+<h3>Abdominal and Bowel Surgeries</h3>
+<p>For conditions involving the stomach, small intestine, large bowel, rectum, and anus, our surgical team handles both elective and emergency procedures. This includes surgeries for bowel obstruction, colorectal disease, and bowel resections.</p>
+
+<h3>Trauma and Emergency Surgery</h3>
+<p>Abdominal injuries from road accidents or falls often require urgent surgical intervention. Our emergency surgical team is experienced in damage control surgery and trauma laparotomy, working alongside our ICU and trauma care teams.</p>
+
+<h2>Advanced Operation Theatre Infrastructure</h2>
+<p>Good surgery requires the right environment. Our modular operation theatres at Jaipur Hospital are equipped with:</p>
+<ul>
+  <li>HEPA filtration for ultra-clean air and infection control</li>
+  <li>High-definition laparoscopy equipment with 4K imaging for precise visualisation</li>
+  <li>Integrated anaesthesia and patient monitoring systems</li>
+  <li>Dedicated scrub teams experienced in both open and laparoscopic procedures</li>
+</ul>
+
+<p>The quality of the OT environment directly affects surgical outcomes, particularly in reducing post-operative infection rates, and we take this seriously.</p>
+
+<h2>Anaesthesia and Pain Management</h2>
+<p>Surgery is only half the picture. Safe anaesthesia and effective pain management are equally important. Our anaesthesiology team evaluates every surgical patient before the procedure, plans the anaesthetic approach based on the individual's health profile, and manages pain in the immediate post-operative period.</p>
+
+<p>For laparoscopic procedures, most patients are comfortable enough to walk on the same day as surgery and go home within 24 to 48 hours. For larger open procedures, our pain management team ensures that recovery is as comfortable as possible while avoiding excessive dependence on opioids.</p>
+
+<h2>Pre-Surgery Evaluation and Preparation</h2>
+<p>Every patient scheduled for an elective surgery at Jaipur Hospital goes through a structured pre-operative workup. This includes relevant blood tests, ECG, chest X-ray, and a pre-anaesthesia check-up. The purpose is to identify any risk factors that need to be addressed before surgery so that the procedure is as safe as possible.</p>
+
+<p>Our surgical team also takes time to counsel patients about what to expect before, during, and after surgery. An informed patient recovers better and has fewer anxieties going into the procedure.</p>
+
+<h2>Post-Surgery Care and Discharge</h2>
+<p>Recovery does not end when the surgery is over. Our post-operative care includes regular wound monitoring, pain control, early mobilisation with physiotherapy support, dietary guidance, and clear instructions for the patient and family to follow at home.</p>
+
+<p>We schedule follow-up consultations after discharge to check on healing, remove sutures if needed, review histopathology reports, and answer any questions that come up during recovery.</p>
+
+<h2>Cashless Surgery Under Government Schemes</h2>
+<p>Jaipur Hospital is empanelled under Ayushman Bharat, CGHS, and ECHS. A wide range of general and laparoscopic surgeries are covered under these schemes, allowing eligible patients to receive quality surgical care without having to arrange funds upfront. Our team will guide you through the empanelment verification and prior authorisation process.</p>
+
+<h2>When Should You See a Surgeon?</h2>
+<p>You should consult a general surgeon in Jaipur if you have:</p>
+<ul>
+  <li>A lump or swelling in the abdomen, groin, or neck that is growing or painful</li>
+  <li>Persistent or severe abdominal pain</li>
+  <li>Symptoms suggesting gallstones such as right upper abdominal pain especially after fatty meals</li>
+  <li>A bulge in the groin or near the navel that appears when you stand or strain</li>
+  <li>Rectal bleeding or painful bowel habits that have not resolved with medication</li>
+  <li>A thyroid nodule or swelling in the neck that has been flagged on ultrasound</li>
+</ul>
+
+<h2>Book a Surgical Consultation</h2>
+<p>Our surgical OPD runs from 9 AM to 8 PM. Emergency surgical care is available 24/7.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>If surgery has been recommended or you want a second opinion, speak to our team at Jaipur Hospital. As a trusted laparoscopy hospital in Jaipur, we will give you an honest assessment and the skilled care you deserve.</p>`,
   },
   {
     id: "general-medicine",
@@ -455,9 +709,76 @@ export const specialities: Speciality[] = [
     treatments: ["Diabetes Management", "Hypertension Care", "Fever & Infection Treatment", "Preventive Health Checkups", "Thyroid Disorders", "Respiratory Conditions"],
     doctorIds: ["dr-pushpendra-prasad-garg", "dr-r-l-modi", "dr-mayank-gupta", "dr-sandeep-sharma"],
     img: heartImg,
-    metaTitle: "Best General Physician in Jaipur | Jaipur Hospital",
-    metaDescription: "Trusted general physician in Jaipur for fever, diabetes & BP treatment. Expert diagnosis, cashless care & 24/7 emergency. Call: 0141-2741465",
-    htmlContent: "<p>When the overall health starts to feel wrong, most people look for a solid general doctor right away. This doctor takes time to hear you out, asks useful questions, and either handles the treatment themselves or sends you to the right expert. The General Medicine department at Jaipur Hospital delivers exactly this kind of care. We have become a reliable choice for anyone searching for a dependable <strong>general physician in Jaipur</strong>, whether you need help with a sudden sickness, an ongoing health issue, or just a regular check-up.</p><h2>What General Medicine Covers</h2><p>General Medicine forms the base of all healthcare services. Our internal medicine specialists receive training to identify, treat, and handle many different conditions that affect adults and senior patients. While a specialist concentrates on one body part or system, a <strong>medicine doctor in Jaipur</strong> from our team examines the complete situation. This full-picture method often proves key in spotting problems early or handling long-term issues effectively.</p><p>Patients visit our General Medicine OPD with problems from simple viral fever to complex problems involving various systems of the body. A few of the typical issues we diagnose and treat are:</p><ul><li>Fever, infections, and viral illnesses</li><li>Diabetes and blood sugar management</li><li>High blood pressure and hypertension</li><li>Thyroid disorders</li><li>Respiratory conditions like asthma and bronchitis</li><li>Anaemia and nutritional deficiencies</li><li>Gastric and digestive problems</li><li>Urinary tract infections</li><li>Skin rashes and allergy-related conditions</li><li>General fatigue, weakness, and unexplained weight loss</li></ul><p>If you're not sure which specialist you should start with, it definitely makes sense to check out our general medicine staff first.</p><h2>Fever Treatment in Jaipur</h2><p>Fever is one of the most common reasons that people visit the doctor, and while it could be a simple viral infection, there are other, more serious causes. Some diseases are recurrent in Rajasthan, such as Dengue, Typhoid, Malaria, and Chikungunya, which happen during or after the monsoons. Our doctors know how to find the exact reason for fever fast through blood tests and pathology services available inside the hospital, then begin proper treatment immediately.</p><p>If you or a family member has dealt with a fever lasting more than two or three days, or if it comes with rash, joint pain, or confusion, do not delay. Visit us for <strong>fever treatment in Jaipur</strong>, so our team can figure out the cause.</p><h2>Diabetes Treatment in Jaipur</h2><p>Diabetes counts as one of the health problems growing quickest across India and appears very frequently in Rajasthan. Diabetic people can have an active and healthy lifestyle if they take care of their condition. If ignored or not controlled well, it can increase the likelihood of complications to the kidney, eye, heart, and nerve diseases.</p><p>At Jaipur Hospital, <strong>diabetes treatment in Jaipur</strong> includes more than writing prescriptions. Our general medicine specialists support patients with:</p><ul><li>Accurate diagnosis, including HbA1c, fasting, and post-meal glucose tests</li><li>Personalised medication plans for Type 1, Type 2, and gestational diabetes</li><li>Diet and lifestyle counselling</li><li>Regular monitoring to prevent complications</li><li>Coordination with specialists if complications have already developed</li></ul><p>Whether the diagnosis is new or you have lived with diabetes for a long time and seek improved control, our team stands ready to assist.</p><h2>BP Treatment in Jaipur</h2><p>High blood pressure, also known as hypertension, earns the name silent killer since it usually produces no clear signs until damage has already started. A blood pressure that stays high often leads to heart disease, stroke, and kidney failure.</p><p>Our <strong>BP treatment in Jaipur</strong> involves finding the root causes, selecting suitable medicines when necessary, and helping patients adopt lifestyle changes that deliver real results. We track blood pressure readings across time and fine-tune the plan according to your body's reaction.</p><p>If your doctor has stated that your blood pressure is elevated, or it seems to run in your family, take the time to have it checked out thoroughly—don't let it go.</p><h2>Preventive Health Checkups</h2><p>Preventive care stands as one of the biggest benefits general medicine provides. Doctors can detect many serious conditions early using standard blood tests, physical exams, and screenings. Jaipur Hospital offers health checkup packages with a complete range of tests that show your current health status clearly.</p><p>It’s very important for adults over 35, people with family history of diabetes, heart disease or cancer, and people who sit for a long time. It's always better to prevent a problem than to solve it.</p><h2>Our General Medicine OPD</h2><p>Experienced internal medicine doctors run our OPD and stay available from 9 AM to 8 PM, six days a week. For patients who require admission for close watching or treatment of sudden conditions, our general medicine ward gives care around the clock with nursing staff and doctor supervision.</p><p>We maintain complete in-house testing facilities such as digital X-ray, ECG, NABL-accredited laboratory, and ultrasound. This setup means most tests your doctor orders can happen on the spot without sending you elsewhere.</p><h2>Cashless Treatment Available</h2><p>Jaipur Hospital holds approval under Ayushman Bharat, CGHS, ECHS, and several TPA insurance networks. Most schemes cover general medicine visits and hospital stays. Our patient support team assists with checking your eligibility and handling all paperwork.</p><h2>Book a General Medicine Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency medical support is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Your overall health and well-being is our priority. Come and visit your trusted <strong>general physician in Jaipur</strong> at Jaipur Hospital.</p>",
+    metaTitle: "General Physician in Jaipur | Fever, Diabetes & BP Treatment",
+    metaDescription: "Visit Jaipur Hospital for expert general medicine care - fever, diabetes, BP & health checkups. In-house lab & 24/7 OPD. Cashless treatment available.",
+    htmlContent: `<h1>General Medicine in Jaipur | Expert Diagnosis and Treatment | Jaipur Hospital</h1>
+
+<h2>What General Medicine Covers</h2>
+<p>General Medicine forms the base of all healthcare services. Our internal medicine specialists receive training to identify, treat, and handle many different conditions that affect adults and senior patients. While a specialist concentrates on one body part or system, a medicine doctor in Jaipur from our team examines the complete situation. This full-picture method often proves key in spotting problems early or handling long-term issues effectively.</p>
+
+<p>Patients visit our General Medicine OPD with problems from simple viral fever to complex problems involving various systems of the body. A few of the typical issues we diagnose and treat are:</p>
+<ul>
+  <li>Fever, infections, and viral illnesses</li>
+  <li>Diabetes and blood sugar management</li>
+  <li>High blood pressure and hypertension</li>
+  <li>Thyroid disorders</li>
+  <li>Respiratory conditions like asthma and bronchitis</li>
+  <li>Anaemia and nutritional deficiencies</li>
+  <li>Gastric and digestive problems</li>
+  <li>Urinary tract infections</li>
+  <li>Skin rashes and allergy-related conditions</li>
+  <li>General fatigue, weakness, and unexplained weight loss</li>
+</ul>
+
+<p>If you're not sure which specialist you should start with, it definitely makes sense to check out our general medicine staff first.</p>
+
+<h2>Fever Treatment in Jaipur</h2>
+<p>Fever is one of the most common reasons that people visit the doctor, and while it could be a simple viral infection, there are other, more serious causes. Some diseases are recurrent in Rajasthan, such as Dengue, Typhoid, Malaria, and Chikungunya, which happen during or after the monsoons. Our doctors know how to find the exact reason for fever fast through blood tests and pathology services available inside the hospital, then begin proper treatment immediately.</p>
+
+<p>If you or a family member has dealt with a fever lasting more than two or three days, or if it comes with rash, joint pain, or confusion, do not delay. Visit us for fever treatment in Jaipur, so our team can figure out the cause.</p>
+
+<h2>Diabetes Treatment in Jaipur</h2>
+<p>Diabetes counts as one of the health problems growing quickest across India and appears very frequently in Rajasthan. Diabetic people can have an active and healthy lifestyle if they take care of their condition. If ignored or not controlled well, it can increase the likelihood of complications to the kidney, eye, heart, and nerve diseases.</p>
+
+<p>At Jaipur Hospital, diabetes treatment in Jaipur includes more than writing prescriptions. Our general medicine specialists support patients with:</p>
+<ul>
+  <li>Accurate diagnosis, including HbA1c, fasting, and post-meal glucose tests</li>
+  <li>Personalised medication plans for Type 1, Type 2, and gestational diabetes</li>
+  <li>Diet and lifestyle counselling</li>
+  <li>Regular monitoring to prevent complications</li>
+  <li>Coordination with specialists if complications have already developed</li>
+</ul>
+
+<p>Whether the diagnosis is new or you have lived with diabetes for a long time and seek improved control, our team stands ready to assist.</p>
+
+<h2>BP Treatment in Jaipur</h2>
+<p>High blood pressure, also known as hypertension, earns the name silent killer since it usually produces no clear signs until damage has already started. A blood pressure that stays high often leads to heart disease, stroke, and kidney failure.</p>
+
+<p>Our BP treatment in Jaipur involves finding the root causes, selecting suitable medicines when necessary, and helping patients adopt lifestyle changes that deliver real results. We track blood pressure readings across time and fine-tune the plan according to your body's reaction.</p>
+
+<p>If your doctor has stated that your blood pressure is elevated, or it seems to run in your family, take the time to have it checked out thoroughly—don't let it go.</p>
+
+<h2>Preventive Health Checkups</h2>
+<p>Preventive care stands as one of the biggest benefits general medicine provides. Doctors can detect many serious conditions early using standard blood tests, physical exams, and screenings. Jaipur Hospital offers health checkup packages with a complete range of tests that show your current health status clearly.</p>
+
+<p>It’s very important for adults over 35, people with a family history of diabetes, heart disease or cancer, and people who sit for a long time. It's always better to prevent a problem than to solve it.</p>
+
+<h2>Our General Medicine OPD</h2>
+<p>Experienced internal medicine doctors run our OPD and stay available from 9 AM to 8 PM, six days a week. For patients who require admission for close watching or treatment of sudden conditions, our general medicine ward gives care around the clock with nursing staff and doctor supervision.</p>
+
+<p>We maintain complete in-house testing facilities such as digital X-ray, ECG, NABL-accredited laboratory, and ultrasound. This setup means most tests your doctor orders can happen on the spot without sending you elsewhere.</p>
+
+<h2>Cashless Treatment Available</h2>
+<p>Jaipur Hospital holds approval under Ayushman Bharat, CGHS, ECHS, and several TPA insurance networks. Most schemes cover general medicine visits and hospital stays. Our patient support team assists with checking your eligibility and handling all paperwork.</p>
+
+<h2>Book a General Medicine Consultation</h2>
+<p>Stop waiting for a health worry that keeps troubling you. It is better to see a general doctor in Jaipur in its early stages so that it doesn't escalate into a big problem.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/>
+<strong>OPD Hours:</strong> 9:00 AM to 8:00 PM | Emergency: 24/7<br/>
+<strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Your health matters too much to delay. Come in person or phone us now to fix an appointment with our general medicine team.</p>`,
   },
   {
     id: "gynaecology",
@@ -470,9 +791,101 @@ export const specialities: Speciality[] = [
     treatments: ["Normal & C-Section Delivery", "High-Risk Pregnancy", "Laparoscopic Hysterectomy", "Infertility Treatment", "PCOS Management", "Menopause Care"],
     doctorIds: ["dr-suhasini-shitoot"],
     img: heartImg,
-    metaTitle: "Best Gynecology Hospital in Jaipur | Jaipur Hospital",
-    metaDescription: "Leading gynecology hospital in Jaipur with expert lady doctors, normal delivery, high-risk pregnancy & women's health care. Cashless available. Call: 0141-2741465",
-    htmlContent: "<p>A woman's health requirements differ at each stage of her life, and it is great to have a doctor you can trust. Jaipur Hospital has run its Obstetrics and Gynaecology department since 2004, looking after women from all over Rajasthan.</p><p>Our experienced <strong>lady doctors in Jaipur</strong> manage problems from teenage to pregnancy, parturition, and the changes of menopause. They provide safe, private, caring, and professional care.</p><p>Whether you are looking for a <strong>gynecology hospital in Jaipur</strong>, need to make a pregnancy plan, or simply have a routine visit with the <strong>best lady doctor in Jaipur</strong>, this is where you should go.</p><h2>Women's Health at Every Stage</h2><p>There are many chapters on women's health. It evolves with age and presents new needs as it goes. We understand this and provide treatment specific to every individual in our gynaecology team:</p><ul><li>Teenage girls facing irregular periods or hormone problems</li><li>Women in their reproductive years handling PCOD, fibroids, or questions about fertility</li><li>Pregnant women who want reliable and caring maternity support</li><li>Hormone transitions in women (pre and post-menopausal)</li></ul><p>Whether you're a youngster or an adult, we'll listen closely and provide you with honest, unbiased suggestions without judgment.</p><h2>Pregnancy Care in Jaipur</h2><p>Pregnancy ranks as one of the biggest and most emotional times in a woman's life. Starting prenatal care early makes a real difference for the health of both mother and child. Jaipur Hospital serves as a reliable <strong>pregnancy care hospital in Jaipur</strong> with strong antenatal services, seasoned obstetricians, and up-to-date maternity setups.</p><p>Our pregnancy care programme includes:</p><h3>Regular Antenatal Checkups</h3><p>We monitor mother and baby throughout the first trimester to delivery with regular visits, labwork, and scans. Our gynaecologists observe the baby's development, catch problems in its early stages, and discuss food and behaviour choices with you every time.</p><h3>High-Risk Pregnancy Management</h3><p>Some pregnancies involve diabetes, high blood pressure, thyroid problems, twins, or past issues that call for closer watch. Our doctors bring the right skills and hospital setup to handle these cases well, with neonatology backup and NICU ready if the baby needs it.</p><h3>Nutrition and Birth Planning Counselling</h3><p>Knowing her options makes a mom more confident. Our staff will spend time discussing healthy eating, exercising while pregnant, emotional wellbeing and options for delivery so that there is a clearer understanding when labour begins.</p><h2>Normal Delivery Hospital in Jaipur</h2><p>More women these days want to avoid caesarean sections that are not needed. Jaipur Hospital backs natural birth when it is the safe choice. We are a top <strong>hospital for normal delivery in Jaipur</strong> and have helped thousands of women in delivering their babies through normal delivery.</p><p>There is continuous availability of labour ward staff and support throughout the day and night with obstetricians, midwives and nurses available. The rooms are relaxing, private, and family-friendly. We provide ways to manage pain in labour and make sure both mother and baby get close attention after birth.</p><p>Of course, if a caesarean becomes necessary for medical reasons, our surgeons step in with solid experience. We always decide based on what protects the mother and baby best, not for any other reason.</p><h2>Gynaecological Conditions We Treat</h2><p>Our <strong>gynecology hospital in Jaipur</strong> team handles some of the most common women's health issues apart from pregnancy:</p><ul><li>Polycystic Ovarian Disease (PCOD or PCOS)</li><li>Uterine fibroids and ovarian cysts</li><li>Endometriosis</li><li>Irregular periods and menstrual disorders</li><li>Pelvic inflammatory disease</li><li>Cervical and uterine health concerns, including PAP smear screening</li><li>Urinary incontinence</li><li>Menopausal symptoms and hormone management</li><li>Fertility evaluation and initial infertility management</li></ul><p>Catching and treating these issues early often stops bigger problems later and helps keep fertility options open.</p><h2>Gynaecological Surgeries</h2><p>If surgery makes sense, our team carries out different operations such as:</p><ul><li>Laparoscopic surgeries for fibroids, cysts, and endometriosis</li><li>Hysterectomy (open and laparoscopic)</li><li>Dilation and Curettage</li><li>Cervical procedures</li><li>Reconstructive pelvic floor surgeries</li></ul><p>When possible, we use laparoscopic or keyhole surgery because it involves small incisions, causes less pain, allows patient to heal faster and requires less hospital time.</p><h2>Why Mothers and Women Choose Jaipur Hospital</h2><p>Picking the <strong>best lady doctor in Jaipur</strong> goes beyond degrees on the wall. It comes down to feeling secure, understood, and properly looked after. Women often tell us these points stand out about our department:</p><ul><li><strong>Experienced Female Specialists:</strong> Our gynaecology team has senior lady doctors who bring many years of experience in obstetrics and gynaecological operations. Plenty of patients come to us on purpose because they prefer talking with a female doctor.</li><li><strong>Private and Comfortable Environment:</strong> We know women's health talks need a quiet and respectful space. Our OPD and exam rooms are set up to protect your privacy fully.</li><li><strong>NICU Support for Newborns:</strong> Our hospital runs a good NICU for babies born early or who need extra help right after birth. This matters a lot in high-risk cases and helps parents feel more at ease.</li><li><strong>Cashless Delivery Under Government Schemes:</strong> Jaipur Hospital works with Ayushman Bharat, CGHS, and ECHS. Many families can get maternity services, whether normal or caesarean, covered through these plans and pay much less out of pocket.</li></ul><h2>When to See a Gynaecologist</h2><p>A lot of women wait too long before seeing a gynaecologist and only come when something feels wrong. Make an appointment if you notice:</p><ul><li>Missed or very irregular periods</li><li>Unusual pain during periods or intercourse</li><li>Vaginal discharge with odour or itching</li><li>A lump or unusual sensation in the lower abdomen</li><li>Difficulty conceiving after one year of trying</li><li>Any concerns during pregnancy</li><li>Symptoms of menopause affecting your daily life</li></ul><h2>Book a Gynaecology Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency maternity and gynaecology support is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Women's health is a specialist concern. Come and visit your trusted <strong>gynecology hospital in Jaipur</strong> at Jaipur Hospital.</p>",
+    metaTitle: "Gynaecologist & Pregnancy Care Hospital in Jaipur | Jaipur Hospital",
+    metaDescription: "Trusted gynaecology & maternity hospital in Jaipur for normal delivery, high-risk pregnancy & women's health. NICU support & cashless delivery. Book today!",
+    htmlContent: `<h1>Obstetrics and Gynaecology in Jaipur | Women's Health Care | Jaipur Hospital</h1>
+
+<h2>Women's Health at Every Stage</h2>
+<p>There are many chapters on women's health. It evolves with age and presents new needs as it goes. We understand this and provide treatment specific to every individual in our gynaecology team:</p>
+<ul>
+  <li>Teenage girls facing irregular periods or hormone problems</li>
+  <li>Women in their reproductive years handling PCOD, fibroids, or questions about fertility</li>
+  <li>Pregnant women who want reliable and caring maternity support</li>
+  <li>Hormone transitions in women (pre and post-menopausal)</li>
+</ul>
+
+<p>Whether you're a youngster or an adult, we'll listen closely and provide you with honest, unbiased suggestions without judgment.</p>
+
+<h2>Pregnancy Care in Jaipur</h2>
+<p>Pregnancy ranks as one of the biggest and most emotional times in a woman's life. Starting prenatal care early makes a real difference for the health of both mother and child. Jaipur Hospital serves as a reliable pregnancy care hospital in Jaipur with strong antenatal services, seasoned obstetricians, and up-to-date maternity setups.</p>
+
+<h3>Regular Antenatal Checkups</h3>
+<p>We monitor mother and baby throughout the first trimester to delivery with regular visits, labwork, and scans. Our gynaecologists observe the baby's development, catch problems in its early stages, and discuss food and behaviour choices with you every time.</p>
+
+<h3>High-Risk Pregnancy Management</h3>
+<p>Some pregnancies involve diabetes, high blood pressure, thyroid problems, twins, or past issues that call for closer watch. Our doctors bring the right skills and hospital setup to handle these cases well, with neonatology backup and NICU ready if the baby needs it.</p>
+
+<h3>Nutrition and Birth Planning Counselling</h3>
+<p>Knowing her options makes a mom more confident. Our staff will spend time discussing healthy eating, exercising while pregnant, emotional wellbeing and options for delivery so that there is a clearer understanding when labour begins.</p>
+
+<h2>Normal Delivery Hospital in Jaipur</h2>
+<p>More women these days want to avoid caesarean sections that are not needed. Jaipur Hospital backs natural birth when it is the safe choice. We are a top hospital for normal delivery in Jaipur and have helped thousands of women in delivering their babies through normal delivery.</p>
+
+<p>There is continuous availability of labour ward staff and support throughout the day and night with obstetricians, midwives and nurses available. The rooms are relaxing, private, and family-friendly. We provide ways to manage pain in labour and make sure both mother and baby get close attention after birth.</p>
+
+<p>Of course, if a caesarean becomes necessary for medical reasons, our surgeons step in with solid experience. We always decide based on what protects the mother and baby best, not for any other reason.</p>
+
+<h2>Gynaecological Conditions We Treat</h2>
+<p>Our gynecology hospital in Jaipur team handles some of the most common women's health issues apart from pregnancy:</p>
+<ul>
+  <li>Polycystic Ovarian Disease (PCOD or PCOS)</li>
+  <li>Uterine fibroids and ovarian cysts</li>
+  <li>Endometriosis</li>
+  <li>Irregular periods and menstrual disorders</li>
+  <li>Pelvic inflammatory disease</li>
+  <li>Cervical and uterine health concerns, including PAP smear screening</li>
+  <li>Urinary incontinence</li>
+  <li>Menopausal symptoms and hormone management</li>
+  <li>Fertility evaluation and initial infertility management</li>
+</ul>
+
+<p>Catching and treating these issues early often stops bigger problems later and helps keep fertility options open.</p>
+
+<h2>Gynaecological Surgeries</h2>
+<p>If surgery makes sense, our team carries out different operations such as:</p>
+<ul>
+  <li>Laparoscopic surgeries for fibroids, cysts, and endometriosis</li>
+  <li>Hysterectomy (open and laparoscopic)</li>
+  <li>Dilation and Curettage</li>
+  <li>Cervical procedures</li>
+  <li>Reconstructive pelvic floor surgeries</li>
+</ul>
+
+<p>When possible, we use laparoscopic or keyhole surgery because it involves small incisions, causes less pain, allows patient to heal faster and requires less hospital time.</p>
+
+<h2>Why Mothers and Women Choose Jaipur Hospital</h2>
+
+<h3>Experienced Female Specialists</h3>
+<p>Our gynaecology team has senior lady doctors who bring many years of experience in obstetrics and gynaecological operations. Plenty of patients come to us on purpose because they prefer talking with a female doctor.</p>
+
+<h3>Private and Comfortable Environment</h3>
+<p>We know women's health talks need a quiet and respectful space. Our OPD and exam rooms are set up to protect your privacy fully.</p>
+
+<h3>NICU Support for Newborns</h3>
+<p>Our hospital runs a good NICU for babies born early or who need extra help right after birth. This matters a lot in high-risk cases and helps parents feel more at ease.</p>
+
+<h3>Cashless Delivery Under Government Schemes</h3>
+<p>Jaipur Hospital works with Ayushman Bharat, CGHS, and ECHS. Many families can get maternity services, whether normal or caesarean, covered through these plans and pay much less out of pocket.</p>
+
+<h2>When to See a Gynaecologist</h2>
+<p>A lot of women wait too long before seeing a gynaecologist and only come when something feels wrong. Make an appointment if you notice:</p>
+<ul>
+  <li>Missed or very irregular periods</li>
+  <li>Unusual pain during periods or intercourse</li>
+  <li>Vaginal discharge with odour or itching</li>
+  <li>A lump or unusual sensation in the lower abdomen</li>
+  <li>Difficulty conceiving after one year of trying</li>
+  <li>Any concerns during pregnancy</li>
+  <li>Symptoms of menopause affecting your daily life</li>
+</ul>
+
+<h2>Book an Appointment</h2>
+<p>Our gynaecology OPD runs from 9 AM to 8 PM, and our maternity and delivery services are available around the clock.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/>
+<strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Your health and your baby's health deserve the best possible care. Reach out to our team at Jaipur Hospital and experience the warmth and expertise that have made us a trusted pregnancy care hospital in Jaipur for over two decades.</p>`,
   },
   {
     id: "plastic-surgery",
@@ -545,9 +958,122 @@ export const specialities: Speciality[] = [
     treatments: ["Stroke Management", "Epilepsy Treatment", "Headache & Migraine Clinic", "Parkinson's Disease Treatment", "Neuropathy Management", "EEG & EMG Studies"],
     doctorIds: [],
     img: heartImg,
-    metaTitle: "Best Neurology Hospital in Jaipur | Jaipur Hospital",
-    metaDescription: "Top neurology hospital in Jaipur with expert brain specialists, stroke & migraine treatment, EEG, MRI & 24/7 neuro emergency. Call: 0141-2741465",
-    htmlContent: "<p>The brain is one of the most complicated areas of the body, and when it or the nervous system is struck by some problem, it can be frightening. The Neurology department at Jaipur Hospital combines advanced imaging technology with highly qualified medical professionals to render accurate diagnoses and effective treatment to patients suffering from disorders of the brain, spinal cord and nerves outside the central nervous system.</p><p>You can find a <strong>brain specialist in Jaipur</strong> or a good <strong>neurology hospital in Jaipur</strong> here with the skill and understanding you are looking for.</p><h2>Why Neurology Needs Specialist Care</h2><p>Neurological issues are frequently difficult to diagnose unless a doctor is well-equipped and experienced. Headaches, dizziness, memory loss, numbness in hands or feet, or weakness on one side of the body could all be caused by a variety of factors. A correct diagnosis will prevent unnecessary delays in treatment and ensure the best possible outcomes.</p><p>The neurology department of Jaipur Hospital treats every case systematically. We perform a complete medical history, a careful examination of the nervous system and perform certain tests. This enables our doctors to arrive at the correct diagnosis and develop a plan that suits you.</p><h2>Neurological Conditions We Diagnose and Treat</h2><p>Our <strong>Neuro hospital in Jaipur</strong> treats numerous neurological disorders, such as:</p><ul><li>Stroke and transient ischaemic attacks (TIA)</li><li>Epilepsy and seizure disorders</li><li>Migraine and other headache disorders</li><li>Parkinson's disease and movement disorders</li><li>Alzheimer's disease and dementia</li><li>Multiple sclerosis</li><li>Peripheral neuropathy</li><li>Guillain-Barré syndrome</li><li>Brain and spinal cord infections, including meningitis and encephalitis</li><li>Myasthenia gravis and neuromuscular disorders</li><li>Vertigo and balance disorders</li><li>Spinal disorders with neurological involvement</li></ul><p>No matter if the issue comes on suddenly and needs urgent help or stays long-term and calls for ongoing care, our team has the setup to deal with it.</p><h2>Stroke Treatment in Jaipur</h2><p>Stroke counts as one of the most urgent medical situations around. When blood flow stops reaching part of the brain, cells start to die in just minutes. Doctors in this field often say time equals brain. Starting care quickly raises the odds of staying alive and getting back good function.</p><p>Our <strong>stroke treatment in Jaipur</strong> follows a plan focused on fast action and accuracy:</p><ul><li>Quick CT scan or MRI to identify the stroke type</li><li>Fast use of medicine to break up clots in ischaemic stroke when it fits the case</li><li>Check by a neurology specialist within minutes after reaching the hospital</li><li>Close watch in the ICU right after the event</li><li>Starting physiotherapy and speech therapy early to aid recovery</li></ul><p>If someone close to you suddenly starts dropping one side of their face, becomes weak in one arm or leg, or has trouble talking, contact us immediately. Don't wait and pray that it will pass. Every single minute counts in these situations.</p><h2>Migraine Treatment in Jaipur</h2><p>Migraine is more than just a typical headache. To many, it becomes a serious issue and prevents them from working, meeting friends or managing a normal day. Occasionally, migraine attacks are severe and can last several hours or even days, and may include nausea, vomiting and increased sensitivity to light and sound.</p><p>Many who deal with ongoing migraine have used regular pain pills for years and still get no real fix. Our method for <strong>migraine treatment in Jaipur</strong> looks beyond just covering up the pain:</p><ul><li>Finding and dealing with each person's own triggers</li><li>Telling migraines apart from other kinds of headaches with careful checks</li><li>Using proven medicines to prevent attacks in chronic cases</li><li>Plans for handling bad episodes when they hit</li><li>Botulinum toxin therapy for tough chronic migraine when needed</li><li>Advice on changes to daily habits</li></ul><p>If you keep getting bad headaches and have never had a proper check from a neurologist, this would be a fine time to visit.</p><h2>Advanced Neurological Diagnostics</h2><p>Getting the diagnosis right matters most in neurology. We use various modern testing machines, so that tests are quick and experts, who know what it means, can read them.</p><h3>EEG (Electroencephalogram)</h3><p>An EEG measures the electrical activity of the brain and has a major role in assessing epilepsy, seizure disorders and some sleep disorders. Our EEG lab performs routine and ambulatory recordings.</p><h3>EMG and NCV (Electromyography and Nerve Conduction Velocity Studies)</h3><p>These checks look at muscle condition and the nerves linked to it. Doctors use them to spot problems such as peripheral neuropathy, carpal tunnel syndrome, Guillain-Barré syndrome, and muscle diseases.</p><h3>Neuroimaging</h3><p>Our own MRI and CT scan units give clear pictures of the brain and spinal cord. For nerve-related issues, both picture quality and reading them with neurology knowledge count heavily, and our staff handles both.</p><h3>Doppler Studies</h3><p>Carotid and transcranial Doppler tests check blood movement in the vessels that feed the brain. This proves especially useful when looking at stroke risk and prevention.</p><h2>Epilepsy Management</h2><p>Epilepsy touches millions of people in India and still carries a lot of stigma, even though it is a treatable medical issue that most patients can control well. Our neurology team gives full epilepsy support, including:</p><ul><li>Correct sorting and diagnosis of seizures</li><li>Choosing and watching anti-epileptic medicines</li><li>Guidance for patients and families about first aid during seizures and staying safe</li><li>Additional medications for those who still suffer seizures after using a regular medication.</li></ul><p>Our mission is to help people with epilepsy live complete, secure and independent lives.</p><h2>Memory Clinics and Dementia Care</h2><p>Memory lapses are often seen as a normal aspect of ageing by older adults. However, forgetfulness, confusion of thought and changes in personality may be an early sign of dementia or Alzheimer's. Checking and handling it early can slow things down and improve daily living a good deal.</p><p>Our neurology team runs specific memory tests and teams up with families to set up support arrangements that help the person affected and those looking after them.</p><h2>Why Choose Jaipur Hospital for Neurology</h2><p>As one of the <strong>best neurology hospitals in Jaipur</strong>, we come together with all the components required for the best treatment of the nervous system:</p><ul><li>Highly trained neurologists who are familiar with all types of nerve disorders.</li><li>On-site EEG, EMG/NCV, MRI, and CT services for quick and joined-up testing</li><li>Straight links with neurosurgery, ICU, and rehab teams when cases get complicated</li><li>A helpful style that uses simple words to explain diagnoses and includes patients when choosing treatments</li><li>Cashless treatment options under Ayushman Bharat, CGHS, and ECHS</li></ul><h2>Book a Neurology Consultation</h2><p>Our OPD is open from 9 AM to 8 PM. Emergency neurology support is available 24/7.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>Neurological health is a specialist concern. Come and visit your trusted <strong>Neuro care hospital in Jaipur</strong> at Jaipur Hospital.</p>",
+    metaTitle: "Best Neurologist in Jaipur | Stroke & Brain Care Hospital",
+    metaDescription: "Top neurology hospital in Jaipur for stroke, epilepsy, migraine & dementia care with on-site EEG, EMG & MRI. 24/7 emergency neuro care. Book consultation.",
+    htmlContent: `<h1>Neurology Hospital in Jaipur | Brain and Nerve Care | Jaipur Hospital</h1>
+
+<h2>Why Neurology Needs Specialist Care</h2>
+<p>Neurological issues are frequently difficult to diagnose unless a doctor is well-equipped and experienced. Headaches, dizziness, memory loss, numbness in hands or feet, or weakness on one side of the body could all be caused by a variety of factors. A correct diagnosis will prevent unnecessary delays in treatment and ensure the best possible outcomes.</p>
+
+<p>The neurology department of Jaipur Hospital treats every case systematically. We perform a complete medical history, a careful examination of the nervous system and perform certain tests. This enables our doctors to arrive at the correct diagnosis and develop a plan that suits you.</p>
+
+<h2>Neurological Conditions We Diagnose and Treat</h2>
+<p>Our Neuro hospital in Jaipur treats numerous neurological disorders, such as:</p>
+<ul>
+  <li>Stroke and transient ischaemic attacks (TIA)</li>
+  <li>Epilepsy and seizure disorders</li>
+  <li>Migraine and other headache disorders</li>
+  <li>Parkinson's disease and movement disorders</li>
+  <li>Alzheimer's disease and dementia</li>
+  <li>Multiple sclerosis</li>
+  <li>Peripheral neuropathy</li>
+  <li>Guillain-Barré syndrome</li>
+  <li>Brain and spinal cord infections, including meningitis and encephalitis</li>
+  <li>Myasthenia gravis and neuromuscular disorders</li>
+  <li>Vertigo and balance disorders</li>
+  <li>Spinal disorders with neurological involvement</li>
+</ul>
+
+<p>No matter if the issue comes on suddenly and needs urgent help or stays long-term and calls for ongoing care, our team has the setup to deal with it.</p>
+
+<h2>Stroke Treatment in Jaipur</h2>
+<p>Stroke counts as one of the most urgent medical situations around. When blood flow stops reaching part of the brain, cells start to die in just minutes. Doctors in this field often say time equals brain. Starting care quickly raises the odds of staying alive and getting back good function.</p>
+
+<p>Our stroke treatment in Jaipur follows a plan focused on fast action and accuracy:</p>
+<ul>
+  <li>Quick CT scan or MRI to identify the stroke type</li>
+  <li>Fast use of medicine to break up clots in ischaemic stroke when it fits the case</li>
+  <li>Check by a neurology specialist within minutes after reaching the hospital</li>
+  <li>Close watch in the ICU right after the event</li>
+  <li>Starting physiotherapy and speech therapy early to aid recovery</li>
+</ul>
+
+<p>If someone close to you suddenly starts dropping one side of their face, becomes weak in one arm or leg, or has trouble talking, contact us immediately. Don't wait and pray that it will pass. Every single minute counts in these situations.</p>
+
+<h2>Migraine Treatment in Jaipur</h2>
+<p>Migraine is more than just a typical headache. To many, it becomes a serious issue and prevents them from working, meeting friends or managing a normal day. Occasionally, migraine attacks are severe and can last several hours or even days, and may include nausea, vomiting and increased sensitivity to light and sound.</p>
+
+<p>Many who deal with ongoing migraine have used regular pain pills for years and still get no real fix. Our method for migraine treatment in Jaipur looks beyond just covering up the pain:</p>
+<ul>
+  <li>Finding and dealing with each person's own triggers</li>
+  <li>Telling migraines apart from other kinds of headaches with careful checks</li>
+  <li>Using proven medicines to prevent attacks in chronic cases</li>
+  <li>Plans for handling bad episodes when they hit</li>
+  <li>Botulinum toxin therapy for tough chronic migraine when needed</li>
+  <li>Advice on changes to daily habits</li>
+</ul>
+
+<p>If you keep getting bad headaches and have never had a proper check from a neurologist, this would be a fine time to visit.</p>
+
+<h2>Advanced Neurological Diagnostics</h2>
+
+<h3>EEG (Electroencephalogram)</h3>
+<p>An EEG measures the electrical activity of the brain and has a major role in assessing epilepsy, seizure disorders and some sleep disorders. Our EEG lab performs routine and ambulatory recordings.</p>
+
+<h3>EMG and NCV (Electromyography and Nerve Conduction Velocity Studies)</h3>
+<p>These checks look at muscle condition and the nerves linked to it. Doctors use them to spot problems such as peripheral neuropathy, carpal tunnel syndrome, Guillain-Barré syndrome, and muscle diseases.</p>
+
+<h3>Neuroimaging</h3>
+<p>Our own MRI and CT scan units give clear pictures of the brain and spinal cord. For nerve-related issues, both picture quality and reading them with neurology knowledge count heavily, and our staff handles both.</p>
+
+<h3>Doppler Studies</h3>
+<p>Carotid and transcranial Doppler tests check blood movement in the vessels that feed the brain. This proves especially useful when looking at stroke risk and prevention.</p>
+
+<h2>Epilepsy Management</h2>
+<p>Epilepsy touches millions of people in India and still carries a lot of stigma, even though it is a treatable medical issue that most patients can control well. Our neurology team gives full epilepsy support, including:</p>
+<ul>
+  <li>Correct sorting and diagnosis of seizures</li>
+  <li>Choosing and watching anti-epileptic medicines</li>
+  <li>Guidance for patients and families about first aid during seizures and staying safe</li>
+  <li>Additional medications for those who still suffer seizures after using a regular medication.</li>
+</ul>
+
+<p>Our mission is to help people with epilepsy live complete, secure and independent lives.</p>
+
+<h2>Memory Clinics and Dementia Care</h2>
+<p>Memory lapses are often seen as a normal aspect of ageing by older adults. However, forgetfulness, confusion of thought and changes in personality may be an early sign of dementia or Alzheimer's. Checking and handling it early can slow things down and improve daily living a good deal.</p>
+
+<p>Our neurology team runs specific memory tests and teams up with families to set up support arrangements that help the person affected and those looking after them.</p>
+
+<h2>Why Choose Jaipur Hospital for Neurology</h2>
+<p>As one of the best neurology hospitals in Jaipur, we come together with all the components required for the best treatment of the nervous system:</p>
+<ul>
+  <li>Highly trained neurologists who are familiar with all types of nerve disorders.</li>
+  <li>On-site EEG, EMG/NCV, MRI, and CT services for quick and joined-up testing</li>
+  <li>Straight links with neurosurgery, ICU, and rehab teams when cases get complicated</li>
+  <li>A helpful style that uses simple words to explain diagnoses and includes patients when choosing treatments</li>
+  <li>Cashless treatment options under Ayushman Bharat, CGHS, and ECHS</li>
+</ul>
+
+<h2>Do Not Ignore These Neurological Warning Signs</h2>
+<p>A lot of people delay a doctor visit, hoping the signs will fade. Please see a brain specialist in Jaipur if you or someone in your family has:</p>
+<ul>
+  <li>Sudden severe headache, unlike any before</li>
+  <li>Weakness or numbness on one side of the body</li>
+  <li>Sudden difficulty speaking or understanding speech</li>
+  <li>Frequent seizures or unexplained blackouts</li>
+  <li>Progressive memory decline or personality changes</li>
+  <li>Persistent dizziness or balance problems</li>
+  <li>Tingling, burning, or weakness in the hands and feet</li>
+</ul>
+
+<h2>Book a Neurology Consultation</h2>
+<p>Our OPD is open from 9 AM to 8 PM. Emergency neurology support is available 24/7.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Neurological health is a specialist concern. Come and visit your trusted ‘Neuro care hospital in Jaipur’ at ‘Jaipur Hospital’.</p>`,
   },
   {
     id: "pediatrics",
@@ -560,9 +1086,101 @@ export const specialities: Speciality[] = [
     treatments: ["Newborn Care (NICU)", "Childhood Vaccinations", "Growth Assessment", "Pediatric Infections", "Adolescent Health", "Nutrition Counseling"],
     doctorIds: ["dr-dinesh-kumar-dalmia", "dr-kamal-kant-khandelwal"],
     img: heartImg,
-    metaTitle: "Best Child Specialist in Jaipur | Pediatric Hospital",
-    metaDescription: "Leading pediatric hospital in Jaipur. Expert child specialists, NICU, vaccination & 24/7 pediatric emergency care. Trust us with your child's health.",
-    htmlContent: "<p>There is nothing more important than the health and happiness of your child. At Jaipur Hospital, our Pediatrics department is dedicated to providing compassionate, high-quality medical care for infants, children, and adolescents. From the moment of birth through their teenage years, our team is here to support your child's growth and well-being, making us a highly trusted <strong>pediatric hospital in Jaipur</strong>.</p><h2>Expert Care by the Best Child Specialists</h2><p>Children are not just small adults; their medical needs, illnesses, and treatments are unique. Our department is led by highly experienced pediatricians who understand how to make children feel comfortable and parents feel secure. If you are searching for the <strong>best child specialist in Jaipur</strong>, our doctors bring decades of expertise in diagnosing and treating a wide array of childhood conditions.</p><h3>Routine Check-ups and Growth Monitoring</h3><p>Regular pediatrician visits are vital. We track your child's physical, cognitive, and emotional development, ensuring they are hitting all their milestones. We provide expert guidance on nutrition, weaning, and managing common behavioral issues.</p><h3>Comprehensive Vaccination Center</h3><p>Immunization is the strongest shield against serious preventable diseases. We maintain a fully stocked, cold-chain compliant vaccination center offering all mandatory and optional vaccines as per the Indian Academy of Pediatrics (IAP) schedule. Our <strong>child doctor in Jaipur</strong> will create a clear, easy-to-follow vaccination chart for your newborn.</p><h3>Treatment of Childhood Illnesses</h3><p>From seasonal viral fevers, persistent coughs, and stomach infections to chronic conditions like childhood asthma and allergies, we provide accurate diagnosis and gentle, effective treatment. Our in-house pathology lab and pharmacy ensure you don't have to run around when your child is unwell.</p><h2>Advanced NICU for Newborns</h2><p>The first few days of life can sometimes be critical. Our hospital houses a state-of-the-art Neonatal Intensive Care Unit (NICU). If a baby is born prematurely, has a low birth weight, or faces respiratory distress, our NICU provides a highly sterile, technologically advanced environment. Managed by expert neonatologists and specially trained nurses, our NICU ensures the highest level of care for the tiniest patients.</p><h2>24/7 Pediatric Emergency Care</h2><p>High fevers in the middle of the night or sudden injuries can be terrifying for parents. As a comprehensive medical center, our emergency department provides 24/7 pediatric emergency care. A qualified <strong>pediatrician in Jaipur</strong> is always accessible to handle urgent medical situations swiftly.</p><h2>Why Parents Trust Jaipur Hospital</h2><ul><li><strong>Integrated Care:</strong> Seamless coordination with our obstetrics team for newborn care.</li><li><strong>Child-Friendly Environment:</strong> A welcoming OPD designed to reduce anxiety for young patients.</li><li><strong>Round-the-clock Support:</strong> 24/7 lab, pharmacy, and emergency services under one roof.</li></ul><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>",
+    metaTitle: "Child Specialist & Paediatric Hospital in Jaipur | Jaipur Hospital",
+    metaDescription: "Expert paediatrician in Jaipur for child illness, vaccinations, NICU & newborn care. Child-friendly OPD with 24/7 paediatric emergency. Book appointment.",
+    htmlContent: `<h1>Paediatrics in Jaipur | Child Specialist Hospital | Jaipur Hospital</h1>
+
+<h2>Why Paediatric Care Needs a Specialist</h2>
+<p>Many parents visit a general physician for their child's health concerns, and while that works for minor issues, children with complex or recurring conditions genuinely need specialist paediatric care. A paediatrician understands the age-specific norms for growth, development, and disease presentation.</p>
+
+<p>They know that a fever of 38.5°C means something different in a two-month-old than it does in a ten-year-old. That kind of nuanced, age-aware clinical thinking is what separates paediatric care from general medicine.</p>
+
+<p>Our paediatric team at Jaipur Hospital also works closely with our NICU, general surgery, and neurology departments so that children with complex or multi-system conditions receive coordinated, seamless care.</p>
+
+<h2>Conditions We Treat</h2>
+<p>Our child hospital in Jaipur manages a full range of acute and chronic childhood conditions including:</p>
+<ul>
+  <li>Fever, viral infections, and seasonal illnesses</li>
+  <li>Respiratory conditions including pneumonia, bronchitis, and asthma</li>
+  <li>Diarrhoea, vomiting, and dehydration</li>
+  <li>Malnutrition and growth-related concerns</li>
+  <li>Anaemia and nutritional deficiencies</li>
+  <li>Urinary tract infections</li>
+  <li>Skin allergies and eczema</li>
+  <li>Jaundice in newborns and older children</li>
+  <li>Epilepsy and febrile seizures</li>
+  <li>Developmental delays and behavioural concerns</li>
+  <li>Diabetes and hormonal disorders in children</li>
+  <li>Childhood infections like typhoid, dengue, and chickenpox</li>
+</ul>
+
+<p>Whether your child has a sudden illness or a condition that has been going on for a while, our paediatricians take the time to evaluate thoroughly and explain clearly to parents what is happening and what the plan is.</p>
+
+<h2>Newborn and Neonatal Care</h2>
+<p>The first few days and weeks of a baby's life are the most vulnerable. Our Neonatal Intensive Care Unit is equipped to handle premature babies, low birth weight newborns, and infants with conditions that need immediate medical attention after delivery.</p>
+
+<p>Our NICU has:</p>
+<ul>
+  <li>Incubators with precise temperature control</li>
+  <li>Neonatal ventilators for breathing support</li>
+  <li>Phototherapy units for jaundice treatment</li>
+  <li>Continuous vital monitoring</li>
+  <li>24*7 neonatologist and nursing coverage</li>
+</ul>
+
+<p>Parents of high-risk pregnancies often choose us specifically because having a functioning NICU in the same hospital as the maternity unit means their baby gets immediate care if needed, without a stressful transfer to another facility.</p>
+
+<h2>Vaccinations and Preventive Child Healthcare</h2>
+<p>One of the most important things you can do for your child's long-term health is to keep their vaccinations up to date. Our paediatric team follows the Indian Academy of Paediatrics immunisation schedule and provides all recommended vaccines from birth through adolescence.</p>
+
+<p>Beyond vaccinations, we also offer:</p>
+<ul>
+  <li>Growth monitoring and developmental assessment</li>
+  <li>Nutritional counselling for children with feeding difficulties or poor weight gain</li>
+  <li>School health checks</li>
+  <li>Guidance on age-appropriate milestones for parents who have concerns about development</li>
+</ul>
+
+<p>Preventive care at the right time can prevent serious illnesses down the line and give parents confidence that their child is growing well.</p>
+
+<h2>Paediatric Emergency Care</h2>
+<p>The condition of children can get worse faster than that of adults. High fevers, breathing difficulties, severe dehydration, and allergic reactions need to be assessed and treated quickly. Our emergency department at Jaipur Hospital is equipped to handle paediatric emergencies 24/7, with quick access to our paediatric team and NICU support when needed.</p>
+
+<p>If your child has a very high fever that is not coming down, is breathing fast or struggling to breathe, is unusually drowsy or difficult to wake, or has had a seizure, do not wait. Come in immediately or call our emergency line.</p>
+
+<h2>Child-Friendly Environment</h2>
+<p>Hospitals can be frightening for children. We have worked to make our paediatric spaces as welcoming and stress-free as possible, for both children and their parents. Our nurses and doctors are trained to communicate with children in a calm, reassuring way. We take the time to explain what is happening in a way that is appropriate for the child's age, which helps reduce anxiety and makes the experience less traumatic.</p>
+
+<p>We also ensure that parents are closely involved in every step of their child's care. We believe that an informed, calm parent is one of the best things for an unwell child.</p>
+
+<h2>Paediatric Surgery Support</h2>
+<p>For children who need surgical intervention, our paediatric team works closely with our general surgery and orthopaedic departments. Common procedures include hernia repair, appendicectomy, and management of fractures in children. Our modular operation theatres and anaesthesia team are experienced in paediatric cases and take every precaution to ensure safe outcomes.</p>
+
+<h2>When Should You See a Paediatrician?</h2>
+<p>Bring your child to see our child specialist in Jaipur if you notice:</p>
+<ul>
+  <li>Fever above 38°C in a baby under three months, or fever lasting more than three days in older children</li>
+  <li>Poor feeding or significant weight loss</li>
+  <li>Persistent cough, wheezing, or breathing difficulty</li>
+  <li>Repeated ear infections or throat infections</li>
+  <li>Delayed speech, walking, or social development</li>
+  <li>Rashes, especially with fever</li>
+  <li>Behavioural changes, excessive irritability, or unusual drowsiness</li>
+  <li>Stomach pain with vomiting or diarrhoea lasting more than a day or two</li>
+</ul>
+
+<p>When in doubt, it is always better to get your child checked. Paediatric conditions can escalate quickly and early assessment saves a lot of worry and potential complications.</p>
+
+<h2>Cashless Treatment for Children</h2>
+<p>Jaipur Hospital is empanelled under Ayushman Bharat, CGHS, and ECHS. Paediatric consultations, NICU care, and inpatient treatment are covered under most of these schemes, which is a significant relief for families managing the cost of a child's hospitalisation.</p>
+
+<h2>Book a Paediatric Consultation</h2>
+<p>Our paediatric OPD runs from 9 AM to 8 PM. Emergency paediatric care is available around the clock.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Your child deserves the best possible start in life. Visit Jaipur Hospital, a trusted paediatric hospital in Jaipur, and give your child the care they deserve.</p>`,
   },
   {
     id: "icu-emergency",
@@ -575,9 +1193,92 @@ export const specialities: Speciality[] = [
     treatments: ["24/7 Emergency Care", "Advanced Life Support", "Trauma Care", "ICU Management", "Ventilator Support", "Post-Surgical Critical Care"],
     doctorIds: [],
     img: emergencyImg,
-    metaTitle: "Best ICU Hospital in Jaipur | 24/7 Critical Care",
-    metaDescription: "Top ICU hospital in Jaipur with 24/7 intensive care, ventilator support, CCU, NICU & trauma emergency. Cashless under Ayushman Bharat. Call: 0141-2741465",
-    htmlContent: "<p>Medical emergencies always happen when they are least expected. A person gets hurt in a late-night accident, a person has a heart attack in the early morning on Sunday, or a child has a sudden fever spike. They require prompt attention from experienced doctors and proper equipment. The emergency and critical care is open 24/7 and 365 days a year in Jaipur Hospital. We are one of the most trusted <strong>emergency hospitals in Jaipur</strong>, always ready to do everything we can to help you as soon as we receive your call.</p><h2>Our Emergency Department: Always On, Always Ready</h2><p>Our emergency department is open around the clock, every day of the year, and is staffed by experienced emergency physicians, on-call specialists, trained nurses, and paramedics. Immediately upon a patient's arrival, we begin triage. We check how serious the problem is straight away and give priority according to medical needs, so critical patients never have to stand in line.</p><p>As a dependable <strong>24-hour hospital in Jaipur</strong>, we treat cases ranging from small cuts and sudden sickness to major trauma and problems affecting several organs. Our emergency area has resuscitation bays, crash carts, quick lab tests at the bedside, and fast links to experts in heart care, brain care, bone care, and general surgery.</p><h2>Trauma and Accident Emergency Care</h2><p>Car crashes, falls, injuries at work, and similar events call for speedy teamwork. Waiting even one hour after major trauma can decide whether someone gets better completely or lives with lasting harm. Our <strong>trauma care hospital in Jaipur</strong> works hard to cut down that risky time.</p><p>We have:</p><ul><li>A separate trauma bay stocked with full resuscitation tools</li><li>Round-the-clock digital X-ray and CT scan right away</li><li>Surgical, orthopaedic, and neurosurgery teams on call</li><li>Quick blood bank service for needed transfusions</li><li>Straight route from the emergency room to operation theatre for urgent operations</li></ul><p>If you or a loved one meets with an accident, call us at +91 92570 29901 or request our ambulance. Our <strong>accident emergency hospital in Jaipur</strong> team gets set before you reach here.</p><h2>Advanced Ambulance Service in Jaipur</h2><p>Rushing the patient to the hospital fast and without extra harm comes first. Trained paramedics ride in our GPS-equipped Advanced Life Support ambulances and start helping on the road. This goes beyond simple travel. It delivers treatment while moving.</p><p>We are a 24-hour, on-demand <strong>ambulance service in Jaipur</strong>. All vehicles used are equipped with cardiac monitors, defibrillators, oxygen, IV stands and emergency medication to help calm the patient before reaching our emergency department.</p><h2>Intensive Care Unit (ICU and CCU)</h2><p>Our Intensive Care Unit provides the best monitoring and treatment for patients who are at life-threatening risk or have recently undergone surgery, and is on par with larger centres. Our Jaipur based <strong>ICU hospital</strong> treats difficult cases with utmost care and attention.</p><p>Features of our ICU include:</p><ul><li>24/7 intensivist coverage with critical care doctors present on every shift</li><li>Constant checks of heart rate, blood pressure, oxygen levels, and breathing signs at the bedside</li><li>Ventilator support for anyone who cannot breathe properly</li><li>Arterial lines, central lines, and advanced pressure monitoring</li><li>Strict infection control using HEPA-filtered rooms</li><li>Separate isolation areas for contagious cases</li></ul><p>Our <strong>intensive care unit in Jaipur</strong> works as more than basic rooms. It creates a closely watched setting where each patient gets personal nursing care and nonstop doctor supervision.</p><h2>Ventilator Support</h2><p>Ventilator support is often necessary to sustain life when breathing is severely impaired, a brain crisis occurs, a problem arises after surgery or when there is a serious infection. We have well-equipped <strong>ventilator-supported hospital</strong> with the latest ventilators and breathing specialists at our Jaipur hospital.</p><p>We care for patients on ventilators during their most critical time and safely remove these machines when patients get better, always minimizing risk associated with the use of the ventilator for extended periods.</p><h2>Cardiac Care Unit (CCU)</h2><p>Heart attacks, serious irregular heartbeats, sudden heart failure, and related heart problems need closer watching than a standard ICU offers. Our Cardiac Care Unit serves as a focused area inside critical care, giving nonstop ECG checks, immediate heart doctor help, and quick moves to procedures when required.</p><h2>NICU for Newborns</h2><p>Early and/or ill newborns require special critical care. Our NICU has incubators, baby ventilators, and phototherapy lights. The unit is run by paediatric experts, who understand the fragility and strength of newborns.</p><p>When families face risky births or early babies, a working NICU inside the same hospital brings real peace of mind.</p><h2>What Makes Our Critical Care Different</h2><p>Running a <strong>critical care hospital in Jaipur</strong> involves far more than machines. It takes the right staff, clear steps, and a strong approach to make everything work smoothly during tough times. At Jaipur Hospital:</p><ul><li>Specialists arrive within minutes instead of waiting hours</li><li>We treat family updates as important, so our staff keeps everyone informed</li><li>The path from emergency to ICU moves smoothly to prevent risky gaps</li><li>We accept CGHS, ECHS, and Ayushman Bharat for cashless treatment in critical cases</li></ul><h2>Contact Our Emergency Department</h2><p>Our Emergency and ICU departments are open 24/7, 365 days a year.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p><p>When every second counts, rely on the leading <strong>critical care hospital in Jaipur</strong>. We are always ready to help you at Jaipur Hospital.</p>",
+    metaTitle: "24/7 Emergency & ICU Hospital in Jaipur | Jaipur Hospital",
+    metaDescription: "Round-the-clock emergency, ICU, CCU & trauma care in Jaipur with advanced ambulance service & NICU. Fast response for critical cases. Call +91 9257029901.",
+    htmlContent: `<h1>ICU and Emergency Care in Jaipur | 24/7 Critical Care | Jaipur Hospital</h1>
+
+<h2>Our Emergency Department: Always On, Always Ready</h2>
+<p>Our emergency department is open around the clock, every day of the year, and is staffed by experienced emergency physicians, on-call specialists, trained nurses, and paramedics. Immediately upon a patient's arrival, we begin triage. We check how serious the problem is straight away and give priority according to medical needs, so critical patients never have to stand in line.</p>
+
+<p>As a dependable 24-hour hospital in Jaipur, we treat cases ranging from small cuts and sudden sickness to major trauma and problems affecting several organs. Our emergency area has resuscitation bays, crash carts, quick lab tests at the bedside, and fast links to experts in heart care, brain care, bone care, and general surgery.</p>
+
+<h2>Trauma and Accident Emergency Care</h2>
+<p>Car crashes, falls, injuries at work, and similar events call for speedy teamwork. Waiting even one hour after major trauma can decide whether someone gets better completely or lives with lasting harm. Our trauma care hospital in Jaipur works hard to cut down that risky time.</p>
+
+<p>We have:</p>
+<ul>
+  <li>A separate trauma bay stocked with full resuscitation tools</li>
+  <li>Round-the-clock digital X-ray and CT scan right away</li>
+  <li>Surgical, orthopaedic, and neurosurgery teams on call</li>
+  <li>Quick blood bank service for needed transfusions</li>
+  <li>Straight route from the emergency room to operation theatre for urgent operations</li>
+</ul>
+
+<p>If you or a loved one meets with an accident, call us at +91 92570 29901 or request our ambulance. Our accident emergency hospital in Jaipur team gets set before you reach here.</p>
+
+<h2>Advanced Ambulance Service in Jaipur</h2>
+<p>Rushing the patient to the hospital fast and without extra harm comes first. Trained paramedics ride in our GPS-equipped Advanced Life Support ambulances and start helping on the road. This goes beyond simple travel. It delivers treatment while moving.</p>
+
+<p>We are a 24-hour, on-demand ambulance service in Jaipur. All vehicles used are equipped with cardiac monitors, defibrillators, oxygen, IV stands and emergency medication to help calm the patient before reaching our emergency department.</p>
+
+<h2>Intensive Care Unit (ICU and CCU)</h2>
+<p>Our Intensive Care Unit provides the best monitoring and treatment for patients who are at life-threatening risk or have recently undergone surgery, and is on par with larger centres. Our Jaipur based ICU hospital treats difficult cases with utmost care and attention.</p>
+
+<p>Features of our ICU include:</p>
+<ul>
+  <li>24/7 intensivist coverage with critical care doctors present on every shift</li>
+  <li>Constant checks of heart rate, blood pressure, oxygen levels, and breathing signs at the bedside</li>
+  <li>Ventilator support for anyone who cannot breathe properly</li>
+  <li>Arterial lines, central lines, and advanced pressure monitoring</li>
+  <li>Strict infection control using HEPA-filtered rooms</li>
+  <li>Separate isolation areas for contagious cases</li>
+</ul>
+
+<p>Our intensive care unit in Jaipur works as more than basic rooms. It creates a closely watched setting where each patient gets personal nursing care and nonstop doctor supervision.</p>
+
+<h2>Ventilator Support</h2>
+<p>Ventilator support is often necessary to sustain life when breathing is severely impaired, a brain crisis occurs, a problem arises after surgery or when there is a serious infection. We have well-equipped ventilator-supported hospital with the latest ventilators and breathing specialists at our Jaipur hospital.</p>
+
+<p>We care for patients on ventilators during their most critical time and safely remove these machines when patients get better, always minimizing risk associated with the use of the ventilator for extended periods.</p>
+
+<h2>Cardiac Care Unit (CCU)</h2>
+<p>Heart attacks, serious irregular heartbeats, sudden heart failure, and related heart problems need closer watching than a standard ICU offers. Our Cardiac Care Unit serves as a focused area inside critical care, giving nonstop ECG checks, immediate heart doctor help, and quick moves to procedures when required.</p>
+
+<h2>NICU for Newborns</h2>
+<p>Early and/or ill newborns require special critical care. Our NICU has incubators, baby ventilators, and phototherapy lights. The unit is run by paediatric experts, who understand the fragility and strength of newborns.</p>
+
+<p>When families face risky births or early babies, a working NICU inside the same hospital brings real peace of mind.</p>
+
+<h2>What Makes Our Critical Care Different</h2>
+<p>Running a critical care hospital in Jaipur involves far more than machines. It takes the right staff, clear steps, and a strong approach to make everything work smoothly during tough times. At Jaipur Hospital:</p>
+<ul>
+  <li>Specialists arrive within minutes instead of waiting hours</li>
+  <li>We treat family updates as important, so our staff keeps everyone informed</li>
+  <li>The path from emergency to ICU moves smoothly to prevent risky gaps</li>
+  <li>We accept CGHS, ECHS, and Ayushman Bharat for cashless treatment in critical cases</li>
+</ul>
+
+<h2>When to Call Us Immediately</h2>
+<p>Do not wait if you see any of these signs:</p>
+<ul>
+  <li>Chest pain, trouble breathing, or signs of a heart attack</li>
+  <li>Stroke signs such as sudden weakness, unclear words, or one side of the face dropping</li>
+  <li>Head injury from a fall or crash</li>
+  <li>Bleeding that will not stop</li>
+  <li>Seizures or passing out</li>
+  <li>High fever plus confusion or neck stiffness</li>
+  <li>Possible poisoning or drug overdose</li>
+  <li>Bad stomach pain</li>
+  <li>Breathing trouble in kids</li>
+</ul>
+
+<h2>Contact Our Emergency Team</h2>
+<p><strong>Emergency:</strong> 24/7</p>
+<p><strong>Ambulance:</strong> +91 92570 29901</p>
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>General Enquiry:</strong> 0141-2741465</p>
+
+<p>In a medical emergency, time is of the essence. Rely on Jaipur Hospital, the dependable emergency ICU in Jaipur, for assistance when you most need it.</p>`,
   },
   {
     id: "diagnostics",
@@ -590,9 +1291,107 @@ export const specialities: Speciality[] = [
     treatments: ["MRI Scan", "CT Scan", "Digital X-Ray", "Ultrasound", "Pathology & Biochemistry", "Microbiology"],
     doctorIds: ["dr-divya-meel"],
     img: icuImg,
-    metaTitle: "Best Diagnostic Center in Jaipur | MRI, CT Scan & X-Ray",
-    metaDescription: "Advanced diagnostic center in Jaipur. 24/7 MRI, CT Scan, Ultrasound, and Digital X-Ray with high accuracy and fast reports. Call: 0141-2741465",
-    htmlContent: "<p>Modern medicine relies heavily on looking inside the body to detect, diagnose, and monitor diseases accurately. The Radiology and Imaging department at Jaipur Hospital is equipped with state-of-the-art technology and staffed by expert radiologists, making us a premier <strong>diagnostic center in Jaipur</strong>. We provide high-resolution imaging that gives your doctors the precise information they need to formulate the best treatment plan.</p><h2>Advanced Imaging Technology Under One Roof</h2><p>Navigating between different diagnostic centers for various tests can be exhausting, especially when you are unwell. Jaipur Hospital offers a comprehensive suite of imaging modalities available 24/7 for both emergency and routine cases. If you need a reliable <strong>CT scan center in Jaipur</strong> or a high-quality MRI, we have you covered.</p><h3>MRI (Magnetic Resonance Imaging)</h3><p>Our advanced MRI machine provides exceptionally detailed images of the brain, spine, joints, and soft tissues. It is crucial for diagnosing neurological conditions, orthopedic injuries, and tumors. We ensure a comfortable experience with fast scan times and highly accurate reporting by expert radiologists.</p><h3>CT Scan (Computed Tomography)</h3><p>In emergencies like trauma or stroke, speed is vital. Our multi-slice CT scanner delivers rapid, high-resolution cross-sectional images of the body. It is highly effective for detecting internal bleeding, complex fractures, lung infections, and abdominal issues.</p><h3>Ultrasound and Color Doppler</h3><p>We perform a wide range of ultrasonography (USG) procedures using advanced, high-frequency machines. Whether it is monitoring a pregnancy, diagnosing liver or kidney conditions, or performing a Color Doppler to check blood flow in arteries and veins, our <strong>sonography center in Jaipur</strong> ensures precise imaging.</p><h3>Digital X-Ray</h3><p>Our computerized Digital X-Ray systems offer instantaneous, high-clarity images with significantly lower radiation exposure compared to traditional X-rays. It is the immediate go-to for diagnosing bone fractures, chest infections, and joint problems.</p><h2>Why Choose Our Diagnostic Services?</h2><ul><li><strong>24/7 Operations:</strong> Medical emergencies require immediate answers. Our imaging center runs day and night to support our Emergency and ICU departments.</li><li><strong>Expert Radiologists:</strong> Technology is only as good as the expert interpreting it. Our senior MD Radiologists ensure reports are meticulously analyzed and clinically relevant.</li><li><strong>Seamless Patient Experience:</strong> Reports are directly shared with your consulting doctor within the hospital, speeding up your treatment process without the hassle of carrying physical films everywhere.</li></ul><p>For accurate, fast, and reliable imaging services, trust the experts.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>",
+    metaTitle: "Diagnostic Centre in Jaipur | X-Ray, CT, MRI & Lab Tests",
+    metaDescription: "NABL-accredited diagnostic lab in Jaipur offering X-ray, CT scan, MRI, ultrasound & full health checkups with fast reports. Cashless tests available.",
+    htmlContent: `<h1>Diagnostics and Imaging in Jaipur | Advanced Lab and Radiology | Jaipur Hospital</h1>
+
+<h2>Why In-House Diagnostics Matter</h2>
+<p>When a patient is referred to an outside lab or radiology centre, it introduces delays. The sample travels, the report takes time to come back, the doctor sees it later, and the treatment is pushed back. In emergency situations, that delay can be harmful. Even in routine outpatient care, waiting days for a report is frustrating and inefficient.</p>
+
+<p>At Jaipur Hospital, our diagnostics laboratory and imaging unit are right here in the building. Reports from most tests are ready within hours. In emergencies, critical results are communicated to the treating team immediately. This speed and coordination is one of the most practical advantages we offer patients.</p>
+
+<h2>Pathology and Laboratory Services</h2>
+<p>Our NABL-accredited pathology lab handles a comprehensive range of tests with the accuracy and consistency that certification demands. NABL accreditation means the lab meets national quality standards for equipment, processes, sample handling, and reporting, so you can trust what the report says.</p>
+
+<h3>Haematology</h3>
+<p>Complete blood count, ESR, peripheral smear, clotting profiles, and related tests that give a detailed picture of your blood health.</p>
+
+<h3>Biochemistry</h3>
+<p>Liver function tests, kidney function tests, lipid profiles, blood sugar, including fasting, post-meal, and HbA1c, thyroid function tests, electrolytes, and uric acid, among others.</p>
+
+<h3>Microbiology and Serology</h3>
+<p>Blood cultures, urine cultures, stool tests, Widal test for typhoid, dengue NS1 antigen and antibody tests, malaria antigen tests, HIV, HBsAg, and other infection markers.</p>
+
+<h3>Hormonal and Immunological Tests</h3>
+<p>Hormone panels for thyroid, reproductive health, adrenal function, and autoimmune markers.</p>
+
+<h3>Urine and Stool Analysis</h3>
+<p>Routine examination, culture and sensitivity, and specific tests based on clinical requirements.</p>
+
+<p>For patients managing chronic conditions like diabetes or thyroid disorders, our lab offers convenient repeat testing without the need to visit an external diagnostic centre.</p>
+
+<h2>Digital X-Ray</h2>
+<p>Digital X-ray produces clearer images than conventional film X-ray and does so at lower radiation doses. Results are available almost immediately, which is particularly important in emergency settings where a chest X-ray or fracture assessment cannot wait.</p>
+
+<p>Our X-ray centre in Jaipur handles chest X-rays, orthopaedic imaging for fractures and joint assessments, abdominal X-rays, and dental X-rays. Digital images are stored electronically and can be shared with specialists directly for faster reporting.</p>
+
+<h2>Ultrasound and Colour Doppler</h2>
+<p>Ultrasound is one of the most versatile diagnostic tools available. It is safe, painless, does not involve radiation, and gives real-time images of soft tissue structures, including organs, blood vessels, and, in pregnancy, the developing baby.</p>
+
+<p>Our ultrasound centre in Jaipur performs:</p>
+<ul>
+  <li>Abdominal and pelvic ultrasound</li>
+  <li>Obstetric ultrasound for all trimesters, including anomaly scans</li>
+  <li>Thyroid and neck ultrasound</li>
+  <li>Breast ultrasound</li>
+  <li>Scrotal ultrasound</li>
+  <li>Musculoskeletal ultrasound for soft tissue injuries</li>
+  <li>Colour Doppler for blood flow assessment in peripheral vessels, kidneys, and liver</li>
+  <li>Carotid Doppler for stroke risk evaluation</li>
+</ul>
+
+<p>All ultrasound scans are performed by trained sonologists and reported by experienced radiologists.</p>
+
+<h2>CT Scan</h2>
+<p>A CT scan provides detailed cross-sectional images of the body that plain X-rays cannot deliver. It is particularly valuable for evaluating the brain, chest, abdomen, and pelvis, for trauma assessment, cancer staging, vascular conditions, and more.</p>
+
+<p>Our CT scan centre in Jaipur is available round the clock since many CT scans are done in emergency situations, particularly for head injuries, stroke evaluation, and trauma. The scanner is maintained to high technical standards and staffed by radiographers and radiologists experienced in emergency and routine imaging.</p>
+
+<p>Common CT scan indications we handle include head CT for stroke and injury, chest CT for lung conditions and pulmonary embolism, CT angiography for vascular assessment, and abdominal CT for liver, kidney, and bowel conditions.</p>
+
+<h2>MRI Scan</h2>
+<p>MRI provides the most detailed soft tissue imaging available without using radiation. It is the gold standard for brain and spinal cord conditions, joint and ligament assessment, pelvic and abdominal soft tissue evaluation, and many other applications where fine detail matters.</p>
+
+<p>Our MRI centre in Jaipur is equipped with a high-field MRI machine capable of producing sharp, diagnostically useful images across a wide range of body regions. Our radiologists specialise in interpreting neurological, musculoskeletal, abdominal, and cardiac MRI studies.</p>
+
+<p>MRI is particularly important for our neurology and orthopaedic teams, and having it in-house means that a scan requested in the morning can be reported and acted upon the same day.</p>
+
+<h2>ECG and Cardiac Diagnostics</h2>
+<p>For patients with heart-related concerns, we offer:</p>
+<ul>
+  <li>12-lead ECG with immediate reporting</li>
+  <li>Holter monitoring for a 24 to 48-hour heart rhythm recording</li>
+  <li>2D Echocardiography for detailed heart structure and function assessment</li>
+  <li>Stress ECG or TMT for evaluating cardiac response to exercise</li>
+</ul>
+
+<p>These tests are available both as part of a cardiology consultation and as standalone investigations for patients referred by their doctors.</p>
+
+<h2>Integrated Diagnostics with Clinical Care</h2>
+<p>What makes our diagnostic setup genuinely useful is not just the range of tests available but how well the diagnostics team is integrated with the clinical departments. When a surgeon needs an urgent ultrasound before an operation, or when an emergency physician needs a CT result in twenty minutes, the infrastructure and communication channels are there to make that happen.</p>
+
+<p>Routine outpatients can also benefit from this integration. If your doctor is at Jaipur Hospital and your tests are done here, the turnaround is faster, follow-up is easier, and nothing gets lost in transit between providers.</p>
+
+<h2>Health Checkup Packages</h2>
+<p>We offer structured health checkup packages for different age groups and risk profiles. These packages combine multiple blood tests, urine analysis, ECG, chest X-ray, and specialist consultation into a single convenient visit. They are especially useful for:</p>
+<ul>
+  <li>Working adults above 35 who have not had a recent health check</li>
+  <li>Patients with a family history of diabetes, heart disease, or cancer</li>
+  <li>Pre-employment and pre-surgery workups</li>
+  <li>Annual wellness monitoring for patients with chronic conditions</li>
+</ul>
+
+<h2>Cashless and Empanelled Diagnostics</h2>
+<p>Diagnostic tests are covered under Ayushman Bharat, CGHS, ECHS, and most TPA-linked insurance policies for admitted patients. Our patient coordination team can confirm coverage and assist with authorisation, so there are no surprises when the bill comes.</p>
+
+<h2>Book Your Tests Today</h2>
+<p>Most tests do not need an appointment and can be done on a walk-in basis during OPD hours.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>OPD Hours:</strong> 9:00 AM to 8:00 PM | Emergency diagnostics: 24/7</p>
+<p><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Accurate diagnosis is the first step toward effective treatment. Visit our diagnostic centre in Jaipur and get reliable results that you and your doctor can act on.</p>`,
   },
   {
     id: "physiotherapy",
@@ -605,9 +1404,116 @@ export const specialities: Speciality[] = [
     treatments: ["Post-Surgical Rehab", "Joint Mobilization", "Sports Injury Rehab", "Spinal Therapy", "Neuro Rehabilitation", "Pain Management"],
     doctorIds: [],
     img: icuImg,
-    metaTitle: "Best Physiotherapy Center in Jaipur | Expert Physiotherapist",
-    metaDescription: "Top physiotherapy center in Jaipur offering post-surgery rehab, sports injury treatment, and pain management. Recover faster with expert care.",
-    htmlContent: "<p>Healing doesn't end when a surgery is completed or a cast is removed; that is often just the beginning of the recovery journey. The Physiotherapy and Rehabilitation department at Jaipur Hospital is dedicated to restoring movement, relieving pain, and helping patients regain their independence. Recognized as a leading <strong>physiotherapy center in Jaipur</strong>, we provide specialized care tailored to each patient's unique physical needs.</p><h2>Comprehensive Rehabilitation Services</h2><p>Whether you are an athlete eager to return to the field or an elderly patient recovering from a joint replacement, our skilled <strong>physiotherapist in Jaipur</strong> will design a targeted exercise and therapy program for you.</p><h3>Orthopedic and Post-Surgical Rehabilitation</h3><p>Recovery after orthopedic surgeries—such as total knee or hip replacements, ligament reconstructions (ACL/PCL), and spine surgeries—requires expert guidance. Our therapists work closely with our orthopedic surgeons to ensure your rehabilitation starts at the right time, preventing stiffness, rebuilding muscle strength, and accelerating your return to daily activities.</p><h3>Sports Injury Management</h3><p>Sports injuries like sprains, strains, and tendonitis need specialized care to heal correctly and prevent re-injury. We use a combination of manual therapy, strengthening exercises, and advanced modalities to help athletes recover quickly and safely.</p><h3>Neuro Rehabilitation</h3><p>For patients recovering from a stroke, spinal cord injury, or managing conditions like Parkinson's disease, regaining mobility is a major challenge. Our neuro-rehabilitation programs focus on improving balance, coordination, and motor functions, empowering patients to achieve maximum possible independence.</p><h3>Pain Management and Spinal Therapy</h3><p>Chronic back pain, neck pain (cervical spondylosis), and sciatica are increasingly common due to modern lifestyles. We utilize ergonomic assessments, posture correction, core strengthening, and modalities like IFT, TENS, and Ultrasound therapy to provide lasting relief without relying solely on painkillers.</p><h2>State-of-the-Art Physiotherapy Unit</h2><p>Our department is fully equipped with modern therapeutic equipment, offering a spacious and encouraging environment for recovery. Being integrated within a multi-specialty hospital means our physiotherapists have direct access to your complete medical history and consulting doctors, ensuring a completely safe and coordinated approach to your rehabilitation.</p><p>Don't let pain or stiffness limit your life. Start your journey to recovery with us.</p><p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015<br/><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>",
+    metaTitle: "Best Physiotherapy Centre in Jaipur | Pain Relief & Rehab",
+    metaDescription: "Expert physiotherapy in Jaipur for back pain, sports injury, post-surgery & stroke rehabilitation. Personalised treatment plans. Book your session today!",
+    htmlContent: `<h1>Physiotherapy in Jaipur | Rehabilitation and Pain Relief | Jaipur Hospital</h1>
+
+<h2>What Physiotherapy Actually Does</h2>
+<p>There is a common misconception that physiotherapy is just about exercises. In reality, it is a clinical discipline that uses a combination of manual therapy, targeted exercise programmes, electrotherapy, and education to restore function, reduce pain, and prevent recurrence of injury.</p>
+
+<p>A good physiotherapist does not give you a generic set of exercises and send you home. They assess your movement patterns, identify what is not working properly, and design a programme that addresses the root cause of your problem rather than just the symptoms.</p>
+
+<p>Our physiotherapy centre in Jaipur takes exactly this approach. Every patient gets an individual assessment and a treatment plan tailored to their specific condition, their lifestyle, and their recovery goals.</p>
+
+<h2>Conditions Treated by Our Physiotherapy Team</h2>
+
+<h3>Orthopaedic and Musculoskeletal</h3>
+<ul>
+  <li>Post-surgical rehabilitation after knee, hip, and shoulder replacement</li>
+  <li>Fracture rehabilitation</li>
+  <li>Sports injuries, including ligament tears, muscle strains, and tendon injuries</li>
+  <li>Lower back pain and sciatica</li>
+  <li>Neck pain and cervical spondylosis</li>
+  <li>Frozen shoulder and rotator cuff problems</li>
+  <li>Knee pain from arthritis or overuse</li>
+  <li>Plantar fasciitis and ankle injuries</li>
+</ul>
+
+<h3>Neurological Rehabilitation</h3>
+<ul>
+  <li>Stroke rehabilitation for patients with weakness, balance problems, or speech-related motor issues</li>
+  <li>Parkinson's disease management</li>
+  <li>Spinal cord injury rehabilitation</li>
+  <li>Facial palsy and Bell's palsy</li>
+  <li>Peripheral nerve injuries</li>
+</ul>
+
+<h3>Other Conditions</h3>
+<ul>
+  <li>Respiratory physiotherapy for COPD and post-ICU patients</li>
+  <li>Post-COVID rehabilitation for patients with persistent fatigue, breathlessness, or weakness</li>
+  <li>Geriatric physiotherapy for older patients with mobility concerns</li>
+  <li>Antenatal and postnatal physiotherapy for pregnant and new mothers</li>
+</ul>
+
+<h2>Post-Surgery Rehabilitation</h2>
+<p>Surgery fixes the structural problem. Physiotherapy gets you functional again. This is why post-operative rehabilitation is not optional, it is an essential part of the treatment.</p>
+
+<p>After procedures like knee replacement, hip replacement, or spinal surgery, our rehabilitation centre in Jaipur team begins physiotherapy as early as it is safe to do so. Early mobilisation reduces the risk of complications like deep vein thrombosis, prevents muscle wasting, and leads to significantly better long-term outcomes.</p>
+
+<p>Our post-surgical rehab programmes are designed in close coordination with the operating surgeon so that the physiotherapy progression matches what the surgical repair can handle at each stage of healing.</p>
+
+<h2>Physiotherapy for Back and Neck Pain</h2>
+<p>Back pain is one of the most common reasons people visit a physiotherapist, and also one of the most mismanaged. Many people spend years on painkillers when the underlying issue, whether it is a disc problem, muscle imbalance, or postural dysfunction, could be effectively addressed through a structured physiotherapy programme.</p>
+
+<p>If you have been dealing with persistent back pain treatment in Jaipur or neck pain that keeps coming back, our team can assess what is causing it and give you a targeted plan that goes beyond temporary pain relief. We work on strengthening the muscles that support the spine, improving posture, and educating patients on how to protect their back in daily life and at work.</p>
+
+<h2>Sports Injury Rehabilitation</h2>
+<p>Athletes and active individuals have specific needs when it comes to recovery. The goal is not just to heal but to return to sport at the same or better level of performance, without the risk of re-injury.</p>
+
+<p>Our sports physiotherapy in Jaipur approach includes injury assessment, guided recovery through progressive loading, sport-specific conditioning, and return-to-play evaluation. Whether you play cricket on weekends or train competitively, we take your return to activity seriously.</p>
+
+<h2>Electrotherapy and Advanced Modalities</h2>
+<p>Our physiotherapy department is equipped with a range of therapeutic modalities that complement hands-on treatment:</p>
+<ul>
+  <li>TENS (Transcutaneous Electrical Nerve Stimulation) for pain relief</li>
+  <li>Ultrasound therapy for soft tissue healing</li>
+  <li>Interferential therapy for deep tissue pain</li>
+  <li>Shortwave diathermy</li>
+  <li>Hot and cold therapy</li>
+  <li>Traction for spinal decompression</li>
+  <li>Wax therapy for hand and joint conditions</li>
+</ul>
+
+<p>These modalities are used as part of a broader treatment plan and not as standalone treatments. The physiotherapist decides which combination is appropriate for each patient based on the clinical presentation.</p>
+
+<h2>Neurological Physiotherapy</h2>
+<p>Recovery after a stroke, brain injury, or spinal cord injury is a long road, but with consistent, evidence-based physiotherapy, it is a road that leads somewhere meaningful.</p>
+
+<p>Our neuro physiotherapy in Jaipur programme uses techniques like:</p>
+<ul>
+  <li>Bobath and NDT (Neurodevelopmental Treatment) for stroke patients</li>
+  <li>Task-specific training to re-learn functional movements</li>
+  <li>Balance and gait retraining</li>
+  <li>Spasticity management</li>
+  <li>Constraint-induced movement therapy</li>
+</ul>
+
+<p>We work with the neurology team to align physiotherapy goals with the overall management plan and support families in understanding how to assist the patient at home between sessions.</p>
+
+<h2>Why In-Hospital Physiotherapy Makes a Difference</h2>
+<p>Having physiotherapy within a hospital setting like Jaipur Hospital has specific advantages. Our physiotherapists can coordinate directly with the treating surgeon, physician, or neurologist. They have access to the patient's full medical history and imaging. And when a patient is an inpatient, bedside physiotherapy can begin early without waiting for an external appointment.</p>
+
+<p>For outpatients, our physiotherapy OPD runs regular sessions with flexible scheduling so that working adults and school-going children can access care without disrupting their daily routine.</p>
+
+<h2>When to See a Physiotherapist</h2>
+<p>Consider visiting our physiotherapy centre in Jaipur if you have:</p>
+<ul>
+  <li>Pain or stiffness that has lasted more than a few weeks</li>
+  <li>Difficulty with everyday activities like walking, climbing stairs, or lifting</li>
+  <li>Recovered from surgery and need structured rehabilitation</li>
+  <li>Had a neurological event and want to rebuild function</li>
+  <li>A sports injury that is not healing with rest alone</li>
+  <li>Recurring back or neck pain that keeps coming back</li>
+</ul>
+
+<h2>Book a Physiotherapy Session</h2>
+<p>Our physiotherapy OPD is available Monday to Saturday during hospital hours.</p>
+
+<p><strong>Location:</strong> Lal Kothi, Near S.M.S. Stadium, Tonk Road, Jaipur – 302015</p>
+<p><strong>Call:</strong> 0141-2741465 | +91 92570 29901</p>
+
+<p>Do not settle for pain or limited movement as a permanent state. Book a session with our physiotherapist in Jaipur today and start moving toward a better, more active life.</p>`,
   },
 ];
 

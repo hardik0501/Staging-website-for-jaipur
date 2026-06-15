@@ -11,7 +11,6 @@ const moreMenuItems = [
   { label: "Testimonials", href: "/testimonials" },
   { label: "Empanelments", href: "/empanelments" },
   { label: "Annual Report", href: "/annual-report" },
-  { label: "Blogs", href: "/blogs" },
   { label: "Board of Directors", href: "/board-of-directors" },
   { label: "Company Profile", href: "/company-profile" },
   { label: "Corporate Governance", href: "/corporate-governance" },
@@ -62,6 +61,7 @@ const HospitalHeader = () => {
     { label: "Doctors", href: "/doctors" },
     { label: "Facilities", href: "/facilities" },
     { label: "Contact", href: "/contact" },
+    { label: "Blogs", href: "/blogs" },
   ];
 
   return (
@@ -127,7 +127,7 @@ const HospitalHeader = () => {
               <ChevronDown size={16} className={`transition-transform ${moreOpen ? "rotate-180" : ""}`} />
             </button>
             {moreOpen && (
-              <div className="absolute left-0 top-full pt-2 -ml-2">
+              <div className="absolute left-1/2 -translate-x-1/2 top-full pt-2">
                 <div className="bg-card border border-border rounded-xl shadow-xl min-w-[280px] max-w-[90vw] w-max overflow-hidden">
                   <div className="p-3 grid grid-cols-2 sm:grid-cols-3 gap-0.5 max-h-[70vh] overflow-y-auto">
                     {moreMenuItems.map((item) =>
