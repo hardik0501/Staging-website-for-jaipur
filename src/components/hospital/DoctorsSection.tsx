@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Calendar, ChevronDown } from "lucide-react";
+import { Calendar, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { doctors, DOCTOR_DEPARTMENTS } from "@/data/hospitalData";
 
@@ -7,8 +7,10 @@ const DoctorsSection = () => {
   const [selected, setSelected] = useState("All Departments");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  const [isInteracting, setIsInteracting] = useState(false);
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
+  const interactionTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -20,6 +22,14 @@ const DoctorsSection = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  useEffect(() => {
+    return () => {
+      if (interactionTimeoutRef.current) {
+        clearTimeout(interactionTimeoutRef.current);
+      }
+    };
+  }, []);
+
   const filtered =
     selected === "All Departments"
       ? doctors
@@ -28,7 +38,7 @@ const DoctorsSection = () => {
   // Simple auto-scrolling marquee-style slider for doctor cards
   useEffect(() => {
     const container = scrollRef.current;
-    if (!container || filtered.length === 0 || isPaused) return;
+    if (!container || filtered.length === 0 || isPaused || isInteracting) return;
 
     let frameId: number;
     const speed = 0.5; // pixels per frame
@@ -44,7 +54,29 @@ const DoctorsSection = () => {
 
     frameId = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(frameId);
-  }, [filtered.length, isPaused]);
+  }, [filtered.length, isPaused, isInteracting]);
+
+  const scroll = (direction: "left" | "right") => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    // Pause auto-scroll temporarily for a smooth button transition
+    setIsInteracting(true);
+
+    const cardWidth = window.innerWidth < 640 ? 240 : 270;
+    const scrollAmount = direction === "left" ? -cardWidth * 2 : cardWidth * 2;
+    container.scrollBy({
+      left: scrollAmount,
+      behavior: "smooth",
+    });
+
+    if (interactionTimeoutRef.current) {
+      clearTimeout(interactionTimeoutRef.current);
+    }
+    interactionTimeoutRef.current = setTimeout(() => {
+      setIsInteracting(false);
+    }, 3000);
+  };
 
   return (
     <section id="doctors" className="section-padding bg-surface">
@@ -63,33 +95,54 @@ const DoctorsSection = () => {
             </p>
           </div>
 
-          {/* Department filter */}
-          <div className="relative" ref={dropdownRef}>
-            <button
-              className="flex items-center gap-2 bg-card border border-border rounded-xl px-4 py-2.5 text-sm font-medium text-foreground shadow-sm hover:border-primary transition-colors"
-              onClick={() => setDropdownOpen(!dropdownOpen)}
-            >
-              {selected}
-              <ChevronDown size={16} className={`transition-transform ${dropdownOpen ? "rotate-180" : ""}`} />
-            </button>
-            {dropdownOpen && (
-              <div className="absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-xl shadow-lg z-30 overflow-hidden">
-                {DOCTOR_DEPARTMENTS.map((dept) => (
-                  <button
-                    key={dept}
-                    className={`w-full text-left px-4 py-2.5 text-sm hover:bg-primary-light transition-colors ${
-                      selected === dept ? "text-primary font-semibold bg-primary-light" : "text-foreground"
-                    }`}
-                    onClick={() => {
-                      setSelected(dept);
-                      setDropdownOpen(false);
-                    }}
-                  >
-                    {dept}
-                  </button>
-                ))}
-              </div>
-            )}
+          {/* Controls & Filter */}
+          <div className="flex items-center gap-3 self-stretch sm:self-auto justify-between sm:justify-start">
+            {/* Scroll Buttons */}
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => scroll("left")}
+                className="w-10 h-10 rounded-xl border border-border bg-card flex items-center justify-center hover:border-primary hover:text-primary transition-all shadow-sm active:scale-95"
+                aria-label="Scroll left"
+              >
+                <ChevronLeft size={18} />
+              </button>
+              <button
+                onClick={() => scroll("right")}
+                className="w-10 h-10 rounded-xl border border-border bg-card flex items-center justify-center hover:border-primary hover:text-primary transition-all shadow-sm active:scale-95"
+                aria-label="Scroll right"
+              >
+                <ChevronRight size={18} />
+              </button>
+            </div>
+
+            {/* Department filter */}
+            <div className="relative flex-1 sm:flex-none" ref={dropdownRef}>
+              <button
+                className="w-full sm:w-auto flex items-center justify-between gap-2 bg-card border border-border rounded-xl px-4 py-2.5 text-sm font-medium text-foreground shadow-sm hover:border-primary transition-colors"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              >
+                {selected}
+                <ChevronDown size={16} className={`transition-transform ${dropdownOpen ? "rotate-180" : ""}`} />
+              </button>
+              {dropdownOpen && (
+                <div className="absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-xl shadow-lg z-30 overflow-hidden">
+                  {DOCTOR_DEPARTMENTS.map((dept) => (
+                    <button
+                      key={dept}
+                      className={`w-full text-left px-4 py-2.5 text-sm hover:bg-primary-light transition-colors ${
+                        selected === dept ? "text-primary font-semibold bg-primary-light" : "text-foreground"
+                      }`}
+                      onClick={() => {
+                        setSelected(dept);
+                        setDropdownOpen(false);
+                      }}
+                    >
+                      {dept}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -108,9 +161,9 @@ const DoctorsSection = () => {
             <Link
               to={`/doctors/${doc.id}`}
               key={`${doc.id}-${index}`}
-              className="group bg-card rounded-2xl border border-border shadow-card overflow-hidden card-hover text-center min-w-[190px] sm:min-w-[210px]"
+              className="group bg-card rounded-2xl border border-border shadow-card overflow-hidden card-hover text-center w-[220px] sm:w-[250px] h-[370px] sm:h-[400px] flex-shrink-0 flex flex-col justify-between"
             >
-              <div className="relative h-44 overflow-hidden bg-gradient-surface">
+              <div className="relative h-40 sm:h-44 overflow-hidden bg-gradient-surface flex-shrink-0">
                 <img
                   src={doc.img}
                   alt={doc.name}
@@ -122,16 +175,22 @@ const DoctorsSection = () => {
                   }}
                 />
               </div>
-              <div className="p-4">
-                <div className="font-display font-bold text-sm text-foreground mb-0.5 leading-snug">
-                  {doc.name}
+              <div className="p-4 flex flex-col flex-1 justify-between">
+                <div>
+                  <div className="font-display font-bold text-sm text-foreground mb-1 leading-snug line-clamp-1">
+                    {doc.name}
+                  </div>
+                  <div className="text-muted-foreground text-xs mb-2 line-clamp-2 h-8 flex items-center justify-center text-center">
+                    {doc.qual}
+                  </div>
+                  <div className="mb-2">
+                    <span className="inline-block bg-primary-light text-primary text-[11px] sm:text-xs font-semibold px-2.5 py-0.5 rounded-full truncate max-w-full">
+                      {doc.dept}
+                    </span>
+                  </div>
+                  <div className="text-muted-foreground text-xs mb-1">{doc.exp} Experience</div>
                 </div>
-                <div className="text-muted-foreground text-xs mb-1">{doc.qual}</div>
-                <div className="inline-block bg-primary-light text-primary text-xs font-semibold px-2 py-0.5 rounded-full mb-2">
-                  {doc.dept}
-                </div>
-                <div className="text-muted-foreground text-xs mb-3">{doc.exp} Exp.</div>
-                <span className="flex items-center justify-center gap-1 bg-gradient-primary text-primary-foreground text-xs font-semibold rounded-lg px-3 py-2 hover:opacity-90 transition-opacity">
+                <span className="flex items-center justify-center gap-1 bg-gradient-primary text-primary-foreground text-xs font-semibold rounded-lg px-3 py-2 hover:opacity-90 transition-opacity w-full mt-2">
                   <Calendar size={12} />
                   View Profile
                 </span>

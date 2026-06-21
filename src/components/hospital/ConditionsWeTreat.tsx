@@ -1,4 +1,5 @@
-import { Stethoscope, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Phone } from "lucide-react";
 
 const conditions = [
   { condition: "Heart attack and chest pain", dept: "Cardiology", routeId: "cardiology" },
@@ -35,20 +36,21 @@ const ConditionsWeTreat = () => {
         {/* Condition Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
           {conditions.map((item, idx) => (
-            <div
+            <Link
               key={idx}
-              className="flex items-center justify-between p-4 bg-card rounded-xl border border-border hover:border-primary/50 hover:shadow-sm transition-all"
+              to={`/services/${item.routeId}`}
+              className="flex items-center justify-between p-4 bg-card rounded-xl border border-border hover:border-primary/50 hover:shadow-md hover:-translate-y-0.5 transition-all cursor-pointer group"
             >
               <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-primary" />
-                <span className="font-semibold text-foreground text-sm md:text-base">
+                <span className="w-2 h-2 rounded-full bg-primary group-hover:scale-125 transition-transform" />
+                <span className="font-semibold text-foreground text-sm md:text-base group-hover:text-primary transition-colors">
                   {item.condition}
                 </span>
               </div>
-              <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-primary-light text-primary whitespace-nowrap">
+              <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-primary-light text-primary whitespace-nowrap group-hover:bg-primary group-hover:text-white transition-colors">
                 {item.dept}
               </span>
-            </div>
+            </Link>
           ))}
         </div>
 

@@ -39,17 +39,9 @@ const extractConsultationBlock = (html?: string) => {
     consultationHtml = html.substring(splitIndex).trim();
   }
   
-  const convertToH1 = (str: string) => {
-    return str
-      .replace(/<h2/gi, "<h1")
-      .replace(/<\/h2>/gi, "</h1>")
-      .replace(/<h3/gi, "<h1")
-      .replace(/<\/h3>/gi, "</h1>");
-  };
-  
   return {
-    mainHtml: convertToH1(mainHtml),
-    consultationHtml: convertToH1(consultationHtml)
+    mainHtml,
+    consultationHtml
   };
 };
 
@@ -77,15 +69,15 @@ const ServiceDetail = () => {
 
   // Determine if a custom heading should be prepended
   let customHeading = "";
-  if (consultationHtml && !consultationHtml.includes("<h1>")) {
+  if (consultationHtml && !consultationHtml.includes("<h1") && !consultationHtml.includes("<h2")) {
     if (speciality.id === "pediatrics") {
-      customHeading = "<h1>Book a Pediatrics Consultation</h1>";
+      customHeading = "<h2>Book a Pediatrics Consultation</h2>";
     } else if (speciality.id === "diagnostics") {
-      customHeading = "<h1>Book a Diagnostics & Imaging Consultation</h1>";
+      customHeading = "<h2>Book a Diagnostics & Imaging Consultation</h2>";
     } else if (speciality.id === "physiotherapy") {
-      customHeading = "<h1>Book a Physiotherapy & Rehabilitation Consultation</h1>";
+      customHeading = "<h2>Book a Physiotherapy & Rehabilitation Consultation</h2>";
     } else {
-      customHeading = "<h1>Book a Consultation</h1>";
+      customHeading = "<h2>Book a Consultation</h2>";
     }
   }
 

@@ -15,17 +15,17 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-width text-center pt-32 pb-20">
+      <div className="relative z-10 container-width text-center pt-24 pb-12 sm:pt-32 sm:pb-20">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-6 animate-fade-up max-w-[90vw] sm:max-w-none">
+        <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-4 sm:mb-6 animate-fade-up max-w-[95vw] sm:max-w-none">
           <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse flex-shrink-0" />
-          <span className="text-primary-foreground text-xs sm:text-sm font-medium truncate sm:whitespace-normal">
+          <span className="text-primary-foreground text-[10px] xs:text-xs sm:text-sm font-medium whitespace-normal sm:whitespace-nowrap text-center">
             Trusted Healthcare Since 2004 · Lal Kothi, Jaipur, Rajasthan
           </span>
         </div>
 
         <h1
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground mb-6 leading-tight animate-fade-up"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground mb-4 sm:mb-6 leading-tight animate-fade-up"
           style={{ animationDelay: "0.1s" }}
         >
           Best Multispeciality
@@ -34,7 +34,7 @@ const HeroSection = () => {
         </h1>
 
         <p
-          className="text-lg md:text-xl text-primary-foreground/85 max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-up"
+          className="text-base sm:text-lg md:text-xl text-primary-foreground/85 max-w-3xl mx-auto mb-6 sm:mb-10 leading-relaxed animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
           Expert doctors. Advanced care. 24/7 emergency and critical care support. Jaipur Hospital has been Rajasthan's trusted name in healthcare for over two decades. Your health is our highest priority.
@@ -42,12 +42,12 @@ const HeroSection = () => {
 
         {/* CTA Buttons */}
         <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14 animate-fade-up"
+          className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-14 animate-fade-up"
           style={{ animationDelay: "0.3s" }}
         >
           <a
             href="tel:+919257029901"
-            className="flex items-center justify-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-8 py-4 text-base hover:bg-primary-foreground/25 transition-colors w-full sm:w-auto"
+            className="flex items-center justify-center gap-2 bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground font-semibold rounded-full px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base hover:bg-primary-foreground/25 transition-colors w-full sm:w-auto"
           >
             <Phone size={18} />
             Call Now: +91 92570 29901
@@ -56,7 +56,7 @@ const HeroSection = () => {
             href="https://wa.me/919257029901"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-full px-8 py-4 text-base hover:bg-green-600 transition-colors w-full sm:w-auto"
+            className="flex items-center justify-center gap-2 bg-green-500 text-white font-semibold rounded-full px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base hover:bg-green-600 transition-colors w-full sm:w-auto"
           >
             <MessageCircle size={18} />
             WhatsApp Us
@@ -65,7 +65,7 @@ const HeroSection = () => {
 
         {/* Trust Badges */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-3 gap-4 animate-fade-up w-full max-w-sm sm:max-w-none mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 animate-fade-up w-full max-w-sm sm:max-w-none mx-auto"
           style={{ animationDelay: "0.4s" }}
         >
           {[
@@ -75,14 +75,14 @@ const HeroSection = () => {
           ].map(({ icon: Icon, label, desc }) => (
             <div
               key={label}
-              className="flex items-center gap-3 bg-primary-foreground/12 backdrop-blur-sm border border-primary-foreground/20 rounded-2xl px-5 py-3"
+              className="flex items-center gap-2.5 sm:gap-3 bg-primary-foreground/12 backdrop-blur-sm border border-primary-foreground/20 rounded-xl sm:rounded-2xl px-4 py-2.5 sm:px-5 sm:py-3"
             >
-              <div className="w-10 h-10 rounded-xl bg-primary/80 flex items-center justify-center flex-shrink-0">
-                <Icon size={20} className="text-primary-foreground" />
+              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-primary/80 flex items-center justify-center flex-shrink-0">
+                <Icon size={16} className="text-primary-foreground sm:w-5 sm:h-5" />
               </div>
               <div className="text-left">
-                <div className="text-primary-foreground font-bold text-sm">{label}</div>
-                <div className="text-primary-foreground/70 text-xs">{desc}</div>
+                <div className="text-primary-foreground font-bold text-xs sm:text-sm">{label}</div>
+                <div className="text-primary-foreground/70 text-[10px] sm:text-xs hidden sm:block">{desc}</div>
               </div>
             </div>
           ))}
