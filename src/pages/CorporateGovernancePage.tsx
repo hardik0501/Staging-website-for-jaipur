@@ -249,41 +249,49 @@ const POLICIES = [
   }
 ];
 
-const INVESTOR_COMPLAINT_PERIODS = [
-  "December 2015",
-  "March 2016",
-  "June 2016",
-  "September 2016",
-  "December 2016",
-  "March 2017",
-  "June 2017",
-  "September 2017",
-  "December 2017",
-  "December 2018",
-  "March 2019",
-  "June 2019",
-  "September 2019",
-  "December 2019",
-  "March 2020",
-  "June 2020",
-  "September 2020",
-  "December 2020",
-  "March 2021",
-  "June 2021",
-  "September 2021",
-  "March 2022",
-  "September 2022",
-  "December 2022",
-  "March 2023",
-  "June 2023",
-  "September 2023",
-  "December 2023",
-  "March 2024",
-  "June 2024",
-  "September 2024",
-  "December 2024",
-  "March 2025",
-  "June 2025",
+interface InvestorComplaint {
+  period: string;
+  pdf?: string;
+}
+
+const INVESTOR_COMPLAINT_PERIODS: InvestorComplaint[] = [
+  { period: "December 2015" },
+  { period: "March 2016" },
+  { period: "June 2016" },
+  { period: "September 2016" },
+  { period: "December 2016" },
+  { period: "March 2017" },
+  { period: "June 2017" },
+  { period: "September 2017" },
+  { period: "December 2017" },
+  { period: "December 2018" },
+  { period: "March 2019" },
+  { period: "June 2019" },
+  { period: "September 2019" },
+  { period: "December 2019" },
+  { period: "March 2020" },
+  { period: "June 2020" },
+  { period: "September 2020" },
+  { period: "December 2020" },
+  { period: "March 2021" },
+  { period: "June 2021" },
+  { period: "September 2021" },
+  { period: "March 2022" },
+  { period: "September 2022" },
+  { period: "December 2022" },
+  { period: "March 2023" },
+  { period: "June 2023" },
+  { period: "September 2023" },
+  { period: "December 2023" },
+  { period: "March 2024" },
+  { period: "June 2024" },
+  { period: "September 2024" },
+  { period: "December 2024" },
+  { period: "March 2025" },
+  { period: "June 2025" },
+  { period: "September 2025", pdf: "Reg. 13(3) - Investor Complaints for September 2025.pdf" },
+  { period: "December 2025", pdf: "Investor Complaints for December 2025.pdf" },
+  { period: "June 2026", pdf: "Investor Complaints for June 2026.pdf" },
 ];
 
 // PDF paths are now explicitly mapped above
@@ -394,16 +402,16 @@ const CorporateGovernancePage = () => {
               </p>
               <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-                  {INVESTOR_COMPLAINT_PERIODS.map((period) => (
+                  {INVESTOR_COMPLAINT_PERIODS.map((item) => (
                     <a
-                      key={period}
-                      href="#"
+                      key={item.period}
+                      href={item.pdf ? `/Corporate_goverance/${item.pdf}` : "#"}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-foreground hover:text-primary underline-offset-2 hover:underline"
                     >
                       <FileText className="w-4 h-4 text-primary" />
-                      <span>{period}</span>
+                      <span>{item.period}</span>
                     </a>
                   ))}
                 </div>
