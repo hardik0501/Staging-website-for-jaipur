@@ -4,6 +4,8 @@ import FloatingButtons from "@/components/hospital/FloatingButtons";
 import { FileText, Download, ChevronRight } from "lucide-react";
 
 const shareholdingReports = [
+  { title: "Shareholding Information 31.03.2026", file: "/ShareHolders/0327_CL31_310326.XLSX" },
+  { title: "Shareholding Information 31.12.2025", file: "/ShareHolders/0327_CL31_311225 (1).XLS" },
   { title: "Shareholding Information 30.09.2025", file: "/ShareHolders/0327_CL31_300925.pdf" },
   { title: "Shareholding Information 30.06.2025", file: "/ShareHolders/Shareholding-Information-30.06.2025.pdf" },
   { title: "Shareholding Information 31.03.2025", file: "/ShareHolders/Shareholding-Information-31.03.2025.pdf" },
@@ -57,7 +59,7 @@ const DocumentList = ({ title, documents }: { title: string; documents: { title:
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm font-semibold text-primary opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-              <span>View PDF</span>
+              <span>View Document</span>
               <Download size={16} />
             </div>
           </a>

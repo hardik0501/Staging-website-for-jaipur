@@ -264,16 +264,16 @@ const Regulation46and62Page = () => {
                     <tr>
                       <td className="border-b border-border px-2 py-2 align-top">2</td>
                       <td className="border-b border-border px-2 py-2 align-top">
-                        Shri. Pushpendra Prasad Garg and CA Rajeev Kumar
+                        Shri. Pushpendra Prasad Garg
                       </td>
                       <td className="border-b border-border px-2 py-2 align-top">
-                        Independent Non-Executive Directors
+                        Independent Non-Executive Director
                       </td>
                       <td className="border-b border-border px-2 py-2 align-top">
-                        10304570 and 07847472
+                        10304570
                       </td>
                       <td className="border-b border-border px-2 py-2 align-top">
-                        ACCPG2105L and ABQPK1584Q
+                        ACCPG2105L
                       </td>
                     </tr>
                     <tr>

@@ -222,7 +222,7 @@ const VOTING_RESULTS = [
   },
   {
     "title": "Results of 36th AGM with Scrutinizer’s Report",
-    "pdf": "#"
+    "pdf": "Voting Results with Scrutinizers Report.pdf"
   }
 ];
 
