@@ -168,6 +168,18 @@ const BOARD_MEETING_NOTICES = [
   {
     "title": "Board Meeting Notice for the Quarter ended 30.06.2025",
     "pdf": "Board-Meeting-Notice-for-the-quarter-ended-30.06.2025_compressed.pdf"
+  },
+  {
+    "title": "Board Meeting Notice for the Quarter and Half Year ended 30.09.2025",
+    "pdf": "Board Meeting Notice for the Quarter and Half Year ended 30.09.2025.pdf"
+  },
+  {
+    "title": "Board Meeting Notice for the Quarter ended 31.12.2025",
+    "pdf": "Board Meeting Notice for the Quarter ended 31.12.2025.pdf"
+  },
+  {
+    "title": "Board Meeting Notice for the Year ended 31.03.2026",
+    "pdf": "Board Meeting Notice for the Year ended 31.03.2026.pdf"
   }
 ];
 

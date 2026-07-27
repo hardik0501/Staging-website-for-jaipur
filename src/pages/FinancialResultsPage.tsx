@@ -50,6 +50,9 @@ const financialResults: FinancialResult[] = [
   { id: 37, title: "Quarter & Nine Months Ended 31.12.2024", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Unaudited-Financial-Results-for-the-quarter-and-nine-months-ended-31.12.2024.pdf" },
   { id: 38, title: "Quarter & Year Ended 31.03.2025", type: "Audited Financial Result", fileUrl: "/FinancialResults/Audited-Financial-Results-for-the-quarter-and-year-ended-31.03.2025.pdf" },
   { id: 39, title: "Quarter Ended 30.06.2025", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Unaudited-Financial-Results-for-the-quarter-ended-30.06.2025.pdf" },
+  { id: 40, title: "Quarter & Half Year Ended 30.09.2025", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Half Year Ended 30.09.2025.pdf" },
+  { id: 41, title: "Quarter & Nine Months Ended 31.12.2025", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Nine Months Ended 31.12.2025.pdf" },
+  { id: 42, title: "Quarter & Year Ended 31.03.2026", type: "Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Year Ended 31.03.2026.pdf" },
 ];
 
 const FinancialResultsPage = () => {
