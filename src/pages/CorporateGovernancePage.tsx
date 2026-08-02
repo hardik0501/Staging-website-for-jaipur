@@ -388,8 +388,235 @@ const REG27_2_NON_APPLICABILITY_CERT = [
 
 const REG74_5_COMPLIANCE_CERT = [
   {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2019",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2019.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2019",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2019.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2020",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2020.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2020",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2020.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2020",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2020.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2020",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2020.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2021",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2021.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2021",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2021.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2021",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2021.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2021",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2021.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2022",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2022.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2022",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2022.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2022",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.09.2022.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2022",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.12.2022.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2023",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 31.03.2023.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2023",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants ) Regulations, 2018 for 30.06.2023.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.09.2023",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.09.2023.pdf"
+  },
+  {
     title: "Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2023",
     pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2023.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.03.2024",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.03.2024.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2024",
+    pdf: "74(5) 30.06.2024.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.09.2024",
+    pdf: "74(5) 30.09.2024.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2024",
+    pdf: "74(5) 31.12.2024.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.03.2025",
+    pdf: "74(5) 31.03.2025.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2025",
+    pdf: "74(5) 30.06.2025.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.09.2025",
+    pdf: "intimation under reg74(5).pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2025",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2025.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants)  Regulations, 2018 for 31.03.2026",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.03.2026.pdf"
+  },
+  {
+    title: "Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants)  Regulations, 2018 for 30.06.2026",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 30.06.2026.pdf"
+  }
+];
+
+const REG76_AUDIT_REPORT = [
+  {
+    title: "Reconciliation of Share Capital 31.12.2015",
+    pdf: "Reconciliation of Share Capital 31.12.2015.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2016",
+    pdf: "Reconciliation of Share Capital 31.03.2016.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2016",
+    pdf: "Reconciliation of Share Capital 30.06.2016.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2016",
+    pdf: "Reconciliation of Share Capital 30.09.2016.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2016",
+    pdf: "Reconciliation of Share Capital 31.12.2016.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2017",
+    pdf: "Reconciliation of Share Capital 31.03.2017.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2017",
+    pdf: "Reconciliation of Share Capital 30.06.2017.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2017",
+    pdf: "Reconciliation of Share Capital 30.09.2017.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2017",
+    pdf: "Reconciliation of Share Capital 31.12.2017.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2018",
+    pdf: "Reconciliation of Share Capital 31.03.2018.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2018",
+    pdf: "Reconciliation of Share Capital 30.06.2018.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2018",
+    pdf: "Reconciliation of Share Capital 30.09.2018.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2018",
+    pdf: "Reconciliation of Share Capital 31.12.2018.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2019",
+    pdf: "Reconciliation of Share Capital 31.03.2019.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2019",
+    pdf: "Reconciliation of Share Capital 30.06.2019.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2019",
+    pdf: "Reconciliation of Share Capital 30.09.2019.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2019",
+    pdf: "Reconciliation of Share Capital 31.12.2019.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2023",
+    pdf: "Reconciliation of Share Capital 30.09.2023.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2023",
+    pdf: "Reconciliation of Share Capital 31.12.2023.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2024",
+    pdf: "Reconciliation of Share Capital 31.03.2024.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2024",
+    pdf: "Reconciliation of Share Capital 30.06.2024.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2024",
+    pdf: "Reconciliation of Share Capital 30.09.2024.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2024",
+    pdf: "Reconciliation of Share Capital 31.12.2024.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2025",
+    pdf: "Reconciliation of Share Capital 31.03.2025.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2025",
+    pdf: "Reconciliation of Share Capital 30.06.2025.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.09.2025",
+    pdf: "Reconciliation of Share Capital 30.09.2025.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.12.2025",
+    pdf: "Reconciliation of Share Capital 31.12.2025.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 31.03.2026",
+    pdf: "Reconciliation of Share Capital 31.03.2026.pdf"
+  },
+  {
+    title: "Reconciliation of Share Capital 30.06.2026",
+    pdf: "Reconciliation of Share Capital 30.06.2026.pdf"
   }
 ];
 
@@ -541,6 +768,54 @@ const CorporateGovernancePage = () => {
               </div>
             </section>
 
+            {/* Compliance Certificate under Reg. 74(5) */}
+            <section>
+              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
+                Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants ) Regulations, 2018
+              </h2>
+              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
+                <ul className="space-y-3">
+                  {REG74_5_COMPLIANCE_CERT.map((item) => (
+                    <li key={item.title} className="flex items-start gap-3">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href={`/ComplianceCertificateunderReg. 74( 5)/${item.pdf}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            {/* Regulation 76 (DP) - Reconciliation of Share Capital Audit Report */}
+            <section>
+              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
+                Regulation 76 (DP) - Reconciliation of Share Capital Audit Report
+              </h2>
+              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
+                <ul className="space-y-3">
+                  {REG76_AUDIT_REPORT.map((item) => (
+                    <li key={item.title} className="flex items-start gap-3">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href={`/Reg.76Audit/${item.pdf}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
             {/* Reg 27(2) Non-Applicability */}
             <section>
               <h2 className="text-2xl font-display font-bold text-foreground mb-4">
@@ -564,30 +839,6 @@ const CorporateGovernancePage = () => {
                     </a>
                   ))}
                 </div>
-              </div>
-            </section>
-
-            {/* Compliance Certificate under Reg. 74(5) */}
-            <section>
-              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
-                Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants ) Regulations, 2018
-              </h2>
-              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
-                <ul className="space-y-3">
-                  {REG74_5_COMPLIANCE_CERT.map((item) => (
-                    <li key={item.title} className="flex items-start gap-3">
-                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                      <a
-                        href={`/ComplianceCertificateunderReg. 74( 5)/${item.pdf}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
-                      >
-                        {item.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </section>
 
