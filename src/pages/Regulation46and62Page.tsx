@@ -1,7 +1,7 @@
 import HospitalHeader from "@/components/hospital/HospitalHeader";
 import ContactFooter from "@/components/hospital/ContactFooter";
 import FloatingButtons from "@/components/hospital/FloatingButtons";
-import { Info, FileSearch, Link2, Users, Phone, Mail, Globe } from "lucide-react";
+import { Info, FileSearch, Link2, Users, Phone, Mail, Globe, FileText } from "lucide-react";
 
 const Regulation46and62Page = () => {
   return (
@@ -88,6 +88,89 @@ const Regulation46and62Page = () => {
                   <span className="font-semibold text-foreground">“Investors”</span> section of the website for
                   detailed reports and compliances.
                 </p>
+
+                <div className="mt-6 pt-6 border-t border-border/60">
+                  <h3 className="font-semibold text-foreground mb-3 text-sm md:text-base">Important Disclosures:</h3>
+                  <ul className="space-y-3 pl-1">
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Terms and conditions of appointment of independent directors.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        1. Terms and conditions of appointment of Independent Directors
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Composition of various committees of board of directors.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        2. Composition of various committees of Board of Directors
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Code of conduct of board of directors and senior management personnel.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        3. Code of conduct of Board of Directors and Senior Management Personnel
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Details of establishment of vigil mechanism Whistle Blower policy.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        4. Details of establishment of vigil mechanism Whistle Blower Policy
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Criteria of making payments to non-executive directors.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        5. Criteria of making payments to Non-Executive Directors
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Policy on dealing with related party.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        6. Policy on dealing with Related Party
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href="/PolicyReg46&42/Details of familiarization programmes imparted to independent director.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        7. Details of familiarization programmes imparted to Independent Director
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
@@ -108,59 +191,99 @@ const Regulation46and62Page = () => {
               </div>
 
               <div className="grid gap-4 md:grid-cols-2">
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Listing Information</h3>
+                <a
+                  href="/listing-information"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Listing Information
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains information about the Company and its listing at the recognised stock exchange, including
                     contact details for investor grievances.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Notice of AGM</h3>
+                </a>
+                <a
+                  href="/notice-of-agm"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Notice of AGM
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains notices of Annual General Meetings of the Company for the information of investors.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Financial Results</h3>
+                </a>
+                <a
+                  href="/financial-results"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Financial Results
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains financial results approved for various quarters of the Company.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Shareholder’s Information</h3>
+                </a>
+                <a
+                  href="/shareholders-information"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Shareholder’s Information
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains the shareholding pattern of the Company for various quarters.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Annual Reports</h3>
+                </a>
+                <a
+                  href="/annual-report"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Annual Reports
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains the annual reports of the Company for the information of investors.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Corporate Governance</h3>
+                </a>
+                <a
+                  href="/corporate-governance"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Corporate Governance
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains Board Meeting intimations, voting results of AGMs, various policies (Preservation, Archival,
                     Materiality), Regulation 13(3) Investor Complaints, Regulation 27(2) Non-Applicability of Corporate
                     Governance, Regulation 74(5), Regulation 76 reports, outcomes of Board Meetings and Grievance
                     Redressal Mechanism for investors.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Notice of Book Closure</h3>
+                </a>
+                <a
+                  href="/notice-of-book-closure"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Notice of Book Closure
+                  </h3>
                   <p className="text-muted-foreground">
                     Contains notices of book closure disclosure for the Company.
                   </p>
-                </div>
-                <div className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm">
-                  <h3 className="font-semibold text-foreground">Regulation 46 &amp; 62</h3>
+                </a>
+                <a
+                  href="/regulation-46-62"
+                  className="bg-card rounded-2xl border border-border shadow-card p-5 space-y-2 text-sm block hover:border-primary/50 transition-all hover:shadow-md group"
+                >
+                  <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Regulation 46 &amp; 62
+                  </h3>
                   <p className="text-muted-foreground">
                     Provides this consolidated gist of inclusions of various reports and compliances on the website and
                     an overview of information relevant for investor relations.
                   </p>
-                </div>
+                </a>
               </div>
             </section>
 
