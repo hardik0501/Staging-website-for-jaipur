@@ -294,6 +294,105 @@ const INVESTOR_COMPLAINT_PERIODS: InvestorComplaint[] = [
   { period: "June 2026", pdf: "Investor Complaints for June 2026.pdf" },
 ];
 
+const REG27_2_NON_APPLICABILITY = [
+  { period: "September 2023", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2023.pdf" },
+  { period: "December 2023", pdf: "Non-Applicability of Corporate Governance Certificate 31.12.2023.pdf" },
+  { period: "March 2024", pdf: "Non-Applicability-of-Corporate-Governance-Certificate-31.03.2024.pdf" },
+  { period: "September 2024", pdf: "27(2) 30.09.2024.pdf" },
+  { period: "December 2024", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2024.pdf" },
+  { period: "March 2025", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2025.pdf" },
+  { period: "June 2025", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2025.pdf" },
+  { period: "September 2025", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2025.pdf" },
+  { period: "December 2025", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2025.pdf" },
+  { period: "June 2026", pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2026.pdf" },
+];
+
+const REG27_2_NON_APPLICABILITY_CERT = [
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2017",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2017.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2018",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2018.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2019",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2019.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2020",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2020.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2020",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2020.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2020",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2020.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2021",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2021.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2021",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2021.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2021",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2021.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2021",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2021.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2022",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2022.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2022",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2022.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2022",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.09.2022.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2022",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.12.2022.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2023",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2023.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2023",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2023.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2024",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2024.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2026",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 31.03.2026.pdf"
+  },
+  {
+    title: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2026",
+    pdf: "Reg 27(2) Non-Applicability of Corporate Governance Certificate 30.06.2026.pdf"
+  }
+];
+
+const REG74_5_COMPLIANCE_CERT = [
+  {
+    title: "Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2023",
+    pdf: "Compliance Certificate under Reg. 74 (5) of SEBI (Depositories and Participants) Regulations, 2018 for 31.12.2023.pdf"
+  }
+];
+
 // PDF paths are now explicitly mapped above
 
 const CorporateGovernancePage = () => {
@@ -415,6 +514,80 @@ const CorporateGovernancePage = () => {
                     </a>
                   ))}
                 </div>
+              </div>
+            </section>
+
+            {/* Regulation 27(2) Non-Applicability of Corporate Governance Certificate */}
+            <section>
+              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
+                Regulation 27(2) Non-Applicability of Corporate Governance Certificate
+              </h2>
+              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
+                <ul className="space-y-3">
+                  {REG27_2_NON_APPLICABILITY_CERT.map((item) => (
+                    <li key={item.title} className="flex items-start gap-3">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href={`/Non- Applicabilityof _Certificate/${item.pdf}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            {/* Reg 27(2) Non-Applicability */}
+            <section>
+              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
+                Reg 27(2) Non-Applicability
+              </h2>
+              <p className="text-muted-foreground mb-4">
+                Non-applicability certificates under Regulation 27(2) of Corporate Governance are available for the following periods:
+              </p>
+              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                  {REG27_2_NON_APPLICABILITY.map((item) => (
+                    <a
+                      key={item.period}
+                      href={`/reg22_nonsplsbil/${item.pdf}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-foreground hover:text-primary underline-offset-2 hover:underline"
+                    >
+                      <FileText className="w-4 h-4 text-primary" />
+                      <span>{item.period}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            {/* Compliance Certificate under Reg. 74(5) */}
+            <section>
+              <h2 className="text-2xl font-display font-bold text-foreground mb-4">
+                Compliance Certificate under Reg.  74 ( 5) of SEBI (Depositories and Participants ) Regulations, 2018
+              </h2>
+              <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6">
+                <ul className="space-y-3">
+                  {REG74_5_COMPLIANCE_CERT.map((item) => (
+                    <li key={item.title} className="flex items-start gap-3">
+                      <FileText className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <a
+                        href={`/ComplianceCertificateunderReg. 74( 5)/${item.pdf}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-foreground hover:text-primary underline-offset-2 hover:underline"
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </section>
 
