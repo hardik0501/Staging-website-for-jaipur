@@ -180,6 +180,10 @@ const BOARD_MEETING_NOTICES = [
   {
     "title": "Board Meeting Notice for the Year ended 31.03.2026",
     "pdf": "Board Meeting Notice for the Year ended 31.03.2026.pdf"
+  },
+  {
+    "title": "Board Meeting Notice for the Quarter ended 30.06.2026",
+    "pdf": "Board Meeting Notice for the Quarter ended 30.06.2026 (1).pdf"
   }
 ];
 

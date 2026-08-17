@@ -464,7 +464,7 @@ const Regulation46and62Page = () => {
               </h2>
               <div className="bg-card rounded-2xl border border-border shadow-card p-5 md:p-6 space-y-4 text-sm">
                 <p className="text-muted-foreground">
-                  Investor grievance may be sent to the Registered Office of the Company:
+                  Contact information of the designated officials of the listed entity who are responsible for assisting and handling investor grievance
                 </p>
                 <div className="space-y-1 text-muted-foreground">
                   <p className="font-semibold text-foreground">

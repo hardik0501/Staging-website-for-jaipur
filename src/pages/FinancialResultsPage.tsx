@@ -53,6 +53,7 @@ const financialResults: FinancialResult[] = [
   { id: 40, title: "Quarter & Half Year Ended 30.09.2025", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Half Year Ended 30.09.2025.pdf" },
   { id: 41, title: "Quarter & Nine Months Ended 31.12.2025", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Nine Months Ended 31.12.2025.pdf" },
   { id: 42, title: "Quarter & Year Ended 31.03.2026", type: "Audited Financial Result", fileUrl: "/FinancialResults/Quarter & Year Ended 31.03.2026.pdf" },
+  { id: 43, title: "Quarter Ended 30.06.2026", type: "Un-Audited Financial Result", fileUrl: "/FinancialResults/Quarter Ended 30.06.2026.pdf" },
 ];
 
 const FinancialResultsPage = () => {
